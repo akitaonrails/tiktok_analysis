@@ -108,6 +108,7 @@ See [05 · Data Collection](docs/05-data-collection.md),
 | 🔬 [09 · Deep Scan & Coverage](docs/09-deep-scan-coverage.md) | Full-corpus rescan (all 303k files + native libs), decoded hidden config, honest completeness statement |
 | 🧷 [10 · OS & Clipboard Access](docs/10-os-and-clipboard-access.md) | Full-tree check: does it read other apps / SMS / the clipboard? What the OS probing is actually for |
 | 🛠️ [11 · Do It Yourself](docs/11-diy-reproduce-guide.md) | How to fetch the APK, decompile it, and prompt an LLM to run this analysis on any app |
+| 🎭 [12 · Malicious & Dark Patterns](docs/12-malicious-and-dark-patterns.md) | Any malware patterns? Any manipulative UX? (Spoiler: no malware; yes dark patterns) |
 
 Raw evidence (host lists, extracted URLs) is in [`docs/_evidence/`](docs/_evidence/).
 The full decompiled Java source is under [`decompiled/`](decompiled/).

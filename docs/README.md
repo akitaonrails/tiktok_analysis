@@ -78,6 +78,7 @@ binary). Reproduce them locally from the `.xapk`.
 | [09-deep-scan-coverage.md](09-deep-scan-coverage.md) | Full-corpus rescan (all 303k files + native libs), decoded hidden config, honest completeness statement |
 | [10-os-and-clipboard-access.md](10-os-and-clipboard-access.md) | Full-tree check: cross-app/OS out-of-bounds access and clipboard — what's real, what it's for |
 | [11-diy-reproduce-guide.md](11-diy-reproduce-guide.md) | Reproduce from scratch: fetch the APK, decompile, and LLM-analysis prompts for any app |
+| [12-malicious-and-dark-patterns.md](12-malicious-and-dark-patterns.md) | Malware-pattern check (none found) + dark-pattern inventory + well-being counter-signal |
 
 Evidence dumps live in [`_evidence/`](_evidence/).
 
