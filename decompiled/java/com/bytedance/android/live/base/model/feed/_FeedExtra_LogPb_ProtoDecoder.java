@@ -1,0 +1,46 @@
+package com.bytedance.android.live.base.model.feed;
+
+import X.C0IMD;
+import X.C1516680pZS;
+import X.C1516700pZU;
+import com.bytedance.android.live.base.model.feed.FeedExtra;
+import java.io.IOException;
+import java.util.List;
+
+/* JADX INFO: loaded from: classes.dex */
+public final class _FeedExtra_LogPb_ProtoDecoder implements C0IMD<FeedExtra.LogPb> {
+    public static FeedExtra.LogPb LIZLLL(C1516680pZS c1516680pZS) throws IOException {
+        FeedExtra.LogPb logPb = new FeedExtra.LogPb();
+        long jLIZJ = c1516680pZS.LIZJ();
+        while (true) {
+            int iLJI = c1516680pZS.LJI();
+            if (iLJI != -1) {
+                if (iLJI != 1) {
+                    if (iLJI != 2) {
+                        C1516700pZU.LJ(c1516680pZS);
+                    } else {
+                        logPb.sessionId = c1516680pZS.LJIIJJI();
+                    }
+                } else {
+                    logPb.content = C1516700pZU.LIZLLL(c1516680pZS);
+                }
+            } else {
+                c1516680pZS.LJ(jLIZJ);
+                return logPb;
+            }
+        }
+    }
+
+    @Override // X.C0IMD
+    public final FeedExtra.LogPb LIZJ(C1516680pZS c1516680pZS) {
+        return LIZLLL(c1516680pZS);
+    }
+
+    @Override // X.C0IMD
+    public final /* bridge */ /* synthetic */ void LIZ(FeedExtra.LogPb logPb) {
+    }
+
+    @Override // X.C0IMD
+    public final /* bridge */ /* synthetic */ void LIZIZ(C1516680pZS c1516680pZS, FeedExtra.LogPb logPb, List list) {
+    }
+}

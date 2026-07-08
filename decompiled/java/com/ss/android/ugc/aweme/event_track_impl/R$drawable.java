@@ -1,0 +1,5 @@
+package com.ss.android.ugc.aweme.event_track_impl;
+
+/* JADX INFO: loaded from: classes14.dex */
+public class R$drawable extends com.ss.android.ugc.aweme.app.R$drawable {
+}

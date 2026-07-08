@@ -1,0 +1,16 @@
+package X;
+
+import kotlin.jvm.functions.Function0;
+
+/* JADX INFO: renamed from: X.0VSs, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes14.dex */
+public final class C798160VSs extends C09AY implements Function0<Integer> {
+    public C798160VSs() {
+        super(0);
+    }
+
+    @Override // kotlin.jvm.functions.Function0
+    public final Integer invoke() {
+        return Integer.valueOf(Runtime.getRuntime().availableProcessors());
+    }
+}

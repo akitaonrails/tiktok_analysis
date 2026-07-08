@@ -1,0 +1,24 @@
+package com.ss.android.ugc.aweme.ecommerce.tts.addresslist.us.addressitem;
+
+import X.C01GW;
+import X.C451720HnW;
+import X.C452501pT;
+import X.C786410Ut5;
+import X.C974903rX;
+import android.view.View;
+import android.view.ViewGroup;
+import com.ss.android.ugc.aweme.ecommercebase.view.ECBaseCell;
+import com.zhiliaoapp.musically.R;
+import kotlin.jvm.internal.AwS545S0100000_1;
+
+/* JADX INFO: loaded from: classes2.dex */
+public final class UsAddressItemCell extends ECBaseCell<C974903rX, UsAddressItemVH> {
+    public final C01GW LLILLJJLI = C452501pT.LIZIZ(new C451720HnW(this));
+
+    @Override // com.bytedance.ies.powerlist.PowerCell
+    public final View onCreateItemView(ViewGroup viewGroup) {
+        View viewTd = C786410Ut5.Td(C786410Ut5.ne(viewGroup.getContext()), R.layout.b0m, viewGroup, false);
+        this.LL = new UsAddressItemVH(viewTd, new AwS545S0100000_1(this, 1486));
+        return viewTd;
+    }
+}

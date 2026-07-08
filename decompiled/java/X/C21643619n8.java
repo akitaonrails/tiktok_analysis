@@ -1,0 +1,15 @@
+package X;
+
+import android.content.pm.PackageManager;
+
+/* JADX INFO: renamed from: X.19n8, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes34.dex */
+public class C21643619n8 {
+    public static boolean LIZ(PackageManager packageManager) {
+        return packageManager.hasSystemFeature("android.hardware.biometrics.face");
+    }
+
+    public static boolean LIZIZ(PackageManager packageManager) {
+        return packageManager.hasSystemFeature("android.hardware.biometrics.iris");
+    }
+}

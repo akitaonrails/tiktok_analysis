@@ -1,0 +1,5 @@
+package com.ss.android.ugc.tiktok.pns_age_gate_compliance;
+
+/* JADX INFO: loaded from: classes2.dex */
+public class R$styleable extends com.ss.android.ugc.aweme.app.R$styleable {
+}

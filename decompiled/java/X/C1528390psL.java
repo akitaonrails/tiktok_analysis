@@ -1,0 +1,8 @@
+package X;
+
+/* JADX INFO: renamed from: X.0psL, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes24.dex */
+public final class C1528390psL {
+    public C1528380psK LIZ;
+    public byte[] LIZIZ;
+}

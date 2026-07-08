@@ -1,0 +1,5 @@
+package tikcast.api.user_level;
+
+/* JADX INFO: loaded from: classes36.dex */
+public final class UnlockSHOWResponse {
+}

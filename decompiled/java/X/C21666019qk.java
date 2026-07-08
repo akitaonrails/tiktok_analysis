@@ -1,0 +1,12 @@
+package X;
+
+import android.graphics.Matrix;
+
+/* JADX INFO: renamed from: X.19qk, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes34.dex */
+public final class C21666019qk {
+    public Matrix LIZ = new Matrix();
+    public String LIZIZ;
+    public int LIZJ;
+    public int LIZLLL;
+}

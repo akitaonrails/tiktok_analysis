@@ -1,0 +1,28 @@
+package X;
+
+import com.ss.android.ugc.aweme.upvote.detail.replypanel.vm.RepostInteractListViewModel;
+
+/* JADX INFO: renamed from: X.0lSC, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes22.dex */
+@C09DV(c = "com.ss.android.ugc.aweme.upvote.detail.replypanel.vm.RepostInteractListViewModel", f = "RepostInteractListViewModel.kt", l = {245, 252}, m = "onRefresh")
+public final class C1358420lSC extends AbstractC23140094w {
+    public /* synthetic */ Object LL;
+    public final /* synthetic */ RepostInteractListViewModel LLILLJJLI;
+    public int LLILLL;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public C1358420lSC(RepostInteractListViewModel repostInteractListViewModel, InterfaceC1364105Vn<? super C1358420lSC> interfaceC1364105Vn) {
+        super(interfaceC1364105Vn);
+        this.LLILLJJLI = repostInteractListViewModel;
+    }
+
+    @Override // njp.a
+    public final Object invokeSuspend(Object obj) {
+        C1C7U.LIZ("RepostInteractListViewModel@3304.onRefresh$1");
+        this.LL = obj;
+        this.LLILLL |= Integer.MIN_VALUE;
+        Object objOnRefresh = this.LLILLJJLI.onRefresh(this);
+        C1C7U.LIZIZ("RepostInteractListViewModel@3304.onRefresh$1");
+        return objOnRefresh;
+    }
+}

@@ -1,0 +1,106 @@
+package X;
+
+import android.view.View;
+import android.widget.TextView;
+import com.zhiliaoapp.musically.R;
+import kotlin.jvm.internal.AwS556S0100000_12;
+
+/* JADX INFO: renamed from: X.0TfP, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes13.dex */
+public final class C752450TfP {
+    public final View LIZ;
+    public final View LIZIZ;
+    public final View LIZJ;
+    public final View LIZLLL;
+    public final C21411718qp LJ;
+    public final C21411718qp LJFF;
+    public final C21411718qp LJI;
+    public final C21411718qp LJII;
+    public final TextView LJIIIIZZ;
+    public final TextView LJIIIZ;
+    public final View LJIIJ;
+    public final C21411718qp LJIIJJI;
+    public final View LJIIL;
+    public final View LJIILIIL;
+    public final C01GW LJIILJJIL = C452501pT.LIZIZ(new AwS556S0100000_12(this, 972));
+    public final C01GW LJIILL = C452501pT.LIZIZ(new AwS556S0100000_12(this, 971));
+    public final C19QK LJIILLIIL;
+    public final View LJIIZILJ;
+    public final C21411718qp LJIJ;
+    public final C19QK LJIJI;
+    public final View LJIJJ;
+    public final C21411718qp LJIJJLI;
+    public final View LJIL;
+    public final C21411718qp LJJ;
+    public final View LJJI;
+    public final C21411718qp LJJIFFI;
+    public final View LJJII;
+    public final C21411718qp LJJIII;
+    public final View LJJIIJ;
+    public final C16F5 LJJIIJZLJL;
+    public final C16F5 LJJIIZ;
+    public final C16F5 LJJIIZI;
+    public final View LJJIJ;
+    public final View LJJIJIIJI;
+    public final C19QK LJJIJIIJIL;
+    public final C19QK LJJIJIL;
+    public final C19QK LJJIJL;
+    public final View LJJIJLIJ;
+    public final View LJJIL;
+    public final C21411718qp LJJIZ;
+    public final View LJJJ;
+    public final View LJJJI;
+    public final C21411718qp LJJJIL;
+    public final C16F5 LJJJJ;
+    public final View LJJJJI;
+    public final C19QK LJJJJIZL;
+    public final C19QK LJJJJJ;
+
+    public C752450TfP(View view) {
+        this.LIZ = view;
+        this.LIZIZ = view.findViewById(R.id.aip);
+        this.LIZJ = view.findViewById(R.id.ncs);
+        this.LIZLLL = view.findViewById(R.id.nbv);
+        this.LJ = (C21411718qp) view.findViewById(R.id.tgh);
+        this.LJFF = (C21411718qp) view.findViewById(R.id.c3u);
+        this.LJI = (C21411718qp) view.findViewById(R.id.edd);
+        this.LJII = (C21411718qp) view.findViewById(R.id.oyi);
+        this.LJIIIIZZ = (TextView) view.findViewById(R.id.edb);
+        this.LJIIIZ = (TextView) view.findViewById(R.id.ny_);
+        this.LJIIJ = view.findViewById(R.id.nyc);
+        this.LJIIJJI = (C21411718qp) view.findViewById(R.id.nyh);
+        this.LJIIL = view.findViewById(R.id.oop);
+        this.LJIILIIL = view.findViewById(R.id.op4);
+        this.LJIILLIIL = (C19QK) view.findViewById(R.id.rgk);
+        this.LJIIZILJ = view.findViewById(R.id.qgk);
+        this.LJIJ = (C21411718qp) view.findViewById(R.id.qgl);
+        this.LJIJI = (C19QK) view.findViewById(R.id.n4u);
+        this.LJIJJ = view.findViewById(R.id.vxg);
+        this.LJIJJLI = (C21411718qp) view.findViewById(R.id.vxo);
+        this.LJIL = view.findViewById(R.id.qg4);
+        this.LJJ = (C21411718qp) view.findViewById(R.id.qg5);
+        this.LJJI = view.findViewById(R.id.wf6);
+        this.LJJIFFI = (C21411718qp) view.findViewById(R.id.wf9);
+        this.LJJII = view.findViewById(R.id.wfl);
+        this.LJJIII = (C21411718qp) view.findViewById(R.id.wfr);
+        this.LJJIIJ = view.findViewById(R.id.wj2);
+        this.LJJIIJZLJL = (C16F5) view.findViewById(R.id.wkl);
+        this.LJJIIZ = (C16F5) view.findViewById(R.id.wft);
+        this.LJJIIZI = (C16F5) view.findViewById(R.id.wf_);
+        this.LJJIJ = view.findViewById(R.id.gid);
+        this.LJJIJIIJI = view.findViewById(R.id.gif);
+        this.LJJIJIIJIL = (C19QK) view.findViewById(R.id.rzu);
+        this.LJJIJIL = (C19QK) view.findViewById(R.id.sb9);
+        this.LJJIJL = (C19QK) view.findViewById(R.id.sun);
+        this.LJJIJLIJ = view.findViewById(R.id.ir7);
+        this.LJJIL = view.findViewById(R.id.j9o);
+        this.LJJIZ = (C21411718qp) view.findViewById(R.id.j9p);
+        this.LJJJ = view.findViewById(R.id.uu6);
+        this.LJJJI = view.findViewById(R.id.uu4);
+        this.LJJJIL = (C21411718qp) view.findViewById(R.id.uu5);
+        this.LJJJJ = (C16F5) view.findViewById(R.id.n5s);
+        this.LJJJJI = view.findViewById(R.id.n5r);
+        this.LJJJJIZL = (C19QK) view.findViewById(R.id.n5t);
+        this.LJJJJJ = (C19QK) view.findViewById(R.id.n5u);
+    }
+}

@@ -1,0 +1,41 @@
+package X;
+
+import java.util.List;
+import kotlin.jvm.functions.Function1;
+
+/* JADX INFO: renamed from: X.0bEW, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes16.dex */
+public final class C965540bEW extends C09AY implements Function1<C967640bHu, Throwable> {
+    public final /* synthetic */ C966020bFI LL;
+    public final /* synthetic */ boolean LLILLJJLI;
+    public final /* synthetic */ C954620awu LLILLL;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public C965540bEW(C966020bFI c966020bFI, boolean z, C954620awu c954620awu) {
+        super(1);
+        this.LL = c966020bFI;
+        this.LLILLJJLI = z;
+        this.LLILLL = c954620awu;
+    }
+
+    @Override // kotlin.jvm.functions.Function1
+    public final Throwable invoke(C967640bHu c967640bHu) {
+        List<InterfaceC965500bES> listLJLJL;
+        C501470JlZ c501470JlZLIZIZ = C966250bFf.LIZIZ(c967640bHu, "");
+        InterfaceC965990bFF interfaceC965990bFF = this.LL.LJIIZILJ;
+        if (interfaceC965990bFF != null && (listLJLJL = interfaceC965990bFF.LJLJL()) != null) {
+            boolean z = this.LLILLJJLI;
+            C954620awu c954620awu = this.LLILLL;
+            for (InterfaceC965500bES interfaceC965500bES : listLJLJL) {
+                if (z) {
+                    if (interfaceC965500bES != null) {
+                        interfaceC965500bES.LJIIIZ(c954620awu, c501470JlZLIZIZ);
+                    }
+                } else if (interfaceC965500bES != null) {
+                    interfaceC965500bES.LJJII(c954620awu, c501470JlZLIZIZ);
+                }
+            }
+        }
+        return c501470JlZLIZIZ;
+    }
+}

@@ -1,0 +1,13 @@
+package X;
+
+/* JADX INFO: renamed from: X.0DIR, reason: invalid class name */
+/* JADX INFO: loaded from: classes5.dex */
+public final class C0DIR extends C1023500ck0 {
+    public static final C1023960ckk LIZ;
+
+    static {
+        C0DIR c0dir = new C0DIR();
+        C0DIQ.LIZ.getClass();
+        LIZ = C1023500ck0.LIZJ("ad_ucp_shop", "ac_shop_sku_confirm", "pdp", new InterfaceC1023650ckF[]{c0dir.LJI(C0DIQ.LIZIZ, C0DIQ.LIZJ, C0DIQ.LIZLLL, C0DIQ.LJ, C0DIQ.LJFF, C0DIQ.LJI, C0DIQ.LJII, C0DIQ.LJIIIIZZ, C0DIQ.LJIIIZ, C0DIQ.LJIIJ, C0DIQ.LJIIJJI, C0DIQ.LJIIL, C0DIQ.LJIILIIL, C0DIQ.LJIILJJIL, C0DIQ.LJIILL, C0DIQ.LJIILLIIL, C0DIQ.LJIIZILJ, C0DIQ.LJIJ, C0DIQ.LJIJI, C0DIQ.LJIJJ, C0DIQ.LJIJJLI, C0DIQ.LJIL, C0DIQ.LJJ, C0DIQ.LJJI, C0DIQ.LJJIFFI, C0DIQ.LJJII, C0DIQ.LJJIII, C0DIQ.LJJIIJ, C0DIQ.LJJIIJZLJL, C0DIQ.LJJIIZ)});
+    }
+}

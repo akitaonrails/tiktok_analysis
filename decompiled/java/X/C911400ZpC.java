@@ -1,0 +1,33 @@
+package X;
+
+import com.ss.android.ugc.aweme.im.saas.host.impl.camera.IMCameraBridgeService;
+
+/* JADX INFO: renamed from: X.0ZpC, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes15.dex */
+@C09DV(c = "com.ss.android.ugc.aweme.im.saas.host.impl.camera.IMCameraBridgeService", f = "IMCameraBridgeService.kt", l = {98, 100}, m = "uploadAvatarFile-gIAlu-s")
+public final class C911400ZpC extends AbstractC23140094w {
+    public /* synthetic */ Object LL;
+    public final /* synthetic */ IMCameraBridgeService LLILLJJLI;
+    public int LLILLL;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public C911400ZpC(IMCameraBridgeService iMCameraBridgeService, InterfaceC1364105Vn<? super C911400ZpC> interfaceC1364105Vn) {
+        super(interfaceC1364105Vn);
+        this.LLILLJJLI = iMCameraBridgeService;
+    }
+
+    @Override // njp.a
+    public final Object invokeSuspend(Object obj) {
+        C1C7U.LIZ("IMCameraBridgeService@a6bf.uploadAvatarFile$1");
+        this.LL = obj;
+        this.LLILLL |= Integer.MIN_VALUE;
+        Object objLJJIIZ = this.LLILLJJLI.LJJIIZ(null, this);
+        if (objLJJIIZ == C099R.LJFF()) {
+            C1C7U.LIZIZ("IMCameraBridgeService@a6bf.uploadAvatarFile$1");
+            return objLJJIIZ;
+        }
+        C189200o6 c189200o6M1boximpl = C189200o6.m1boximpl(objLJJIIZ);
+        C1C7U.LIZIZ("IMCameraBridgeService@a6bf.uploadAvatarFile$1");
+        return c189200o6M1boximpl;
+    }
+}

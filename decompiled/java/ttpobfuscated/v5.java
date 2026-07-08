@@ -1,0 +1,194 @@
+package ttpobfuscated;
+
+import X.C786410Ut5;
+import com.bytedance.mt.protector.impl.JSONObjectProtectorUtils;
+import java.util.Date;
+import java.util.UUID;
+import kotlin.jvm.internal.Intrinsics;
+import org.json.JSONException;
+import org.json.JSONObject;
+import ttp.orbu.sdk.app.domain.entity.gecko.GeckoValidationError;
+import ttp.orbu.sdk.app.domain.entity.gecko.GeckoValidationType;
+import ttp.orbu.sdk.repository.model.DBEvent;
+import ttpobfuscated.b2;
+import ttpobfuscated.zb;
+
+/* JADX INFO: loaded from: classes24.dex */
+public final class v5 implements fg<b> {
+    public static final a p = new a();
+    public final UUID k;
+    public final Date l;
+    public final b m;
+    public final String n = "bundleValidation";
+    public final zb.a o = zb.a.h;
+
+    public static final class b implements b2 {
+        public static final a d = new a();
+        public final String a;
+        public final GeckoValidationError b;
+        public final GeckoValidationType c;
+
+        @Override // ttpobfuscated.b2
+        public String b() throws JSONException {
+            JSONObject jSONObject = new JSONObject();
+            jSONObject.put("bundlePath", this.a);
+            jSONObject.put("failureReason", this.b.getValue());
+            jSONObject.put("validationStrategy", this.c.getValue());
+            return C786410Ut5.J3(jSONObject);
+        }
+
+        public int hashCode() {
+            return this.c.hashCode() + ((this.b.hashCode() + (this.a.hashCode() * 31)) * 31);
+        }
+
+        public String toString() {
+            return "Metadata(bundlePath=" + this.a + ", failureReason=" + this.b + ", validationStrategy=" + this.c + ')';
+        }
+
+        @Override // ttpobfuscated.b2
+        public String a() {
+            return b();
+        }
+
+        public final String c() {
+            return this.a;
+        }
+
+        public final GeckoValidationError d() {
+            return this.b;
+        }
+
+        public final GeckoValidationType e() {
+            return this.c;
+        }
+
+        public final String f() {
+            return this.a;
+        }
+
+        public final GeckoValidationError g() {
+            return this.b;
+        }
+
+        public final GeckoValidationType h() {
+            return this.c;
+        }
+
+        public static final class a implements b2.a<b> {
+            @Override // ttpobfuscated.b2.a
+            /* JADX INFO: renamed from: b, reason: merged with bridge method [inline-methods] */
+            public b a(String str) throws o5 {
+                JSONObject jSONObject = new JSONObject(str);
+                String string = JSONObjectProtectorUtils.getString(jSONObject, "bundlePath");
+                GeckoValidationError geckoValidationErrorA = GeckoValidationError.Companion.a(JSONObjectProtectorUtils.getString(jSONObject, "failureReason"));
+                if (geckoValidationErrorA != null) {
+                    GeckoValidationType geckoValidationTypeA = GeckoValidationType.Companion.a(JSONObjectProtectorUtils.getString(jSONObject, "validationStrategy"));
+                    if (geckoValidationTypeA != null) {
+                        return new b(string, geckoValidationErrorA, geckoValidationTypeA);
+                    }
+                    throw new o5("Invalid Validation Strategy");
+                }
+                throw new o5("Invalid GeckoValidationError label");
+            }
+        }
+
+        public boolean equals(Object obj) {
+            if (this == obj) {
+                return true;
+            }
+            if (!(obj instanceof b)) {
+                return false;
+            }
+            b bVar = (b) obj;
+            if (Intrinsics.LJFF(this.a, bVar.a) && this.b == bVar.b && this.c == bVar.c) {
+                return true;
+            }
+            return false;
+        }
+
+        public b(String str, GeckoValidationError geckoValidationError, GeckoValidationType geckoValidationType) {
+            this.a = str;
+            this.b = geckoValidationError;
+            this.c = geckoValidationType;
+        }
+
+        public final b a(String str, GeckoValidationError geckoValidationError, GeckoValidationType geckoValidationType) {
+            return new b(str, geckoValidationError, geckoValidationType);
+        }
+
+        public static /* synthetic */ b a(b bVar, String str, GeckoValidationError geckoValidationError, GeckoValidationType geckoValidationType, int i, Object obj) {
+            if ((i & 1) != 0) {
+                str = bVar.a;
+            }
+            if ((i & 2) != 0) {
+                geckoValidationError = bVar.b;
+            }
+            if ((i & 4) != 0) {
+                geckoValidationType = bVar.c;
+            }
+            return bVar.a(str, geckoValidationError, geckoValidationType);
+        }
+    }
+
+    @Override // ttpobfuscated.fg
+    public String f() {
+        return "android";
+    }
+
+    @Override // ttpobfuscated.fg
+    public String b() {
+        return e().a();
+    }
+
+    @Override // ttpobfuscated.fg
+    public String g() {
+        return e().b();
+    }
+
+    @Override // ttpobfuscated.fg
+    public UUID a() {
+        return this.k;
+    }
+
+    @Override // ttpobfuscated.fg
+    public zb c() {
+        return this.o;
+    }
+
+    @Override // ttpobfuscated.fg
+    public String d() {
+        return this.n;
+    }
+
+    @Override // ttpobfuscated.fg
+    public b2 e() {
+        return this.m;
+    }
+
+    @Override // ttpobfuscated.fg
+    public Date h() {
+        return this.l;
+    }
+
+    public zb.a i() {
+        return this.o;
+    }
+
+    public b j() {
+        return this.m;
+    }
+
+    public static final class a implements c4<v5> {
+        @Override // ttpobfuscated.c4
+        /* JADX INFO: renamed from: b, reason: merged with bridge method [inline-methods] */
+        public v5 a(DBEvent dBEvent) {
+            return new v5(dBEvent.a, dBEvent.b, b.d.a(dBEvent.d));
+        }
+    }
+
+    public v5(UUID uuid, Date date, b bVar) {
+        this.k = uuid;
+        this.l = date;
+        this.m = bVar;
+    }
+}

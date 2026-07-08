@@ -1,0 +1,17 @@
+package X;
+
+import java.util.HashSet;
+import kotlin.jvm.functions.Function0;
+
+/* JADX INFO: renamed from: X.0z6W, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes29.dex */
+public final class C1883140z6W extends C09AY implements Function0<HashSet<Integer>> {
+    public C1883140z6W() {
+        super(0);
+    }
+
+    @Override // kotlin.jvm.functions.Function0
+    public final HashSet<Integer> invoke() {
+        return new HashSet<>();
+    }
+}

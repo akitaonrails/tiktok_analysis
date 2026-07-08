@@ -1,0 +1,41 @@
+package X;
+
+import kotlin.Unit;
+import kotlin.jvm.functions.Function0;
+
+/* JADX INFO: renamed from: X.0Swt, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes12.dex */
+public final class C737810Swt extends C09AY implements Function0<Unit> {
+    public final /* synthetic */ AbstractC725510Sd3 LL;
+    public final /* synthetic */ String LLILLJJLI;
+    public final /* synthetic */ long LLILLL;
+    public final /* synthetic */ boolean LLILZ;
+    public final /* synthetic */ C737800Sws LLILZIL;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public C737810Swt(AbstractC725510Sd3 abstractC725510Sd3, String str, long j, boolean z, C737800Sws c737800Sws) {
+        super(0);
+        this.LL = abstractC725510Sd3;
+        this.LLILLJJLI = str;
+        this.LLILLL = j;
+        this.LLILZ = z;
+        this.LLILZIL = c737800Sws;
+    }
+
+    @Override // kotlin.jvm.functions.Function0
+    public /* bridge */ /* synthetic */ Unit invoke() {
+        Long lRemove = C725430Scv.LIZ.remove(new C725490Sd1(this.LL, this.LLILLJJLI));
+        if (lRemove != null) {
+            long jLongValue = lRemove.longValue();
+            if (C725480Sd0.LIZ(this.LL)) {
+                long j = this.LLILLL - jLongValue;
+                C737860Swy c737860Swy = new C737860Swy(C09R7.LIZ((C13IQ) this.LLILZIL.LLIZLLLIL.getValue()), EnumC737850Swx.HOLDER2);
+                boolean z = this.LLILZ;
+                c737860Swy.LIZ = j;
+                c737860Swy.LIZIZ = z;
+                C725480Sd0.LIZIZ(this.LL, c737860Swy);
+            }
+        }
+        return Unit.LIZ;
+    }
+}

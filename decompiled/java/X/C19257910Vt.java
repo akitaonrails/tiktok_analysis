@@ -1,0 +1,10 @@
+package X;
+
+import java.util.LinkedHashMap;
+import java.util.Map;
+
+/* JADX INFO: renamed from: X.10Vt, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes29.dex */
+public final class C19257910Vt {
+    public static final Map<EnumC19257610Vq, InterfaceC19257010Vk> LIZ = new LinkedHashMap();
+}

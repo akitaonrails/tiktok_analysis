@@ -1,0 +1,168 @@
+package com.bytedance.ies.nle.editor_jni;
+
+import java.util.AbstractList;
+import java.util.Iterator;
+import java.util.RandomAccess;
+
+/* JADX INFO: loaded from: classes6.dex */
+public class VecNLEMaskSPtr extends AbstractList<NLEMask> implements RandomAccess {
+    public transient boolean swigCMemOwn;
+    public transient long swigCPtr;
+
+    public synchronized void delete() {
+        long j = this.swigCPtr;
+        if (j != 0) {
+            if (this.swigCMemOwn) {
+                this.swigCMemOwn = false;
+                NLEEditorJniJNI.delete_VecNLEMaskSPtr(j);
+            }
+            this.swigCPtr = 0L;
+        }
+    }
+
+    private int doSize() {
+        return NLEEditorJniJNI.VecNLEMaskSPtr_doSize(this.swigCPtr, this);
+    }
+
+    public long capacity() {
+        return NLEEditorJniJNI.VecNLEMaskSPtr_capacity(this.swigCPtr, this);
+    }
+
+    @Override // java.util.AbstractList, java.util.AbstractCollection, java.util.Collection, java.util.List
+    public void clear() {
+        NLEEditorJniJNI.VecNLEMaskSPtr_clear(this.swigCPtr, this);
+    }
+
+    @Override // java.util.AbstractCollection, java.util.Collection, java.util.List
+    public boolean isEmpty() {
+        return NLEEditorJniJNI.VecNLEMaskSPtr_isEmpty(this.swigCPtr, this);
+    }
+
+    public VecNLEMaskSPtr() {
+        this(NLEEditorJniJNI.new_VecNLEMaskSPtr__SWIG_0(), true);
+    }
+
+    @Override // java.util.AbstractCollection, java.util.Collection, java.util.List
+    public int size() {
+        return doSize();
+    }
+
+    public void finalize() {
+        delete();
+    }
+
+    public VecNLEMaskSPtr(Iterable<NLEMask> iterable) {
+        this();
+        Iterator<NLEMask> it2 = iterable.iterator();
+        while (it2.hasNext()) {
+            add(it2.next());
+        }
+    }
+
+    private void doAdd(NLEMask nLEMask) {
+        NLEEditorJniJNI.VecNLEMaskSPtr_doAdd__SWIG_0(this.swigCPtr, this, NLEMask.getCPtr(nLEMask), nLEMask);
+    }
+
+    private NLEMask doGet(int i) {
+        long jVecNLEMaskSPtr_doGet = NLEEditorJniJNI.VecNLEMaskSPtr_doGet(this.swigCPtr, this, i);
+        if (jVecNLEMaskSPtr_doGet == 0) {
+            return null;
+        }
+        return new NLEMask(jVecNLEMaskSPtr_doGet, true);
+    }
+
+    private NLEMask doRemove(int i) {
+        long jVecNLEMaskSPtr_doRemove = NLEEditorJniJNI.VecNLEMaskSPtr_doRemove(this.swigCPtr, this, i);
+        if (jVecNLEMaskSPtr_doRemove == 0) {
+            return null;
+        }
+        return new NLEMask(jVecNLEMaskSPtr_doRemove, true);
+    }
+
+    public static long getCPtr(VecNLEMaskSPtr vecNLEMaskSPtr) {
+        if (vecNLEMaskSPtr == null) {
+            return 0L;
+        }
+        return vecNLEMaskSPtr.swigCPtr;
+    }
+
+    @Override // java.util.AbstractList, java.util.AbstractCollection, java.util.Collection, java.util.List
+    public boolean add(NLEMask nLEMask) {
+        ((AbstractList) this).modCount++;
+        doAdd(nLEMask);
+        return true;
+    }
+
+    @Override // java.util.AbstractList, java.util.List
+    public NLEMask get(int i) {
+        return doGet(i);
+    }
+
+    @Override // java.util.AbstractList, java.util.List
+    public NLEMask remove(int i) {
+        ((AbstractList) this).modCount++;
+        return doRemove(i);
+    }
+
+    public void reserve(long j) {
+        NLEEditorJniJNI.VecNLEMaskSPtr_reserve(this.swigCPtr, this, j);
+    }
+
+    public void swigSetCMemOwn(boolean z) {
+        this.swigCMemOwn = z;
+    }
+
+    public VecNLEMaskSPtr(NLEMask[] nLEMaskArr) {
+        this();
+        reserve(nLEMaskArr.length);
+        for (NLEMask nLEMask : nLEMaskArr) {
+            add(nLEMask);
+        }
+    }
+
+    public VecNLEMaskSPtr(VecNLEMaskSPtr vecNLEMaskSPtr) {
+        this(NLEEditorJniJNI.new_VecNLEMaskSPtr__SWIG_1(getCPtr(vecNLEMaskSPtr), vecNLEMaskSPtr), true);
+    }
+
+    public VecNLEMaskSPtr(int i, NLEMask nLEMask) {
+        this(NLEEditorJniJNI.new_VecNLEMaskSPtr__SWIG_2(i, NLEMask.getCPtr(nLEMask), nLEMask), true);
+    }
+
+    private void doAdd(int i, NLEMask nLEMask) {
+        NLEEditorJniJNI.VecNLEMaskSPtr_doAdd__SWIG_1(this.swigCPtr, this, i, NLEMask.getCPtr(nLEMask), nLEMask);
+    }
+
+    private void doRemoveRange(int i, int i2) {
+        NLEEditorJniJNI.VecNLEMaskSPtr_doRemoveRange(this.swigCPtr, this, i, i2);
+    }
+
+    private NLEMask doSet(int i, NLEMask nLEMask) {
+        long jVecNLEMaskSPtr_doSet = NLEEditorJniJNI.VecNLEMaskSPtr_doSet(this.swigCPtr, this, i, NLEMask.getCPtr(nLEMask), nLEMask);
+        if (jVecNLEMaskSPtr_doSet == 0) {
+            return null;
+        }
+        return new NLEMask(jVecNLEMaskSPtr_doSet, true);
+    }
+
+    @Override // java.util.AbstractList, java.util.List
+    public void add(int i, NLEMask nLEMask) {
+        ((AbstractList) this).modCount++;
+        doAdd(i, nLEMask);
+    }
+
+    @Override // java.util.AbstractList
+    public void removeRange(int i, int i2) {
+        ((AbstractList) this).modCount++;
+        doRemoveRange(i, i2);
+    }
+
+    public VecNLEMaskSPtr(long j, boolean z) {
+        this.swigCMemOwn = z;
+        this.swigCPtr = j;
+    }
+
+    @Override // java.util.AbstractList, java.util.List
+    public NLEMask set(int i, NLEMask nLEMask) {
+        return doSet(i, nLEMask);
+    }
+}

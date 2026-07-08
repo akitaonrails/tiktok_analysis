@@ -1,0 +1,13 @@
+package X;
+
+import kotlin.jvm.internal.AFwS194S0000000_8;
+
+/* JADX INFO: renamed from: X.0KgS, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes9.dex */
+public final class C523780KgS {
+    public static final C01GW LIZ = C452501pT.LIZIZ(AFwS194S0000000_8.get$arr$(374));
+
+    public static final int LIZ() {
+        return C0C64.LJIILLIIL().LJIJ(31744, 0, "studio_no_media_permission_optimize", true);
+    }
+}

@@ -1,0 +1,44 @@
+package X;
+
+/* JADX INFO: renamed from: X.0Y5i, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes15.dex */
+public enum EnumC868520Y5i {
+    OK(0),
+    MESSAGE_BODY_NULL(-1),
+    MESSAGE_TYPE_NULL(-2),
+    MESSAGE_TYPE_NOT_USED(-3),
+    MESSAGE_TYPE_CMD_TYPE(-4),
+    NEW_MSG_BODY_NULL(-5),
+    NEW_MSG_CREATE_TIME_NULL(-6),
+    NEW_MSG_CREATE_TIME_TOO_NEW(-7),
+    NEW_MSG_VERSION_NULL(-8),
+    NEW_MSG_VERSION_TOO_OLD(-9),
+    PROCESS_MSG_CMD_IN_NORMAL(-10),
+    PROCESS_MSG_CMD_UNSUPPORTED_TYPE(-11),
+    PROCESS_MSG_STATUS_DECODE_FAILED(-12),
+    RESPONSE_CMD_TYPE_INVALID(-13),
+    NEW_MSG_NOTIFY_BODY_NULL(-14),
+    NEW_MSG_NOTIFY_INBOX_NULL(-15),
+    NEW_MSG_NOTIFY_UNSUPPORTED_INBOX(-16),
+    NEW_MSG_NOTIFY_INTERCEPTED(-17),
+    RECEIVE_BUFFER_NEXT_CURSOR_NULL(-18),
+    RECEIVE_BUFFER_MSG_NULL(-19),
+    RESPONSE_DECODE_FAILED(-20),
+    RESPONSE_CURSOR_TYPE_NULL(-21),
+    PROCESS_MSG_MISSING_ENTITY(-22),
+    RESPONSE_CURSOR_TYPE_UNSUPPORTED(-23),
+    NEW_MSG_NOTIFY_STATUS_SAVE(-24),
+    MESSAGE_TYPE_MISMATCH(-25),
+    TEMPORARY_MESSAGE_CANNOT_REPLACE_PERMANENT(-26),
+    UNKNOWN(-9999);
+
+    public final int value;
+
+    public static EnumC868520Y5i valueOf(String str) {
+        return (EnumC868520Y5i) C08FF.LIZ(EnumC868520Y5i.class, str);
+    }
+
+    EnumC868520Y5i(int i) {
+        this.value = i;
+    }
+}

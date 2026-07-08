@@ -1,0 +1,43 @@
+package X;
+
+import com.squareup.wire.EnumAdapter;
+import com.squareup.wire.ProtoAdapter;
+import com.squareup.wire.WireEnum;
+
+/* JADX INFO: renamed from: X.0pqX, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes24.dex */
+public enum EnumC1527270pqX implements WireEnum {
+    Full(0),
+    OnlySave(1);
+
+    public static final ProtoAdapter<EnumC1527270pqX> ADAPTER = new EnumAdapter<EnumC1527270pqX>() { // from class: X.0pqo
+        @Override // com.squareup.wire.EnumAdapter
+        public final WireEnum LIZ(int i) {
+            return EnumC1527270pqX.fromValue(i);
+        }
+    };
+    public final int LL;
+
+    @Override // com.squareup.wire.WireEnum
+    public int getValue() {
+        return this.LL;
+    }
+
+    public static EnumC1527270pqX fromValue(int i) {
+        if (i != 0) {
+            if (i != 1) {
+                return null;
+            }
+            return OnlySave;
+        }
+        return Full;
+    }
+
+    public static EnumC1527270pqX valueOf(String str) {
+        return (EnumC1527270pqX) C08FF.LIZ(EnumC1527270pqX.class, str);
+    }
+
+    EnumC1527270pqX(int i) {
+        this.LL = i;
+    }
+}

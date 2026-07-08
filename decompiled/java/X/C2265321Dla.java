@@ -1,0 +1,13 @@
+package X;
+
+/* JADX INFO: renamed from: X.1Dla, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes36.dex */
+public final class C2265321Dla extends C1023500ck0 {
+    public static final C1023960ckk LIZ;
+
+    static {
+        C2265321Dla c2265321Dla = new C2265321Dla();
+        C2265311DlZ.LIZ.getClass();
+        LIZ = C1023500ck0.LIZJ("ad_ucp_shop", "pdp_ucp_coupon_apply", "pdp", new InterfaceC1023650ckF[]{c2265321Dla.LJI(C2265311DlZ.LIZIZ, C2265311DlZ.LIZJ, C2265311DlZ.LIZLLL, C2265311DlZ.LJ, C2265311DlZ.LJFF, C2265311DlZ.LJI, C2265311DlZ.LJII, C2265311DlZ.LJIIIIZZ, C2265311DlZ.LJIIIZ, C2265311DlZ.LJIIJ, C2265311DlZ.LJIIJJI, C2265311DlZ.LJIIL, C2265311DlZ.LJIILIIL, C2265311DlZ.LJIILJJIL, C2265311DlZ.LJIILL, C2265311DlZ.LJIILLIIL, C2265311DlZ.LJIIZILJ, C2265311DlZ.LJIJ, C2265311DlZ.LJIJI, C2265311DlZ.LJIJJ, C2265311DlZ.LJIJJLI)});
+    }
+}

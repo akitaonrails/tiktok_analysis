@@ -1,0 +1,9 @@
+package X;
+
+import com.ss.android.ugc.aweme.account.network.StandaloneAidSettingsObject;
+
+/* JADX INFO: renamed from: X.0XKL, reason: invalid class name */
+/* JADX INFO: loaded from: classes14.dex */
+public final class C0XKL {
+    public static final StandaloneAidSettingsObject LIZ = new StandaloneAidSettingsObject(false, C1697810uHb.LJIIJJI("/passport/mobile/login/", "/passport/mobile/sms_login/", "/passport/mobile/sms_login_only/", "/passport/mobile/sms_login_continue/", "/passport/mobile/origin_mobile_login/", "/passport/mobile/mobile_reused_login/", "/passport/mobile/conditional_bind_login/", "/passport/mobile/bind_login/", "/passport/mobile/chain_login/", "/passport/mobile/mobile_card_login/", "/passport/app/email/code_login/", "/passport/email/login/", "/passport/user/login/", "/passport/user/login_by_passport_ticket/", "/passport/user/login_by_verify_ticket/", "/passport/auth/login/", "/passport/auth/login_only/", "/passport/auth/only_login/", "/passport/carrier_auth/login_only/", "/passport/carrier_auth/login_continue/", "/passport/fido2/finish_user_registration/", "/passport/fido2/finish_discoverable_user_login", "/passport/oidc/login/", "/passport/cloud_token/login/", "/passport/device/one_login/", "/passport/device/one_login_continue/", "/passport/auth/one_login/", "/passport/auth/one_login_only/", "/passport/auth/one_login_continue/", "/passport/auth/one_login_by_ticket/", "/passport/auth/mask_mobile_one_login/", "/passport/auth/validate_mobile_login/", "/passport/auth/wap_login/", "/passport/mobile/register/", "/passport/email/register/v2/", "/passport/email/register_verify/", "/passport/email/register_verify_login/", "/passport/app/email/register/code_verify/", "/passport/app/email/register/ticket_register/", "/passport/username/register/", "/passport/auth/register/", "/passport/password/reset_by_email_ticket/", "/passport/password/reset_by_ticket/"));
+}

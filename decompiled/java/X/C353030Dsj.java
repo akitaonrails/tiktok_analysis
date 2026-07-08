@@ -1,0 +1,7 @@
+package X;
+
+/* JADX INFO: renamed from: X.0Dsj, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes6.dex */
+public final class C353030Dsj {
+    public static String LIZ = "";
+}

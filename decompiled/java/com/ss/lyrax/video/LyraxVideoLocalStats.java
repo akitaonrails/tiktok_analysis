@@ -1,0 +1,213 @@
+package com.ss.lyrax.video;
+
+import X.C2188811AlT;
+import com.bytedance.mt.protector.impl.string2number.CastIntegerProtector;
+import java.util.ArrayList;
+
+/* JADX INFO: loaded from: classes21.dex */
+public class LyraxVideoLocalStats {
+    public int bandwidth;
+    public int codecElapsePerFrame;
+    public int codecEventCode;
+    public int codecType;
+    public int dataSize;
+    public int dataSizeIncrement;
+    public int encodeTargetBps;
+    public int encodeTargetFps;
+    public int encodedBitrate;
+    public int encodedFrameCount;
+    public int encodedFrameHeight;
+    public int encodedFrameWidth;
+    public double encoderOutputFrameRate;
+    public int framesDroppedByEncoder;
+    public int framesDroppedByPacer;
+    public double inputFrameRate;
+    public boolean isHardwareCodec;
+    public boolean isScreen;
+    public int jitter;
+    public int mediaSentKbitrate;
+    public int netSendElapse;
+    public int networkQuality;
+    public ArrayList<Integer> postEncStall;
+    public String pubProfile;
+    public double rendererOutputFrameRate;
+    public int rtt;
+    public double sentFrameRate;
+    public float sentKBitrate;
+    public ArrayList<Integer> simEncBps;
+    public ArrayList<Integer> simEncFramerate;
+    public ArrayList<Integer> simEncHeight;
+    public String simEncInfo;
+    public ArrayList<Integer> simEncWidth;
+    public int totalSentBitrate;
+    public int txQuality;
+    public int videoDenoiseMode;
+    public float videoLossRate;
+    public int videoSceneType;
+
+    public LyraxVideoLocalStats() {
+        this.postEncStall = new ArrayList<>();
+        this.simEncWidth = new ArrayList<>();
+        this.simEncHeight = new ArrayList<>();
+        this.simEncFramerate = new ArrayList<>();
+        this.simEncBps = new ArrayList<>();
+    }
+
+    public String toString() {
+        StringBuilder sbLIZ = C2188811AlT.LIZ();
+        sbLIZ.append("LyraxVideoLocalStats{bandwidth='");
+        sbLIZ.append(this.bandwidth);
+        sbLIZ.append('\'');
+        sbLIZ.append(", sentKBitrate='");
+        sbLIZ.append(this.sentKBitrate);
+        sbLIZ.append('\'');
+        sbLIZ.append(", mediaSentKbitrate='");
+        sbLIZ.append(this.mediaSentKbitrate);
+        sbLIZ.append('\'');
+        sbLIZ.append(", inputFrameRate='");
+        sbLIZ.append(this.inputFrameRate);
+        sbLIZ.append('\'');
+        sbLIZ.append(", sentFrameRate='");
+        sbLIZ.append(this.sentFrameRate);
+        sbLIZ.append('\'');
+        sbLIZ.append(", encoderOutputFrameRate='");
+        sbLIZ.append(this.encoderOutputFrameRate);
+        sbLIZ.append('\'');
+        sbLIZ.append(", rendererOutputFrameRate='");
+        sbLIZ.append(this.rendererOutputFrameRate);
+        sbLIZ.append('\'');
+        sbLIZ.append(", framesDroppedByEncoder='");
+        sbLIZ.append(this.framesDroppedByEncoder);
+        sbLIZ.append('\'');
+        sbLIZ.append(", framesDroppedByPacer='");
+        sbLIZ.append(this.framesDroppedByPacer);
+        sbLIZ.append('\'');
+        sbLIZ.append(", videoLossRate='");
+        sbLIZ.append(this.videoLossRate);
+        sbLIZ.append('\'');
+        sbLIZ.append(", rtt='");
+        sbLIZ.append(this.rtt);
+        sbLIZ.append('\'');
+        sbLIZ.append(", encodedBitrate='");
+        sbLIZ.append(this.encodedBitrate);
+        sbLIZ.append('\'');
+        sbLIZ.append(", encodeTargetFps='");
+        sbLIZ.append(this.encodeTargetFps);
+        sbLIZ.append('\'');
+        sbLIZ.append(", encodeTargetBps='");
+        sbLIZ.append(this.encodeTargetBps);
+        sbLIZ.append('\'');
+        sbLIZ.append(", encodedFrameWidth='");
+        sbLIZ.append(this.encodedFrameWidth);
+        sbLIZ.append('\'');
+        sbLIZ.append(", encodedFrameHeight='");
+        sbLIZ.append(this.encodedFrameHeight);
+        sbLIZ.append('\'');
+        sbLIZ.append(", encodedFrameCount='");
+        sbLIZ.append(this.encodedFrameCount);
+        sbLIZ.append('\'');
+        sbLIZ.append(", codecType='");
+        sbLIZ.append(this.codecType);
+        sbLIZ.append('\'');
+        sbLIZ.append(", isHardwareCodec='");
+        sbLIZ.append(this.isHardwareCodec);
+        sbLIZ.append('\'');
+        sbLIZ.append(", codecEventCode='");
+        sbLIZ.append(this.codecEventCode);
+        sbLIZ.append('\'');
+        sbLIZ.append(", isScreen='");
+        sbLIZ.append(this.isScreen);
+        sbLIZ.append('\'');
+        sbLIZ.append(", jitter='");
+        sbLIZ.append(this.jitter);
+        sbLIZ.append('\'');
+        sbLIZ.append(", videoDenoiseMode");
+        sbLIZ.append(this.videoDenoiseMode);
+        sbLIZ.append('\'');
+        sbLIZ.append(", simEncInfo=");
+        sbLIZ.append(this.simEncInfo);
+        sbLIZ.append('\'');
+        sbLIZ.append(", codecElapsePerFrame='");
+        sbLIZ.append(this.codecElapsePerFrame);
+        sbLIZ.append('\'');
+        sbLIZ.append(", dataSizeIncrement='");
+        sbLIZ.append(this.dataSizeIncrement);
+        sbLIZ.append('\'');
+        sbLIZ.append(", dataSize='");
+        sbLIZ.append(this.dataSize);
+        sbLIZ.append('\'');
+        sbLIZ.append(", totalSentBitrate='");
+        sbLIZ.append(this.totalSentBitrate);
+        sbLIZ.append('\'');
+        sbLIZ.append(", pubProfile='");
+        sbLIZ.append(this.pubProfile);
+        sbLIZ.append('\'');
+        sbLIZ.append(", networkQuality='");
+        sbLIZ.append(this.networkQuality);
+        sbLIZ.append('\'');
+        sbLIZ.append(", txQuality='");
+        sbLIZ.append(this.txQuality);
+        sbLIZ.append('\'');
+        sbLIZ.append(", videoSceneType='");
+        sbLIZ.append(this.videoSceneType);
+        sbLIZ.append('\'');
+        sbLIZ.append(", netSendElapse='");
+        sbLIZ.append(this.netSendElapse);
+        sbLIZ.append('\'');
+        sbLIZ.append('}');
+        return C2188811AlT.LIZIZ(sbLIZ);
+    }
+
+    public LyraxVideoLocalStats(int i, float f, int i2, double d, double d2, double d3, double d4, int i3, int i4, float f2, int i5, int i6, int i7, int i8, int i9, int i10, int i11, int i12, boolean z, int i13, int i14, int i15, String str, int i16, int i17, int i18, int i19, String str2, int i20, int i21, int i22, int i23, ArrayList<Integer> arrayList) {
+        this.postEncStall = new ArrayList<>();
+        this.simEncWidth = new ArrayList<>();
+        this.simEncHeight = new ArrayList<>();
+        this.simEncFramerate = new ArrayList<>();
+        this.simEncBps = new ArrayList<>();
+        this.sentKBitrate = f;
+        this.inputFrameRate = d;
+        this.sentFrameRate = d2;
+        this.encoderOutputFrameRate = d3;
+        this.rendererOutputFrameRate = d4;
+        this.videoLossRate = f2;
+        this.rtt = i5;
+        this.encodedBitrate = i6;
+        this.encodedFrameWidth = i9;
+        this.encodedFrameHeight = i10;
+        this.encodedFrameCount = i11;
+        this.codecType = i12;
+        this.isHardwareCodec = z;
+        this.codecEventCode = i13;
+        this.isScreen = this.isScreen;
+        this.jitter = i14;
+        this.videoDenoiseMode = i15;
+        this.simEncInfo = str;
+        this.mediaSentKbitrate = i2;
+        this.bandwidth = i;
+        this.framesDroppedByEncoder = i3;
+        this.framesDroppedByPacer = i4;
+        this.encodeTargetFps = i7;
+        this.encodeTargetBps = i8;
+        this.codecElapsePerFrame = i16;
+        this.dataSizeIncrement = i17;
+        this.dataSize = i18;
+        this.totalSentBitrate = i19;
+        this.pubProfile = str2;
+        this.networkQuality = i20;
+        this.txQuality = i21;
+        this.videoSceneType = i22;
+        this.netSendElapse = i23;
+        this.postEncStall = arrayList;
+        for (String str3 : str.split("\\+")) {
+            if (!str3.isEmpty()) {
+                String[] strArrSplit = str3.split("x");
+                if (strArrSplit.length == 4) {
+                    this.simEncWidth.add(Integer.valueOf(CastIntegerProtector.parseInt(strArrSplit[0])));
+                    this.simEncHeight.add(Integer.valueOf(CastIntegerProtector.parseInt(strArrSplit[1])));
+                    this.simEncFramerate.add(Integer.valueOf(CastIntegerProtector.parseInt(strArrSplit[2])));
+                    this.simEncBps.add(Integer.valueOf(CastIntegerProtector.parseInt(strArrSplit[3])));
+                }
+            }
+        }
+    }
+}

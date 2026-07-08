@@ -1,0 +1,22 @@
+package X;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+/* JADX INFO: renamed from: X.0l7F, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes22.dex */
+public final class C1345430l7F extends C1345400l7C {
+    public int LJI;
+
+    public C1345430l7F() {
+        super(-1L, -1L, -1L, -1L, "comment_publish_time", false);
+        this.LJI = 0;
+    }
+
+    @Override // X.C1345400l7C, X.AbstractC1345440l7G
+    public final JSONObject LIZJ() throws JSONException {
+        JSONObject jSONObjectLIZJ = super.LIZJ();
+        jSONObjectLIZJ.put("comment_length", this.LJI);
+        return jSONObjectLIZJ;
+    }
+}

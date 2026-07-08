@@ -1,0 +1,56 @@
+package X;
+
+import Y.AgS284S0100000_3;
+import kotlin.Unit;
+import kotlin.jvm.functions.Function2;
+import njp.a;
+
+/* JADX INFO: renamed from: X.093f, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes4.dex */
+@C09DV(c = "kotlinx.coroutines.flow.FlowKt__DelayKt$sample$2$values$1", f = "Delay.kt", l = {279}, m = "invokeSuspend")
+public final class C23097093f extends C09AX implements Function2<C094D<? super Object>, InterfaceC1364105Vn<? super Unit>, Object> {
+    public int LL;
+    public /* synthetic */ Object LLILLJJLI;
+    public final /* synthetic */ InterfaceC346201Wa<Object> LLILLL;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public C23097093f(InterfaceC346201Wa<Object> interfaceC346201Wa, InterfaceC1364105Vn<? super C23097093f> interfaceC1364105Vn) {
+        super(2, interfaceC1364105Vn);
+        this.LLILLL = interfaceC346201Wa;
+    }
+
+    @Override // njp.a
+    public final InterfaceC1364105Vn<Unit> create(Object obj, InterfaceC1364105Vn<?> interfaceC1364105Vn) {
+        C23097093f c23097093f = new C23097093f(this.LLILLL, interfaceC1364105Vn);
+        c23097093f.LLILLJJLI = obj;
+        return c23097093f;
+    }
+
+    @Override // njp.a
+    public final Object invokeSuspend(Object obj) {
+        Object objLJFF = C099R.LJFF();
+        int i = this.LL;
+        if (i != 0) {
+            if (i == 1) {
+                C155000ia.LIZIZ(obj);
+            } else {
+                throw new IllegalStateException("call to 'resume' before 'invoke' with coroutine");
+            }
+        } else {
+            C155000ia.LIZIZ(obj);
+            C094D c094d = (C094D) this.LLILLJJLI;
+            InterfaceC346201Wa<Object> interfaceC346201Wa = this.LLILLL;
+            AgS284S0100000_3 agS284S0100000_3 = new AgS284S0100000_3(c094d, 26);
+            this.LL = 1;
+            if (interfaceC346201Wa.collect(agS284S0100000_3, this) == objLJFF) {
+                return objLJFF;
+            }
+        }
+        return Unit.LIZ;
+    }
+
+    @Override // kotlin.jvm.functions.Function2
+    public final Object invoke(C094D<? super Object> c094d, InterfaceC1364105Vn<? super Unit> interfaceC1364105Vn) {
+        return ((a) create(c094d, interfaceC1364105Vn)).invokeSuspend(Unit.LIZ);
+    }
+}

@@ -1,0 +1,13 @@
+package X;
+
+/* JADX INFO: renamed from: X.1Dn0, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes36.dex */
+public final class C2266201Dn0 extends C1023500ck0 {
+    public static final C1023960ckk LIZ;
+
+    static {
+        C2266201Dn0 c2266201Dn0 = new C2266201Dn0();
+        C2266191Dmz.LIZ.getClass();
+        LIZ = C1023500ck0.LIZJ("ad_wap_stat", "ga_session_align", null, new InterfaceC1023650ckF[]{c2266201Dn0.LJI(C2266191Dmz.LIZIZ, C2266191Dmz.LIZJ, C2266191Dmz.LIZLLL, C2266191Dmz.LJ, C2266191Dmz.LJFF, C2266191Dmz.LJI, C2266191Dmz.LJII, C2266191Dmz.LJIIIIZZ, C2266191Dmz.LJIIIZ, C2266191Dmz.LJIIJ, C2266191Dmz.LJIIJJI, C2266191Dmz.LJIIL, C2266191Dmz.LJIILIIL, C2266191Dmz.LJIILJJIL, C2266191Dmz.LJIILL, C2266191Dmz.LJIILLIIL, C2266191Dmz.LJIIZILJ, C2266191Dmz.LJIJ, C2266191Dmz.LJIJI, C2266191Dmz.LJIJJ, C2266191Dmz.LJIJJLI, C2266191Dmz.LJIL, C2266191Dmz.LJJ)});
+    }
+}

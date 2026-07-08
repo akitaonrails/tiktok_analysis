@@ -1,0 +1,96 @@
+package X;
+
+import kotlin.Unit;
+import kotlin.jvm.functions.Function1;
+
+/* JADX INFO: renamed from: X.0u2Q, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes26.dex */
+public final class C1688400u2Q implements InterfaceC1673370teB {
+    public final InterfaceC1676340tiy LL;
+    public final EnumC995480c0o LLILLJJLI;
+    public final EnumC1154480g9G LLILLL;
+
+    @Override // X.InterfaceC1676340tiy
+    public final Object LJJJ() {
+        return this.LL.LJJJ();
+    }
+
+    @Override // X.InterfaceC1676340tiy
+    public final int LJJII(int i) {
+        return this.LL.LJJII(i);
+    }
+
+    @Override // X.InterfaceC1676340tiy
+    public final int LJJIIZ(int i) {
+        return this.LL.LJJIIZ(i);
+    }
+
+    @Override // X.InterfaceC1676340tiy
+    public final int LJJIJ(int i) {
+        return this.LL.LJJIJ(i);
+    }
+
+    @Override // X.InterfaceC1676340tiy
+    public final int LJJIL(int i) {
+        return this.LL.LJJIL(i);
+    }
+
+    @Override // X.InterfaceC1673370teB
+    public final AbstractC1686530tzP LJJJJZ(long j) {
+        final int iLJJIJ;
+        final int iLJJII;
+        final int iLJIIIIZZ = 32767;
+        if (this.LLILLL == EnumC1154480g9G.LL) {
+            if (this.LLILLJJLI == EnumC995480c0o.LLILLJJLI) {
+                iLJJII = this.LL.LJJIL(C1682380tsi.LJII(j));
+            } else {
+                iLJJII = this.LL.LJJII(C1682380tsi.LJII(j));
+            }
+            if (C1682380tsi.LIZLLL(j)) {
+                iLJIIIIZZ = C1682380tsi.LJII(j);
+            }
+            return new AbstractC1686530tzP(iLJJII, iLJIIIIZZ) { // from class: X.0u2S
+                @Override // X.InterfaceC1678850tn1
+                public final int LJJIJL(C115T c115t) {
+                    return Integer.MIN_VALUE;
+                }
+
+                @Override // X.AbstractC1686530tzP
+                public final void LJJLIIIJJIZ(long j2, float f, Function1<? super InterfaceC1679550to9, Unit> function1) {
+                }
+
+                {
+                    LJJLIIJ((((long) iLJIIIIZZ) & 4294967295L) | (((long) iLJJII) << 32));
+                }
+            };
+        }
+        if (this.LLILLJJLI == EnumC995480c0o.LLILLJJLI) {
+            iLJJIJ = this.LL.LJJIIZ(C1682380tsi.LJIIIIZZ(j));
+        } else {
+            iLJJIJ = this.LL.LJJIJ(C1682380tsi.LJIIIIZZ(j));
+        }
+        if (C1682380tsi.LJ(j)) {
+            iLJIIIIZZ = C1682380tsi.LJIIIIZZ(j);
+        }
+        return new AbstractC1686530tzP(iLJIIIIZZ, iLJJIJ) { // from class: X.0u2S
+            @Override // X.InterfaceC1678850tn1
+            public final int LJJIJL(C115T c115t) {
+                return Integer.MIN_VALUE;
+            }
+
+            @Override // X.AbstractC1686530tzP
+            public final void LJJLIIIJJIZ(long j2, float f, Function1<? super InterfaceC1679550to9, Unit> function1) {
+            }
+
+            {
+                LJJLIIJ((((long) iLJJIJ) & 4294967295L) | (((long) iLJIIIIZZ) << 32));
+            }
+        };
+    }
+
+    public C1688400u2Q(InterfaceC1676340tiy interfaceC1676340tiy, EnumC995480c0o enumC995480c0o, EnumC1154480g9G enumC1154480g9G) {
+        this.LL = interfaceC1676340tiy;
+        this.LLILLJJLI = enumC995480c0o;
+        this.LLILLL = enumC1154480g9G;
+    }
+}

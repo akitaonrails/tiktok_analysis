@@ -1,0 +1,60 @@
+package com.bytedance.ies.nle.editor_jni;
+
+/* JADX INFO: loaded from: classes6.dex */
+public class NLESegment extends NLENode {
+    public transient boolean swigCMemOwnDerived;
+    public transient long swigCPtr;
+
+    @Override // com.bytedance.ies.nle.editor_jni.NLENode
+    public synchronized void delete() {
+        long j = this.swigCPtr;
+        if (j != 0) {
+            if (this.swigCMemOwnDerived) {
+                this.swigCMemOwnDerived = false;
+                NLEEditorJniJNI.delete_NLESegment(j);
+            }
+            this.swigCPtr = 0L;
+        }
+        super.delete();
+    }
+
+    public long getDuration() {
+        return NLEEditorJniJNI.NLESegment_getDuration(this.swigCPtr, this);
+    }
+
+    public NLEResourceNode getResource() {
+        long jNLESegment_getResource = NLEEditorJniJNI.NLESegment_getResource(this.swigCPtr, this);
+        if (jNLESegment_getResource == 0) {
+            return null;
+        }
+        return new NLEResourceNode(jNLESegment_getResource, true);
+    }
+
+    public NLEResType getType() {
+        return NLEResType.swigToEnum(NLEEditorJniJNI.NLESegment_getType(this.swigCPtr, this));
+    }
+
+    @Override // com.bytedance.ies.nle.editor_jni.NLENode
+    public void finalize() {
+        delete();
+    }
+
+    public static long getCPtr(NLESegment nLESegment) {
+        if (nLESegment == null) {
+            return 0L;
+        }
+        return nLESegment.swigCPtr;
+    }
+
+    @Override // com.bytedance.ies.nle.editor_jni.NLENode
+    public void swigSetCMemOwn(boolean z) {
+        this.swigCMemOwnDerived = z;
+        super.swigSetCMemOwn(z);
+    }
+
+    public NLESegment(long j, boolean z) {
+        super(NLEEditorJniJNI.NLESegment_SWIGSmartPtrUpcast(j), true);
+        this.swigCMemOwnDerived = z;
+        this.swigCPtr = j;
+    }
+}

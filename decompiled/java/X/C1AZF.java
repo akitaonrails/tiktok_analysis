@@ -1,0 +1,13 @@
+package X;
+
+/* JADX INFO: renamed from: X.1AZF, reason: invalid class name */
+/* JADX INFO: loaded from: classes34.dex */
+public final class C1AZF {
+    public final double LIZ;
+    public final double LIZIZ;
+
+    public C1AZF(double d, double d2) {
+        this.LIZ = d;
+        this.LIZIZ = d2;
+    }
+}

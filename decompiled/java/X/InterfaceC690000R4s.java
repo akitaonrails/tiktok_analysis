@@ -1,0 +1,13 @@
+package X;
+
+import com.ss.android.ugc.aweme.feed.model.Aweme;
+
+/* JADX INFO: renamed from: X.0R4s, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes12.dex */
+public interface InterfaceC690000R4s {
+    void LJ(Aweme aweme, boolean z);
+
+    void LJIIJJI(EnumC20283814Yi enumC20283814Yi, Aweme aweme, boolean z);
+
+    void LJIILIIL();
+}

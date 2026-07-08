@@ -1,0 +1,25 @@
+package com.bytedance.android.livesdk.viewer_picks.model;
+
+import X.C09CT;
+
+/* JADX INFO: loaded from: classes.dex */
+public final class TemplateExtraGameInteractionExternal {
+
+    @C09CT("is_can_show")
+    public boolean isCanShow;
+
+    @C09CT("game_name")
+    public String gameName = "";
+
+    @C09CT("game_name_key")
+    public String gameNameKey = "";
+
+    @C09CT("game_icon_url")
+    public String gameIconUrl = "";
+
+    @C09CT("template_name_key")
+    public String templateNameKey = "";
+
+    @C09CT("game_tag_id")
+    public String gameTagId = "";
+}

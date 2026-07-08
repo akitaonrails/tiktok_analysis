@@ -1,0 +1,66 @@
+package com.bytedance.android.livesdk.model.message;
+
+import X.C0IMD;
+import X.C1516680pZS;
+import X.C1516700pZU;
+import com.bytedance.android.livesdkapi.message.CommonMessageData;
+import com.bytedance.android.livesdkapi.message._CommonMessageData_ProtoDecoder;
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.List;
+
+/* JADX INFO: loaded from: classes.dex */
+public final class _AnchorGuideTriggerMessage_ProtoDecoder implements C0IMD<AnchorGuideTriggerMessage> {
+    @Override // X.C0IMD
+    public final void LIZ(AnchorGuideTriggerMessage anchorGuideTriggerMessage) {
+        ASRBizInfo aSRBizInfo;
+        AnchorGuideTriggerMessage anchorGuideTriggerMessage2 = anchorGuideTriggerMessage;
+        CommonMessageData commonMessageData = anchorGuideTriggerMessage2.baseMessage;
+        if (commonMessageData != null) {
+            _CommonMessageData_ProtoDecoder.LJ(commonMessageData);
+        }
+        AnchorGuideTriggerBizInfo anchorGuideTriggerBizInfo = anchorGuideTriggerMessage2.bizInfo;
+        if (anchorGuideTriggerBizInfo != null && (aSRBizInfo = anchorGuideTriggerBizInfo.asrBizInfo) != null && aSRBizInfo.giftAsrConfidence == null) {
+            aSRBizInfo.giftAsrConfidence = new HashMap();
+        }
+    }
+
+    @Override // X.C0IMD
+    public final AnchorGuideTriggerMessage LIZJ(C1516680pZS c1516680pZS) throws IOException {
+        AnchorGuideTriggerMessage anchorGuideTriggerMessage = new AnchorGuideTriggerMessage();
+        long jLIZJ = c1516680pZS.LIZJ();
+        while (true) {
+            int iLJI = c1516680pZS.LJI();
+            if (iLJI != -1) {
+                if (iLJI != 1) {
+                    if (iLJI != 2) {
+                        if (iLJI != 3) {
+                            if (iLJI != 4) {
+                                if (iLJI != 5) {
+                                    C1516700pZU.LJ(c1516680pZS);
+                                } else {
+                                    anchorGuideTriggerMessage.bizInfo = _AnchorGuideTriggerBizInfo_ProtoDecoder.LIZLLL(c1516680pZS);
+                                }
+                            } else {
+                                anchorGuideTriggerMessage.guideTarget = _GuideTarget_ProtoDecoder.LIZLLL(c1516680pZS);
+                            }
+                        } else {
+                            anchorGuideTriggerMessage.triggerTime = c1516680pZS.LJIIJJI();
+                        }
+                    } else {
+                        anchorGuideTriggerMessage.triggerName = C1516700pZU.LIZLLL(c1516680pZS);
+                    }
+                } else {
+                    anchorGuideTriggerMessage.baseMessage = _CommonMessageData_ProtoDecoder.LIZLLL(c1516680pZS);
+                }
+            } else {
+                c1516680pZS.LJ(jLIZJ);
+                return anchorGuideTriggerMessage;
+            }
+        }
+    }
+
+    @Override // X.C0IMD
+    public final /* bridge */ /* synthetic */ void LIZIZ(C1516680pZS c1516680pZS, AnchorGuideTriggerMessage anchorGuideTriggerMessage, List list) {
+    }
+}

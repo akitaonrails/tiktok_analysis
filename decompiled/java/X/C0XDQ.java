@@ -1,0 +1,24 @@
+package X;
+
+import com.bytedance.tt.reliability.monitor.catchchecker.TryCatchGuardChecker;
+
+/* JADX INFO: renamed from: X.0XDQ, reason: invalid class name */
+/* JADX INFO: loaded from: classes14.dex */
+public /* synthetic */ class C0XDQ {
+    public static final /* synthetic */ int[] LIZ;
+
+    static {
+        int[] iArr = new int[C0XDP.values().length];
+        LIZ = iArr;
+        try {
+            iArr[C0XDP.L0.ordinal()] = 1;
+        } catch (NoSuchFieldError e) {
+            TryCatchGuardChecker.doCheck(e);
+        }
+        try {
+            LIZ[C0XDP.L1.ordinal()] = 2;
+        } catch (NoSuchFieldError e2) {
+            TryCatchGuardChecker.doCheck(e2);
+        }
+    }
+}

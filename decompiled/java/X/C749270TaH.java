@@ -1,0 +1,9 @@
+package X;
+
+import com.bytedance.android.livesdkapi.depend.model.live.PictionaryFullInfo;
+import java.util.List;
+
+/* JADX INFO: renamed from: X.0TaH, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes13.dex */
+public final class C749270TaH extends AnonymousClass1684<List<? extends PictionaryFullInfo>> {
+}

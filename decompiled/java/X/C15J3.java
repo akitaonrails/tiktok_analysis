@@ -1,0 +1,108 @@
+package X;
+
+import com.bytedance.speech.speechengine.SpeechEngineDefines;
+import com.ss.android.ugc.aweme.base.model.UrlModel;
+import com.ss.android.ugc.aweme.music.model.IMusicRequestParam;
+import com.ss.android.ugc.aweme.shortvideo.model.MusicModel;
+import java.util.List;
+
+/* JADX INFO: renamed from: X.15J3, reason: invalid class name */
+/* JADX INFO: loaded from: classes32.dex */
+public final class C15J3 {
+    public final String LIZ;
+    public final String LIZIZ;
+    public final String LIZJ;
+    public final boolean LIZLLL;
+    public final boolean LJ;
+    public final boolean LJFF;
+    public final String LJI;
+    public final String LJII;
+    public final boolean LJIIIIZZ;
+    public final boolean LJIIIZ;
+    public final boolean LJIIJ;
+    public final boolean LJIIJJI;
+    public final long LJIIL;
+    public final long LJIILIIL;
+    public final String LJIILJJIL;
+    public final String LJIILL;
+    public final boolean LJIILLIIL;
+    public final String LJIIZILJ;
+    public final String LJIJ;
+    public final MusicModel LJIJI;
+    public final String LJIJJ;
+    public final String LJIJJLI;
+    public final UrlModel LJIL;
+    public final String LJJ;
+    public final String LJJI;
+    public final IMusicRequestParam LJJIFFI;
+    public final List<String> LJJII;
+    public final boolean LJJIII;
+    public final boolean LJJIIJ;
+    public final boolean LJJIIJZLJL;
+
+    public C15J3(String str, String str2, String str3, boolean z, boolean z2, boolean z3, String str4, String str5, boolean z4, boolean z5, boolean z6, boolean z7, long j, long j2, String str6, String str7, boolean z8, String str8, String str9, MusicModel musicModel, String str10, String str11, UrlModel urlModel, String str12, String str13, C1446210njn c1446210njn, List list, boolean z9, boolean z10, boolean z11, int i) {
+        boolean z12 = z6;
+        boolean z13 = z11;
+        boolean z14 = z10;
+        boolean z15 = z9;
+        String str14 = str12;
+        UrlModel urlModel2 = urlModel;
+        String str15 = str9;
+        String str16 = str8;
+        boolean z16 = z8;
+        List list2 = list;
+        String str17 = str7;
+        long j3 = j;
+        C1446210njn c1446210njn2 = c1446210njn;
+        String str18 = str6;
+        boolean z17 = z7;
+        boolean z18 = (i & 256) != 0 ? false : z4;
+        z12 = (i & 1024) != 0 ? false : z12;
+        z17 = (i & SpeechEngineDefines.ASR_WORK_MODE_OFFLINE) != 0 ? false : z17;
+        j3 = (i & SpeechEngineDefines.TTS_WORK_MODE_BOTH) != 0 ? 0L : j3;
+        long j4 = (i & 8192) == 0 ? j2 : 0L;
+        str18 = (i & 16384) != 0 ? null : str18;
+        str17 = (32768 & i) != 0 ? null : str17;
+        z16 = (65536 & i) != 0 ? false : z16;
+        str16 = (131072 & i) != 0 ? null : str16;
+        str15 = (262144 & i) != 0 ? null : str15;
+        urlModel2 = (4194304 & i) != 0 ? null : urlModel2;
+        str14 = (8388608 & i) != 0 ? "" : str14;
+        String str19 = (16777216 & i) == 0 ? str13 : "";
+        c1446210njn2 = (33554432 & i) != 0 ? null : c1446210njn2;
+        list2 = (67108864 & i) != 0 ? null : list2;
+        z15 = (134217728 & i) != 0 ? false : z15;
+        z14 = (268435456 & i) != 0 ? false : z14;
+        z13 = (i & 536870912) != 0 ? false : z13;
+        this.LIZ = str;
+        this.LIZIZ = str2;
+        this.LIZJ = str3;
+        this.LIZLLL = z;
+        this.LJ = z2;
+        this.LJFF = z3;
+        this.LJI = str4;
+        this.LJII = str5;
+        this.LJIIIIZZ = z18;
+        this.LJIIIZ = z5;
+        this.LJIIJ = z12;
+        this.LJIIJJI = z17;
+        this.LJIIL = j3;
+        this.LJIILIIL = j4;
+        this.LJIILJJIL = str18;
+        this.LJIILL = str17;
+        this.LJIILLIIL = z16;
+        this.LJIIZILJ = str16;
+        this.LJIJ = str15;
+        this.LJIJI = musicModel;
+        this.LJIJJ = str10;
+        this.LJIJJLI = str11;
+        this.LJIL = urlModel2;
+        this.LJJ = str14;
+        this.LJJI = str19;
+        this.LJJIFFI = c1446210njn2;
+        this.LJJII = list2;
+        this.LJJIII = z15;
+        this.LJJIIJ = z14;
+        this.LJJIIJZLJL = z13;
+    }
+}

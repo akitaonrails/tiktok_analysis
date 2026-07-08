@@ -1,0 +1,7 @@
+package X;
+
+/* JADX INFO: renamed from: X.0Vnm, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes14.dex */
+public interface InterfaceC808600Vnm {
+    void LIZ(int i);
+}

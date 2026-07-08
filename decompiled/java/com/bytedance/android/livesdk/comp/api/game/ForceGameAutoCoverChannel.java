@@ -1,0 +1,10 @@
+package com.bytedance.android.livesdk.comp.api.game;
+
+import com.bytedance.ies.sdk.datachannel.Channel;
+
+/* JADX INFO: loaded from: classes13.dex */
+public final class ForceGameAutoCoverChannel extends Channel<Boolean> {
+    public ForceGameAutoCoverChannel() {
+        super(Boolean.FALSE);
+    }
+}

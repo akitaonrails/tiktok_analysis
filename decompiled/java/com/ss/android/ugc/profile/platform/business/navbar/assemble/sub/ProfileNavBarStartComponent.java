@@ -1,0 +1,23 @@
+package com.ss.android.ugc.profile.platform.business.navbar.assemble.sub;
+
+import X.C01GW;
+import X.C1249430icP;
+import X.C13LE;
+import X.C452501pT;
+import com.ss.android.ugc.profile.platform.business.navbar.base.NavbarBaseUIComponent;
+import kotlin.jvm.internal.AFwS207S0000000_19;
+
+/* JADX INFO: loaded from: classes20.dex */
+public final class ProfileNavBarStartComponent extends ProfileNavBarBaseComponent {
+    public final C01GW LLJL = C452501pT.LIZIZ(AFwS207S0000000_19.get$arr$(567));
+
+    @Override // com.ss.android.ugc.profile.platform.base.component.BaseContainerComponent
+    public final void Go() {
+        Ho("nav_bar_base_item", C13LE.LIZ(NavbarBaseUIComponent.class), null, -1, false);
+    }
+
+    @Override // com.ss.android.ugc.profile.platform.business.navbar.assemble.sub.ProfileNavBarBaseComponent, com.ss.android.ugc.profile.platform.business.navbar.base.INavbarBaseAbility
+    public final C1249430icP Sr2() {
+        return (C1249430icP) this.LLJL.getValue();
+    }
+}

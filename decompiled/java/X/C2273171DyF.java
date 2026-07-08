@@ -1,0 +1,94 @@
+package X;
+
+/* JADX INFO: renamed from: X.1DyF, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes36.dex */
+public final class C2273171DyF extends C1007790cKf {
+    public static final C2273171DyF LIZ;
+    public static final C1002190cBd LIZIZ;
+    public static final C1002190cBd LIZJ;
+    public static final C1002190cBd LIZLLL;
+    public static final C1002190cBd LJ;
+    public static final C1002190cBd LJFF;
+    public static final C1002190cBd LJI;
+    public static final C1002190cBd LJII;
+    public static final C1002190cBd LJIIIIZZ;
+    public static final C1002190cBd LJIIIZ;
+    public static final C1002190cBd LJIIJ;
+    public static final C1002190cBd LJIIJJI;
+    public static final C1002190cBd LJIIL;
+    public static final C1002190cBd LJIILIIL;
+    public static final C1002190cBd LJIILJJIL;
+    public static final C1002190cBd LJIILL;
+    public static final C1002190cBd LJIILLIIL;
+    public static final C1002190cBd LJIIZILJ;
+    public static final C1002190cBd LJIJ;
+    public static final C1002190cBd LJIJI;
+    public static final C1002190cBd LJIJJ;
+    public static final C1002190cBd LJIJJLI;
+    public static final C1002190cBd LJIL;
+    public static final C1002190cBd LJJ;
+    public static final C1002190cBd LJJI;
+    public static final C1002190cBd LJJIFFI;
+    public static final C1002190cBd LJJII;
+    public static final C1002190cBd LJJIII;
+    public static final C1002190cBd LJJIIJ;
+    public static final C1002190cBd LJJIIJZLJL;
+    public static final C1002190cBd LJJIIZ;
+    public static final C1002190cBd LJJIIZI;
+    public static final C1002190cBd LJJIJ;
+    public static final C1002190cBd LJJIJIIJI;
+    public static final C1002190cBd LJJIJIIJIL;
+    public static final C1002190cBd LJJIJIL;
+    public static final C1002190cBd LJJIJL;
+    public static final C1002190cBd LJJIJLIJ;
+    public static final C1002190cBd LJJIL;
+    public static final C1002190cBd LJJIZ;
+    public static final C1002190cBd LJJJ;
+    public static final C1002190cBd LJJJI;
+
+    static {
+        C2273171DyF c2273171DyF = new C2273171DyF();
+        LIZ = c2273171DyF;
+        LIZIZ = C1001860cB6.LJFF("iab_type", null);
+        LIZJ = C1001860cB6.LIZIZ(c2273171DyF, "sheet_ratio");
+        LIZLLL = C1001860cB6.LJFF("landing_type", null);
+        LJ = C1001860cB6.LJFF("charge_type", null);
+        LJFF = C1001860cB6.LJFF("load_duration", null);
+        LJI = C1001860cB6.LJFF("preload_status", null);
+        LJII = C1001860cB6.LJII("browser_type", null);
+        LJIIIIZZ = C1001860cB6.LJII("next_url", null);
+        LJIIIZ = C1001860cB6.LJFF("page_source", null);
+        LJIIJ = C1001860cB6.LJII("lp_refer", null);
+        LJIIJJI = C1001860cB6.LJFF("jump_times", null);
+        LJIIL = C1001860cB6.LJFF("duration", null);
+        LJIILIIL = C1001860cB6.LJII("req_id", null);
+        LJIILJJIL = C1001860cB6.LJFF("page_id", null);
+        LJIILL = C1001860cB6.LJFF("first_page", null);
+        LJIILLIIL = C1001860cB6.LJII("value", null);
+        LJIIZILJ = C1001860cB6.LJII("channel_name", null);
+        LJIJ = C1001860cB6.LJFF("pct", null);
+        LJIJI = C1001860cB6.LJFF("is_background", null);
+        LJIJJ = C1001860cB6.LJII("session_info", null);
+        LJIJJLI = C1001860cB6.LJFF("landing_page_style", null);
+        LJIL = C1001860cB6.LJFF("is_spark", null);
+        LJJ = C1001860cB6.LJII("present_url", null);
+        LJJI = C1001860cB6.LJII("session_id", null);
+        LJJIFFI = C1001860cB6.LJFF("ix_to_externalurl", null);
+        LJJII = C1001860cB6.LJII("system_start_timestamp", null);
+        LJJIII = C1001860cB6.LJII("pack_content_type", null);
+        LJJIIJ = C1001860cB6.LJFF("loading_status", null);
+        LJJIIJZLJL = C1001860cB6.LJII("current_url", null);
+        LJJIIZ = C1001860cB6.LJFF("is_web_url", null);
+        LJJIIZI = C1001860cB6.LJII("web_url", null);
+        LJJIJ = C1001860cB6.LJFF("preload_webview_time", null);
+        LJJIJIIJI = C1001860cB6.LJFF("from_ad_web_page", null);
+        LJJIJIIJIL = C1001860cB6.LJFF("system_origin", null);
+        LJJIJIL = C1001860cB6.LJII("render_type", null);
+        LJJIJL = C1001860cB6.LJFF("device_score_level", null);
+        LJJIJLIJ = C1001860cB6.LJFF("page_visible_status", null);
+        LJJIL = C1001860cB6.LJFF("is_land_page_redirect", null);
+        LJJIZ = C1001860cB6.LIZLLL("is_pseudo_ad", null);
+        LJJJ = C1001860cB6.LJII("extra", null);
+        LJJJI = C1001860cB6.LJII("web_extra_info", null);
+    }
+}

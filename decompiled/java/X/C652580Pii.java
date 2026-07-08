@@ -1,0 +1,79 @@
+package X;
+
+import com.ss.android.ugc.aweme.feed.model.Aweme;
+import com.ss.android.ugc.aweme.search.pages.result.topsearch.core.model.SearchMixFeed;
+import kotlin.jvm.internal.AwS589S0100000_10;
+import kotlin.jvm.internal.Intrinsics;
+
+/* JADX INFO: renamed from: X.0Pii, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes11.dex */
+public final class C652580Pii implements InterfaceC652490PiZ {
+    public final SearchMixFeed LL;
+    public final Aweme LLILLJJLI;
+    public final C650430PfF LLILLL = new C650430PfF(new AwS589S0100000_10(this, 454));
+
+    @Override // X.InterfaceC645880PVa
+    public final boolean LLJJJIL() {
+        return false;
+    }
+
+    public final boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (!(obj instanceof C652580Pii)) {
+            return false;
+        }
+        C652580Pii c652580Pii = (C652580Pii) obj;
+        return Intrinsics.LJFF(this.LL, c652580Pii.LL) && Intrinsics.LJFF(this.LLILLJJLI, c652580Pii.LLILLJJLI);
+    }
+
+    @Override // X.InterfaceC1891350zJl
+    public final Object getChangePayload(InterfaceC1891350zJl interfaceC1891350zJl) {
+        return null;
+    }
+
+    public final int hashCode() {
+        return (this.LL.hashCode() * 31) + this.LLILLJJLI.hashCode();
+    }
+
+    public final String toString() {
+        StringBuilder sbLIZ = C2188811AlT.LIZ();
+        sbLIZ.append("MusicAggregatedSubCardRenderDataImpl(searchMixFeed=");
+        sbLIZ.append(this.LL);
+        sbLIZ.append(", aweme=");
+        sbLIZ.append(this.LLILLJJLI);
+        sbLIZ.append(')');
+        return C2188811AlT.LIZIZ(sbLIZ);
+    }
+
+    @Override // X.InterfaceC436740HAq
+    public final SearchMixFeed LIZ() {
+        return this.LL;
+    }
+
+    @Override // X.InterfaceC645880PVa
+    public final C650430PfF LLIZLLLIL() {
+        return this.LLILLL;
+    }
+
+    @Override // X.InterfaceC435460H5s
+    public final Aweme getAweme() {
+        return this.LLILLJJLI;
+    }
+
+    @Override // X.InterfaceC1891350zJl
+    public final boolean areContentsTheSame(InterfaceC1891350zJl interfaceC1891350zJl) {
+        return Intrinsics.LJFF(interfaceC1891350zJl, this);
+    }
+
+    @Override // X.InterfaceC1891350zJl
+    public final boolean areItemTheSame(InterfaceC1891350zJl interfaceC1891350zJl) {
+        return Intrinsics.LJFF(interfaceC1891350zJl, this);
+    }
+
+    public C652580Pii(Aweme aweme, SearchMixFeed searchMixFeed) {
+        this.LL = searchMixFeed;
+        this.LLILLJJLI = aweme;
+    }
+}

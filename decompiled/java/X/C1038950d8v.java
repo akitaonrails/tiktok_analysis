@@ -1,0 +1,19 @@
+package X;
+
+import com.ss.android.ugc.aweme.ad.subpage.ICommerceLandPageService;
+import com.ss.android.ugc.aweme.framework.services.ServiceManager;
+import com.ss.android.ugc.aweme.structure.api.ICommerceService;
+import kotlin.jvm.functions.Function0;
+
+/* JADX INFO: renamed from: X.0d8v, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes17.dex */
+public final class C1038950d8v extends C09AY implements Function0<ICommerceLandPageService> {
+    public C1038950d8v() {
+        super(0);
+    }
+
+    @Override // kotlin.jvm.functions.Function0
+    public final ICommerceLandPageService invoke() {
+        return ((ICommerceService) ServiceManager.get().getService(ICommerceService.class)).LIZ();
+    }
+}

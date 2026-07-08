@@ -1,0 +1,19 @@
+package com.bytedance.android.live.liveinteract.multilive.social.model;
+
+import X.C09CT;
+
+/* JADX INFO: loaded from: classes.dex */
+public final class GetRecommendRoomTriggerTimeResp {
+
+    @C09CT("data")
+    public ResponseData data;
+
+    public static final class ResponseData {
+
+        @C09CT("auto_time")
+        public long autoTime;
+
+        @C09CT("wait_time")
+        public long waitTime;
+    }
+}

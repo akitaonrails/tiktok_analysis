@@ -1,0 +1,66 @@
+package X;
+
+/* JADX INFO: renamed from: X.0kHL, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes21.dex */
+public final class C1313250kHL {
+    public C1312880kGk LIZ;
+    public int LIZIZ;
+    public C1312880kGk LIZJ;
+    public C1312880kGk LIZLLL;
+    public C1312880kGk LJ;
+    public C1312880kGk LJFF;
+    public C1312880kGk LJI;
+    public C1312880kGk LJII;
+    public C1312880kGk LJIIIIZZ;
+    public C1312880kGk LJIIIZ;
+    public C1312880kGk LJIIJ;
+    public C1312880kGk LJIIJJI;
+    public C1312880kGk LJIIL;
+    public C1312880kGk LJIILIIL;
+    public C1312880kGk LJIILJJIL;
+    public C1312880kGk LJIILL;
+    public C1312880kGk LJIILLIIL;
+    public C1312880kGk LJIIZILJ;
+    public int LJJ;
+    public int LJJI;
+    public int LJJIFFI;
+    public int LJJII;
+    public int LJJIII;
+    public Integer LJJIIJ;
+    public Integer LJJIIJZLJL;
+    public Integer LJJIIZ;
+    public Integer LJJIIZI;
+    public Integer LJJIJ;
+    public Integer LJJIJIIJI;
+    public Integer LJJIJIIJIL;
+    public float LJJIJL;
+    public int LJJIJLIJ;
+    public float LJJIL;
+    public C1312880kGk LJJJ;
+    public C1312880kGk LJJJI;
+    public C1312880kGk LJJJIL;
+    public C1312880kGk LJJJJ;
+    public int LJJJJI;
+    public C1312880kGk LJJJJIZL;
+    public C1312880kGk LJJJJJ;
+    public double LJJJJJL;
+    public double LJJJJL;
+    public int LJJJJLI;
+    public C1312880kGk LJJJJLL;
+    public double LJJJJZ;
+    public double LJJJJZI;
+    public int LJJJLIIL;
+    public C1312880kGk LJJJLL;
+    public double LJJJLZIJ;
+    public double LJJJZ;
+    public C1312880kGk LJJL;
+    public float LJJLI;
+    public int LJJLIIIIJ;
+    public int LJIJ = -1;
+    public int LJIJI = -1;
+    public int LJIJJ = -1;
+    public int LJIJJLI = -1;
+    public int LJIL = -1;
+    public int LJJIJIL = -16777216;
+    public int LJJIZ = 3;
+}

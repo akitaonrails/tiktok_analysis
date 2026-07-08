@@ -1,0 +1,23 @@
+package X;
+
+import com.bytedance.sdk.xbridge.registry.core.model.idl.XBaseResultModel;
+import com.ss.android.ugc.aweme.search.lynx.core.communicate.jsbridge.FollowStatusChangeMethod;
+
+/* JADX INFO: renamed from: X.0XRH, reason: invalid class name */
+/* JADX INFO: loaded from: classes14.dex */
+@C040E
+public interface C0XRH extends XBaseResultModel {
+    @InterfaceC1549470qQL(isGetter = true, keyPath = "audioUrl", required = true)
+    String getAudioUrl();
+
+    @InterfaceC1909207dq(option = {-11, -12, -21, -22, 1})
+    @InterfaceC1549470qQL(isEnum = true, isGetter = true, keyPath = FollowStatusChangeMethod.PARAM_FOLLOW_STATUS, required = true)
+    Number getStatus();
+
+    @InterfaceC1549470qQL(isGetter = false, keyPath = "audioUrl", required = true)
+    void setAudioUrl(String str);
+
+    @InterfaceC1909207dq(option = {-11, -12, -21, -22, 1})
+    @InterfaceC1549470qQL(isEnum = true, isGetter = false, keyPath = FollowStatusChangeMethod.PARAM_FOLLOW_STATUS, required = true)
+    void setStatus(Number number);
+}

@@ -1,0 +1,17 @@
+package X;
+
+import kotlin.jvm.functions.Function0;
+
+/* JADX INFO: renamed from: X.0CMh, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes5.dex */
+public final class C312370CMh extends C09AY implements Function0<Boolean> {
+    public C312370CMh() {
+        super(0);
+    }
+
+    @Override // kotlin.jvm.functions.Function0
+    public final Boolean invoke() {
+        C844470XAv.LIZ.getClass();
+        return Boolean.valueOf(C0BEC.LIZIZ(C844470XAv.LIZ()) ? ((Boolean) C312410CMl.LJIIJJI.getValue()).booleanValue() : ((Boolean) C0CN0.LJIIJJI.getValue()).booleanValue());
+    }
+}

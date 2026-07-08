@@ -1,0 +1,24 @@
+package com.bytedance.android.livesdk.comp.api.linkcore.model;
+
+import X.C2188811AlT;
+
+/* JADX INFO: loaded from: classes16.dex */
+public final class DestroyChannelMessage {
+    public final CustomLinkMessage customMessage;
+    public final LinkUser owner;
+
+    public String toString() {
+        StringBuilder sbLIZ = C2188811AlT.LIZ();
+        sbLIZ.append("DestroyChannelMessage(owner=");
+        sbLIZ.append(this.owner);
+        sbLIZ.append(", customMessage=");
+        sbLIZ.append(this.customMessage);
+        sbLIZ.append(')');
+        return C2188811AlT.LIZIZ(sbLIZ);
+    }
+
+    public DestroyChannelMessage(LinkUser linkUser, CustomLinkMessage customLinkMessage) {
+        this.owner = linkUser;
+        this.customMessage = customLinkMessage;
+    }
+}

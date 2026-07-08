@@ -1,0 +1,11 @@
+package X;
+
+import com.bytedance.mt.protector.impl.PatternProtector;
+
+/* JADX INFO: renamed from: X.1DcH, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes36.dex */
+public final class C2259551DcH {
+    public static C2259371Dbz LIZ() {
+        return C2259441Dc6.LIZ("yaml", C2259441Dc6.LJIIIIZZ("scalar", C2259441Dc6.LJFF(PatternProtector.compile("([\\-:]\\s*(?:![^\\s]+)?[ \\t]*[|>])[ \\t]*(?:((?:\\r?\\n|\\r)[ \\t]+)[^\\r\\n]+(?:\\2[^\\r\\n]+)*)"), true, false, "string")), C2259441Dc6.LJIIIIZZ("comment", C2259441Dc6.LIZLLL(PatternProtector.compile("#.*"))), C2259441Dc6.LJIIIIZZ("key", C2259441Dc6.LJFF(PatternProtector.compile("(\\s*(?:^|[:\\-,\\[{\\r\\n?])[ \\t]*(?:![^\\s]+)?[ \\t]*)[^\\r\\n{\\[\\]},#\\s]+?(?=\\s*:\\s)"), true, false, "atrule")), C2259441Dc6.LJIIIIZZ("directive", C2259441Dc6.LJFF(PatternProtector.compile("(^[ \\t]*)%.+", 8), true, false, "important")), C2259441Dc6.LJIIIIZZ("datetime", C2259441Dc6.LJFF(PatternProtector.compile("([:\\-,\\[{]\\s*(?:![^\\s]+)?[ \\t]*)(?:\\d{4}-\\d\\d?-\\d\\d?(?:[tT]|[ \\t]+)\\d\\d?:\\d{2}:\\d{2}(?:\\.\\d*)?[ \\t]*(?:Z|[-+]\\d\\d?(?::\\d{2})?)?|\\d{4}-\\d{2}-\\d{2}|\\d\\d?:\\d{2}(?::\\d{2}(?:\\.\\d*)?)?)(?=[ \\t]*(?:$|,|]|\\}))", 8), true, false, "number")), C2259441Dc6.LJIIIIZZ("boolean", C2259441Dc6.LJFF(PatternProtector.compile("([:\\-,\\[{]\\s*(?:![^\\s]+)?[ \\t]*)(?:true|false)[ \\t]*(?=$|,|]|\\})", 10), true, false, "important")), C2259441Dc6.LJIIIIZZ("null", C2259441Dc6.LJFF(PatternProtector.compile("([:\\-,\\[{]\\s*(?:![^\\s]+)?[ \\t]*)(?:null|~)[ \\t]*(?=$|,|]|\\})", 10), true, false, "important")), C2259441Dc6.LJIIIIZZ("string", C2259441Dc6.LJ(PatternProtector.compile("([:\\-,\\[{]\\s*(?:![^\\s]+)?[ \\t]*)(\"|')(?:(?!\\2)[^\\\\\\r\\n]|\\\\.)*\\2(?=[ \\t]*(?:$|,|]|\\}))", 8), true)), C2259441Dc6.LJIIIIZZ("number", C2259441Dc6.LJII(PatternProtector.compile("([:\\-,\\[{]\\s*(?:![^\\s]+)?[ \\t]*)[+-]?(?:0x[\\da-f]+|0o[0-7]+|(?:\\d+\\.?\\d*|\\.?\\d+)(?:e[+-]?\\d+)?|\\.inf|\\.nan)[ \\t]*(?=$|,|]|\\})", 10))), C2259441Dc6.LJIIIIZZ("tag", C2259441Dc6.LIZLLL(PatternProtector.compile("![^\\s]+"))), C2259441Dc6.LJIIIIZZ("important", C2259441Dc6.LIZLLL(PatternProtector.compile("[&*][\\w]+"))), C2259441Dc6.LJIIIIZZ("punctuation", C2259441Dc6.LIZLLL(PatternProtector.compile("---|[:\\[\\]{}\\-,|>?]|\\.\\.\\."))));
+    }
+}

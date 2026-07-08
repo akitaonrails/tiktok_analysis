@@ -1,0 +1,98 @@
+package X;
+
+/* JADX INFO: renamed from: X.1DnU, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes36.dex */
+public final class C2266501DnU extends C1007790cKf {
+    public static final C2266501DnU LIZ;
+    public static final C1002190cBd LIZIZ;
+    public static final C1002190cBd LIZJ;
+    public static final C1002190cBd LIZLLL;
+    public static final C1002190cBd LJ;
+    public static final C1002190cBd LJFF;
+    public static final C1002190cBd LJI;
+    public static final C1002190cBd LJII;
+    public static final C1002190cBd LJIIIIZZ;
+    public static final C1002190cBd LJIIIZ;
+    public static final C1002190cBd LJIIJ;
+    public static final C1002190cBd LJIIJJI;
+    public static final C1002190cBd LJIIL;
+    public static final C1002190cBd LJIILIIL;
+    public static final C1002190cBd LJIILJJIL;
+    public static final C1002190cBd LJIILL;
+    public static final C1002190cBd LJIILLIIL;
+    public static final C1002190cBd LJIIZILJ;
+    public static final C1002190cBd LJIJ;
+    public static final C1002190cBd LJIJI;
+    public static final C1002190cBd LJIJJ;
+    public static final C1002190cBd LJIJJLI;
+    public static final C1002190cBd LJIL;
+    public static final C1002190cBd LJJ;
+    public static final C1002190cBd LJJI;
+    public static final C1002190cBd LJJIFFI;
+    public static final C1002190cBd LJJII;
+    public static final C1002190cBd LJJIII;
+    public static final C1002190cBd LJJIIJ;
+    public static final C1002190cBd LJJIIJZLJL;
+    public static final C1002190cBd LJJIIZ;
+    public static final C1002190cBd LJJIIZI;
+    public static final C1002190cBd LJJIJ;
+    public static final C1002190cBd LJJIJIIJI;
+    public static final C1002190cBd LJJIJIIJIL;
+    public static final C1002190cBd LJJIJIL;
+    public static final C1002190cBd LJJIJL;
+    public static final C1002190cBd LJJIJLIJ;
+    public static final C1002190cBd LJJIL;
+    public static final C1002190cBd LJJIZ;
+    public static final C1002190cBd LJJJ;
+    public static final C1002190cBd LJJJI;
+    public static final C1002190cBd LJJJIL;
+    public static final C1002190cBd LJJJJ;
+
+    static {
+        C2266501DnU c2266501DnU = new C2266501DnU();
+        LIZ = c2266501DnU;
+        LIZIZ = C1001860cB6.LJII("ams_unique_id", null);
+        LIZJ = C1001860cB6.LJFF("app_state", null);
+        LIZLLL = C1001860cB6.LJII("browser_type", null);
+        LJ = C1001860cB6.LJII("change_to_url", null);
+        LJFF = C1001860cB6.LJII("channel_name", null);
+        LJI = C1001860cB6.LJII("checkout_id", null);
+        LJII = C1001860cB6.LJFF("current_tab_index", null);
+        LJIIIIZZ = C1001860cB6.LJII("current_url", null);
+        LJIIIZ = C1001860cB6.LJFF("first_page", null);
+        LJIIJ = C1001860cB6.LJFF("iab_type", null);
+        LJIIJJI = C1001860cB6.LJII("idfa", null);
+        LJIIL = C1001860cB6.LJFF("is_background", null);
+        LJIILIIL = C1001860cB6.LJFF("is_web_url", null);
+        LJIILJJIL = C1001860cB6.LJFF("ix_to_externalurl", null);
+        LJIILL = C1001860cB6.LJFF("jump_times", null);
+        LJIILLIIL = C1001860cB6.LJFF("landing_page_style", null);
+        LJIIZILJ = C1001860cB6.LJFF("loading_status", null);
+        LJIJ = C1001860cB6.LJII("login_id", null);
+        LJIJI = C1001860cB6.LJII("login_method", null);
+        LJIJJ = C1001860cB6.LJII("login_type", null);
+        LJIJJLI = C1001860cB6.LJII("lp_refer", null);
+        LJIL = C1001860cB6.LJII("next_url", null);
+        LJJ = C1001860cB6.LJII("node_name", null);
+        LJJI = C1001860cB6.LJII("node_status", null);
+        LJJIFFI = C1001860cB6.LJFF("page_count", null);
+        LJJII = C1001860cB6.LJFF("page_source", null);
+        LJJIII = C1001860cB6.LJFF("page_visible_status", null);
+        LJJIIJ = C1001860cB6.LJII("payment_id", null);
+        LJJIIJZLJL = C1001860cB6.LJII("payment_method", null);
+        LJJIIZ = C1001860cB6.LJII("payment_type", null);
+        LJJIIZI = C1001860cB6.LJII("place_order_session_id", null);
+        LJJIJ = C1001860cB6.LJFF("preload_status", null);
+        LJJIJIIJI = C1001860cB6.LJII("render_type", null);
+        LJJIJIIJIL = C1001860cB6.LJII("req_id", null);
+        LJJIJIL = C1001860cB6.LJFF("rit", null);
+        LJJIJL = C1001860cB6.LJII("session_id", null);
+        LJJIJLIJ = C1001860cB6.LIZIZ(c2266501DnU, "sheet_ratio");
+        LJJIL = C1001860cB6.LJII("system_start_timestamp", null);
+        LJJIZ = C1001860cB6.LJII("tag", null);
+        LJJJ = C1001860cB6.LJFF("total_tab_count", null);
+        LJJJI = C1001860cB6.LJII("value", null);
+        LJJJIL = C1001860cB6.LJII("vendor_id", null);
+        LJJJJ = C1001860cB6.LJII("web_url", null);
+    }
+}

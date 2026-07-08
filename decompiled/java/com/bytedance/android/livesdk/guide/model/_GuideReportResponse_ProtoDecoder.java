@@ -1,0 +1,44 @@
+package com.bytedance.android.livesdk.guide.model;
+
+import X.C0IMD;
+import X.C1516680pZS;
+import X.C1516700pZU;
+import com.bytedance.android.livesdk.guide.model.GuideReportResponse;
+import java.io.IOException;
+import java.util.List;
+
+/* JADX INFO: loaded from: classes.dex */
+public final class _GuideReportResponse_ProtoDecoder implements C0IMD<GuideReportResponse> {
+    @Override // X.C0IMD
+    public final void LIZ(GuideReportResponse guideReportResponse) {
+    }
+
+    @Override // X.C0IMD
+    public final GuideReportResponse LIZJ(C1516680pZS c1516680pZS) throws IOException {
+        GuideReportResponse guideReportResponse = new GuideReportResponse();
+        long jLIZJ = c1516680pZS.LIZJ();
+        while (true) {
+            int iLJI = c1516680pZS.LJI();
+            if (iLJI != -1) {
+                if (iLJI != 1) {
+                    C1516700pZU.LJ(c1516680pZS);
+                } else {
+                    GuideReportResponse.Data data = new GuideReportResponse.Data();
+                    long jLIZJ2 = c1516680pZS.LIZJ();
+                    while (c1516680pZS.LJI() != -1) {
+                        C1516700pZU.LJ(c1516680pZS);
+                    }
+                    c1516680pZS.LJ(jLIZJ2);
+                    guideReportResponse.data = data;
+                }
+            } else {
+                c1516680pZS.LJ(jLIZJ);
+                return guideReportResponse;
+            }
+        }
+    }
+
+    @Override // X.C0IMD
+    public final /* bridge */ /* synthetic */ void LIZIZ(C1516680pZS c1516680pZS, GuideReportResponse guideReportResponse, List list) {
+    }
+}

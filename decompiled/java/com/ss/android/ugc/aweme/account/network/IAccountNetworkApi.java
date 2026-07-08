@@ -1,0 +1,28 @@
+package com.ss.android.ugc.aweme.account.network;
+
+import X.C080U;
+import X.C0X9S;
+import X.InterfaceC1485405rg;
+import X.InterfaceC1501150pAP;
+import X.InterfaceC1501160pAQ;
+import X.InterfaceC1501170pAR;
+import X.InterfaceC1501300pAe;
+import X.InterfaceC2174708fZ;
+import X.InterfaceC2174808fa;
+import X.InterfaceC2174908fb;
+import com.bytedance.retrofit2.mime.TypedOutput;
+import java.util.List;
+import java.util.Map;
+
+/* JADX INFO: loaded from: classes4.dex */
+public interface IAccountNetworkApi {
+    @InterfaceC1501160pAQ
+    C0X9S<String> getResponse(@InterfaceC2174708fZ String str, @InterfaceC2174908fb int i, @InterfaceC2174808fa List<C080U> list);
+
+    @InterfaceC1501170pAR
+    C0X9S<String> getResponse(@InterfaceC2174708fZ String str, @InterfaceC1485405rg TypedOutput typedOutput, @InterfaceC2174908fb int i, @InterfaceC2174808fa List<C080U> list);
+
+    @InterfaceC1501300pAe
+    @InterfaceC1501170pAR
+    C0X9S<String> getResponse(@InterfaceC2174708fZ String str, @InterfaceC1501150pAP Map<String, String> map, @InterfaceC2174908fb int i, @InterfaceC2174808fa List<C080U> list);
+}

@@ -1,0 +1,22 @@
+package com.ss.android.ugc.aweme.tako.aivideo.detail.repo;
+
+import X.C2097608Jq;
+import X.InterfaceC1186204kW;
+import com.ss.android.ugc.aweme.IDetailPageShareVMService;
+import com.ss.android.ugc.aweme.detail.vm.BaseDetailShareVM;
+import com.ss.android.ugc.aweme.tako.aivideo.detail.repo.TakoAIVideoFeedViewModel;
+import java.util.HashMap;
+import kotlin.Pair;
+
+/* JADX INFO: loaded from: classes3.dex */
+public final class TakoAIVideoDetailSharedVMServiceImpl implements IDetailPageShareVMService {
+    @Override // com.ss.android.ugc.aweme.IDetailPageShareVMService
+    public final HashMap<String, InterfaceC1186204kW> LIZ() {
+        return C2097608Jq.LJI(new Pair("tako_ai_video_feed_video_from", new InterfaceC1186204kW() { // from class: X.04kR
+            @Override // X.InterfaceC1186204kW
+            public final Pair<String, Class<? extends BaseDetailShareVM<?, ?, ?>>> LIZ(C2189821An6 c2189821An6) {
+                return new Pair<>("tako_ai_video_feed_vm_key", TakoAIVideoFeedViewModel.class);
+            }
+        }));
+    }
+}

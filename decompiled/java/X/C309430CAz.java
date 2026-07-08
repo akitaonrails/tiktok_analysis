@@ -1,0 +1,7 @@
+package X;
+
+/* JADX INFO: renamed from: X.0CAz, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes5.dex */
+public final class C309430CAz {
+    public static int LIZ = 16;
+}

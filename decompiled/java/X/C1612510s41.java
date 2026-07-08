@@ -1,0 +1,108 @@
+package X;
+
+import com.bytedance.speech.speechengine.SpeechEngineDefines;
+import com.ss.android.ugc.aweme.model.DramaExtraTrackingParams;
+import java.util.Map;
+
+/* JADX INFO: renamed from: X.0s41, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes25.dex */
+public final class C1612510s41 {
+    public final boolean LIZ;
+    public final boolean LIZIZ;
+    public final boolean LIZJ;
+    public final EnumC1612540s44 LIZLLL;
+    public final String LJ;
+    public final boolean LJFF;
+    public final boolean LJI;
+    public final boolean LJII;
+    public final C1612600s4A LJIIIIZZ;
+    public final Boolean LJIIIZ;
+    public final String LJIIJ;
+    public final String LJIIJJI;
+    public final C1612570s47 LJIIL;
+    public final DramaExtraTrackingParams LJIILIIL;
+    public final String LJIILJJIL;
+    public final String LJIILL;
+    public final String LJIILLIIL;
+    public final String LJIIZILJ;
+    public final String LJIJ;
+    public final boolean LJIJI;
+    public final Map<String, String> LJIJJ;
+    public final String LJIJJLI;
+    public final String LJIL;
+    public final String LJJ;
+
+    public C1612510s41(boolean z, boolean z2, boolean z3, EnumC1612540s44 enumC1612540s44, String str, boolean z4, boolean z5, boolean z6, C1612600s4A c1612600s4A, Boolean bool, String str2, String str3, C1612570s47 c1612570s47, DramaExtraTrackingParams dramaExtraTrackingParams, String str4, String str5, String str6, String str7, String str8, boolean z7, Map map, String str9, String str10, String str11, int i) {
+        boolean z8 = z3;
+        boolean z9 = z2;
+        DramaExtraTrackingParams dramaExtraTrackingParams2 = dramaExtraTrackingParams;
+        C1612570s47 c1612570s472 = c1612570s47;
+        String str12 = str3;
+        String str13 = str2;
+        Boolean bool2 = bool;
+        C1612600s4A c1612600s4A2 = c1612600s4A;
+        boolean z10 = z6;
+        boolean z11 = z5;
+        boolean z12 = z4;
+        String str14 = str;
+        EnumC1612540s44 enumC1612540s442 = enumC1612540s44;
+        String str15 = str11;
+        String str16 = str10;
+        String str17 = str9;
+        Map map2 = map;
+        boolean z13 = z7;
+        String str18 = str8;
+        String str19 = str7;
+        String str20 = str6;
+        String str21 = str5;
+        String str22 = str4;
+        boolean z14 = (i & 1) != 0 ? false : z;
+        z9 = (i & 2) != 0 ? false : z9;
+        z8 = (i & 4) != 0 ? false : z8;
+        enumC1612540s442 = (i & 8) != 0 ? EnumC1612540s44.DEFAULT : enumC1612540s442;
+        str14 = (i & 16) != 0 ? "" : str14;
+        z12 = (i & 32) != 0 ? false : z12;
+        z11 = (i & 64) != 0 ? false : z11;
+        z10 = (i & 128) != 0 ? false : z10;
+        c1612600s4A2 = (i & 256) != 0 ? null : c1612600s4A2;
+        bool2 = (i & 1024) != 0 ? null : bool2;
+        str13 = (i & SpeechEngineDefines.ASR_WORK_MODE_OFFLINE) != 0 ? null : str13;
+        str12 = (i & SpeechEngineDefines.TTS_WORK_MODE_BOTH) != 0 ? null : str12;
+        c1612570s472 = (i & 8192) != 0 ? null : c1612570s472;
+        dramaExtraTrackingParams2 = (i & 16384) != 0 ? null : dramaExtraTrackingParams2;
+        str22 = (32768 & i) != 0 ? null : str22;
+        str21 = (65536 & i) != 0 ? null : str21;
+        str20 = (131072 & i) != 0 ? null : str20;
+        str19 = (262144 & i) != 0 ? null : str19;
+        str18 = (524288 & i) != 0 ? null : str18;
+        z13 = (8388608 & i) != 0 ? false : z13;
+        map2 = (16777216 & i) != 0 ? null : map2;
+        str17 = (134217728 & i) != 0 ? null : str17;
+        str16 = (268435456 & i) != 0 ? null : str16;
+        str15 = (i & 536870912) != 0 ? null : str15;
+        this.LIZ = z14;
+        this.LIZIZ = z9;
+        this.LIZJ = z8;
+        this.LIZLLL = enumC1612540s442;
+        this.LJ = str14;
+        this.LJFF = z12;
+        this.LJI = z11;
+        this.LJII = z10;
+        this.LJIIIIZZ = c1612600s4A2;
+        this.LJIIIZ = bool2;
+        this.LJIIJ = str13;
+        this.LJIIJJI = str12;
+        this.LJIIL = c1612570s472;
+        this.LJIILIIL = dramaExtraTrackingParams2;
+        this.LJIILJJIL = str22;
+        this.LJIILL = str21;
+        this.LJIILLIIL = str20;
+        this.LJIIZILJ = str19;
+        this.LJIJ = str18;
+        this.LJIJI = z13;
+        this.LJIJJ = map2;
+        this.LJIJJLI = str17;
+        this.LJIL = str16;
+        this.LJJ = str15;
+    }
+}

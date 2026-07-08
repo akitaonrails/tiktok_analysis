@@ -1,0 +1,19 @@
+package X;
+
+import java.util.Map;
+
+/* JADX INFO: renamed from: X.07lM, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes4.dex */
+public final class C1955807lM {
+    public final String LIZ;
+    public final String LIZIZ;
+    public final String LIZJ;
+    public final Map<String, Object> LIZLLL;
+
+    public C1955807lM(String str, String str2, String str3, Map<String, ? extends Object> map) {
+        this.LIZ = str;
+        this.LIZIZ = str2;
+        this.LIZJ = str3;
+        this.LIZLLL = map;
+    }
+}

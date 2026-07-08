@@ -1,0 +1,11 @@
+package X;
+
+/* JADX INFO: renamed from: X.0R5J, reason: invalid class name */
+/* JADX INFO: loaded from: classes12.dex */
+public final class C0R5J implements InterfaceC1021920chS {
+    public static final /* synthetic */ int LIZ = 0;
+
+    @Override // X.InterfaceC1021920chS
+    public final void LIZ() {
+    }
+}

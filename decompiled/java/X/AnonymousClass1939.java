@@ -1,0 +1,28 @@
+package X;
+
+import kotlin.Unit;
+import kotlin.jvm.functions.Function1;
+
+/* JADX INFO: renamed from: X.1939, reason: invalid class name */
+/* JADX INFO: loaded from: classes33.dex */
+public final class AnonymousClass1939 extends C09AY implements Function1<C905240ZfG, Unit> {
+    public final /* synthetic */ AnonymousClass1932 LL;
+    public final /* synthetic */ boolean LLILLJJLI;
+    public final /* synthetic */ boolean LLILLL;
+    public final /* synthetic */ int LLILZ;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public AnonymousClass1939(AnonymousClass1932 anonymousClass1932, boolean z, boolean z2, int i) {
+        super(1);
+        this.LL = anonymousClass1932;
+        this.LLILLJJLI = z;
+        this.LLILLL = z2;
+        this.LLILZ = i;
+    }
+
+    @Override // kotlin.jvm.functions.Function1
+    public /* bridge */ /* synthetic */ Unit invoke(C905240ZfG c905240ZfG) {
+        AnonymousClass1933.LIZ(this.LL, this.LLILLJJLI, this.LLILLL, this.LLILZ);
+        return Unit.LIZ;
+    }
+}

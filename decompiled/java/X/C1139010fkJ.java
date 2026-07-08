@@ -1,0 +1,24 @@
+package X;
+
+import com.bytedance.tt.reliability.monitor.catchchecker.TryCatchGuardChecker;
+
+/* JADX INFO: renamed from: X.0fkJ, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes18.dex */
+public /* synthetic */ class C1139010fkJ {
+    public static final /* synthetic */ int[] LIZ;
+
+    static {
+        int[] iArr = new int[EnumC1138990fkH.values().length];
+        try {
+            iArr[EnumC1138990fkH.LYNX.ordinal()] = 1;
+        } catch (NoSuchFieldError e) {
+            TryCatchGuardChecker.doCheck(e);
+        }
+        try {
+            iArr[EnumC1138990fkH.ALPHA_PLAYER.ordinal()] = 2;
+        } catch (NoSuchFieldError e2) {
+            TryCatchGuardChecker.doCheck(e2);
+        }
+        LIZ = iArr;
+    }
+}

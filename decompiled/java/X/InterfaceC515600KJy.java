@@ -1,0 +1,9 @@
+package X;
+
+/* JADX INFO: renamed from: X.0KJy, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes8.dex */
+public interface InterfaceC515600KJy {
+    boolean LIZ(InterfaceC515600KJy interfaceC515600KJy);
+
+    String LJJJ();
+}

@@ -1,0 +1,73 @@
+package X;
+
+import com.ss.android.ugc.aweme.comment.model.FypExposedCommentMobParams;
+import com.ss.android.ugc.aweme.feed.model.Aweme;
+import com.ss.android.ugc.aweme.profile.model.User;
+import java.util.List;
+import java.util.Map;
+
+/* JADX INFO: renamed from: X.0Syw, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes13.dex */
+public final class C739080Syw {
+    public Aweme LIZ;
+    public boolean LIZLLL;
+    public boolean LJ;
+    public boolean LJFF;
+    public boolean LJI;
+    public boolean LJII;
+    public boolean LJIIIIZZ;
+    public InterfaceC679410Qkt LJIIJJI;
+    public InterfaceC1350210lEx LJIIL;
+    public List<User> LJIILIIL;
+    public Map<String, String> LJIILL;
+    public boolean LJIIZILJ;
+    public String LJIJ;
+    public int LJIJI;
+    public String LJIJJ;
+    public String LJIJJLI;
+    public String LJIL;
+    public boolean LJJ;
+    public boolean LJJI;
+    public String LJJIFFI;
+    public int LJJIII;
+    public String LJJIIJ;
+    public long LJJIIJZLJL;
+    public int LJJIIZ;
+    public long LJJIIZI;
+    public String LJJIJ;
+    public boolean LJJIJIIJI;
+    public InterfaceC1350190lEv LJJIJIIJIL;
+    public boolean LJJIJIL;
+    public boolean LJJIJL;
+    public String LJJIL;
+    public boolean LJJIZ;
+    public String LJJJ;
+    public String LJJJJJ;
+    public String LJJJJJL;
+    public String LJJJJL;
+    public String LJJJJLL;
+    public long LJJJJZ;
+    public String LJJJJZI;
+    public String LJJJLIIL;
+    public String LJJJLL;
+    public FypExposedCommentMobParams LJJJLZIJ;
+    public int LJJJZ;
+    public boolean LJJL;
+    public String LJJLI;
+    public boolean LJJLIIIIJ;
+    public String LJJLIIIJ;
+    public String LIZIZ = "";
+    public String LIZJ = "";
+    public String LJIIIZ = "";
+    public String LJIIJ = "";
+    public String LJIILJJIL = "";
+    public int LJIILLIIL = -1;
+    public String LJJII = "";
+    public String LJJIJLIJ = "";
+    public int LJJJI = -1;
+    public int LJJJIL = -1;
+    public int LJJJJ = -1;
+    public String LJJJJI = "";
+    public String LJJJJIZL = "";
+    public boolean LJJJJLI = true;
+}

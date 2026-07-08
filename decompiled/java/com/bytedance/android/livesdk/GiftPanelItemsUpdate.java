@@ -1,0 +1,9 @@
+package com.bytedance.android.livesdk;
+
+import com.bytedance.ies.sdk.datachannel.Event;
+import java.util.List;
+
+/* JADX INFO: loaded from: classes13.dex */
+public final class GiftPanelItemsUpdate extends Event<List<? extends Long>> {
+    public static final int $stable = 8;
+}

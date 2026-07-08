@@ -1,0 +1,35 @@
+package X;
+
+import com.bytedance.android.livesdk.model.message.DispersionInfo;
+import kotlin.jvm.functions.Function1;
+import kotlin.jvm.functions.Function2;
+
+/* JADX INFO: renamed from: X.0NdU, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes10.dex */
+@C09DV(c = "com.ss.android.ugc.aweme.ecommercelive.common.infra.framework.network.NetworkHelper", f = "NetworkHelper.kt", l = {52, 80}, m = "requestBR")
+public final class C598380NdU<T> extends AbstractC23140094w {
+    public InterfaceC497601wk LL;
+    public Object LLILLJJLI;
+    public DispersionInfo LLILLL;
+    public Function1 LLILZ;
+    public Function2 LLILZIL;
+    public /* synthetic */ Object LLILZLL;
+    public final /* synthetic */ C598360NdS LLIZ;
+    public int LLIZLLLIL;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public C598380NdU(C598360NdS c598360NdS, InterfaceC1364105Vn<? super C598380NdU> interfaceC1364105Vn) {
+        super(interfaceC1364105Vn);
+        this.LLIZ = c598360NdS;
+    }
+
+    @Override // njp.a
+    public final Object invokeSuspend(Object obj) {
+        C1C7U.LIZ("NetworkHelper@106c.requestBR$1");
+        this.LLILZLL = obj;
+        this.LLIZLLLIL |= Integer.MIN_VALUE;
+        Object objLJI = this.LLIZ.LJI(null, null, null, null, null, this);
+        C1C7U.LIZIZ("NetworkHelper@106c.requestBR$1");
+        return objLJI;
+    }
+}

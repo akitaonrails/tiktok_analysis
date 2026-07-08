@@ -1,0 +1,103 @@
+package X;
+
+import android.net.Uri;
+import android.os.Bundle;
+import java.util.List;
+import java.util.Map;
+
+/* JADX INFO: renamed from: X.01jf, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes.dex */
+public final class C416501jf {
+    public static final C1053010dVb LIZ;
+    public static final C1053010dVb LIZIZ;
+    public static final C1053010dVb LIZJ;
+    public static final C1053010dVb LIZLLL;
+    public static final C1053010dVb LJ;
+    public static final C1053010dVb LJFF;
+
+    static {
+        C1053010dVb c1053010dVb = new C1053010dVb(Boolean.TYPE);
+        LIZ = c1053010dVb;
+        C1053010dVb c1053010dVb2 = new C1053010dVb(Integer.TYPE);
+        LIZIZ = c1053010dVb2;
+        C1053010dVb c1053010dVb3 = new C1053010dVb(Long.TYPE);
+        LIZJ = c1053010dVb3;
+        C1053010dVb c1053010dVb4 = new C1053010dVb(Float.TYPE);
+        LIZLLL = c1053010dVb4;
+        C1053010dVb c1053010dVb5 = new C1053010dVb(Double.TYPE);
+        C1053010dVb c1053010dVb6 = new C1053010dVb(String.class);
+        LJ = c1053010dVb6;
+        C1053010dVb c1053010dVb7 = new C1053010dVb(List.class);
+        LJFF = c1053010dVb7;
+        c1053010dVb.LIZLLL(Uri.class, new C020J(18));
+        c1053010dVb.LIZJ(Uri.Builder.class, new C020K(20));
+        c1053010dVb2.LIZLLL(Uri.class, new C020J(19));
+        c1053010dVb2.LIZJ(Uri.Builder.class, new C020K(21));
+        c1053010dVb3.LIZLLL(Uri.class, new C020J(21));
+        c1053010dVb3.LIZJ(Uri.Builder.class, new C020K(0));
+        c1053010dVb4.LIZLLL(Uri.class, new C020J(0));
+        c1053010dVb4.LIZJ(Uri.Builder.class, new C020K(3));
+        c1053010dVb5.LIZLLL(Uri.class, new C020J(3));
+        c1053010dVb5.LIZJ(Uri.Builder.class, new C020K(13));
+        c1053010dVb6.LIZLLL(Uri.class, new C020J(13));
+        c1053010dVb6.LIZJ(Uri.Builder.class, new C020K(15));
+        c1053010dVb7.LIZLLL(Uri.class, new C020J(15));
+        c1053010dVb7.LIZJ(Uri.Builder.class, new C020K(17));
+        C1053010dVb c1053010dVb8 = C416801ji.LIZ;
+        c1053010dVb8.LIZLLL(Uri.class, new C020J(17));
+        c1053010dVb8.LIZJ(Uri.Builder.class, new C020K(19));
+        C1053010dVb c1053010dVb9 = C416801ji.LIZIZ;
+        c1053010dVb9.LIZLLL(Uri.class, AnonymousClass0208.get$arr$(16));
+        c1053010dVb9.LIZJ(Uri.Builder.class, C020A.get$arr$(0));
+        C1053010dVb c1053010dVb10 = C416801ji.LIZJ;
+        c1053010dVb10.LIZLLL(Uri.class, AnonymousClass0208.get$arr$(17));
+        c1053010dVb10.LIZJ(Uri.Builder.class, C020A.get$arr$(1));
+        C1053010dVb c1053010dVb11 = C416801ji.LIZLLL;
+        c1053010dVb11.LIZLLL(Uri.class, AnonymousClass0208.get$arr$(18));
+        c1053010dVb11.LIZJ(Uri.Builder.class, C020A.get$arr$(2));
+        C1053010dVb c1053010dVb12 = C416801ji.LJ;
+        c1053010dVb12.LIZLLL(Uri.class, AnonymousClass0208.get$arr$(20));
+        c1053010dVb12.LIZJ(Uri.Builder.class, C020A.get$arr$(4));
+        C1053010dVb c1053010dVb13 = C416801ji.LJFF;
+        c1053010dVb13.LIZLLL(Uri.class, AnonymousClass0208.get$arr$(22));
+        c1053010dVb13.LIZJ(Uri.Builder.class, C020A.get$arr$(6));
+        c1053010dVb.LIZLLL(Map.class, new C020J(20));
+        c1053010dVb.LIZJ(Map.class, new C020K(1));
+        c1053010dVb2.LIZLLL(Map.class, new C020J(1));
+        c1053010dVb2.LIZJ(Map.class, new C020K(4));
+        c1053010dVb3.LIZLLL(Map.class, new C020J(4));
+        c1053010dVb3.LIZJ(Map.class, new C020K(6));
+        c1053010dVb4.LIZLLL(Map.class, new C020J(6));
+        c1053010dVb4.LIZJ(Map.class, new C020K(8));
+        c1053010dVb5.LIZLLL(Map.class, new C020J(8));
+        c1053010dVb5.LIZJ(Map.class, new C020K(12));
+        c1053010dVb6.LIZLLL(Map.class, new C020J(12));
+        c1053010dVb6.LIZJ(Map.class, new C020K(14));
+        c1053010dVb7.LIZLLL(Map.class, new C020J(14));
+        c1053010dVb7.LIZJ(Map.class, new C020K(16));
+        c1053010dVb8.LIZLLL(Map.class, new C020J(16));
+        c1053010dVb8.LIZJ(Map.class, new C020K(18));
+        c1053010dVb9.LIZLLL(Map.class, new C130700ef("__AUTHORITY__"));
+        c1053010dVb9.LIZJ(Map.class, new C416601jg("__AUTHORITY__"));
+        c1053010dVb10.LIZLLL(Map.class, new C130800eg("__PATH__"));
+        c1053010dVb10.LIZJ(Map.class, new C416701jh("__PATH__"));
+        c1053010dVb11.LIZLLL(Map.class, new C018O("__PATH__"));
+        c1053010dVb11.LIZJ(Map.class, new C01O0("__PATH__"));
+        c1053010dVb12.LIZLLL(Map.class, AnonymousClass0208.get$arr$(19));
+        c1053010dVb12.LIZJ(Map.class, C020A.get$arr$(3));
+        c1053010dVb13.LIZLLL(Map.class, AnonymousClass0208.get$arr$(21));
+        c1053010dVb13.LIZJ(Map.class, C020A.get$arr$(5));
+        c1053010dVb.LIZLLL(Bundle.class, new C020J(5));
+        c1053010dVb.LIZJ(Bundle.class, new C020K(7));
+        c1053010dVb2.LIZLLL(Bundle.class, new C020J(7));
+        c1053010dVb2.LIZJ(Bundle.class, new C020K(9));
+        c1053010dVb3.LIZLLL(Bundle.class, new C020J(9));
+        c1053010dVb3.LIZJ(Bundle.class, new C020K(10));
+        c1053010dVb4.LIZLLL(Bundle.class, new C020J(10));
+        c1053010dVb4.LIZJ(Bundle.class, new C020K(11));
+        c1053010dVb5.LIZLLL(Bundle.class, new C020J(11));
+        c1053010dVb5.LIZJ(Bundle.class, new C020K(2));
+        c1053010dVb6.LIZLLL(Bundle.class, new C020J(2));
+        c1053010dVb6.LIZJ(Bundle.class, new C020K(5));
+    }
+}

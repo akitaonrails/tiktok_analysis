@@ -1,0 +1,13 @@
+package X;
+
+/* JADX INFO: renamed from: X.0kv9, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes21.dex */
+public final class C1337930kv9 {
+    public final int LIZ;
+    public final int LIZIZ;
+
+    public C1337930kv9(int i, int i2) {
+        this.LIZ = i;
+        this.LIZIZ = i2;
+    }
+}

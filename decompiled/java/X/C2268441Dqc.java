@@ -1,0 +1,13 @@
+package X;
+
+/* JADX INFO: renamed from: X.1Dqc, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes36.dex */
+public final class C2268441Dqc extends C1023500ck0 {
+    public static final C1023960ckk LIZ;
+
+    static {
+        C2268441Dqc c2268441Dqc = new C2268441Dqc();
+        C2268431Dqb.LIZ.getClass();
+        LIZ = C1023500ck0.LIZJ("draw_ad", "close", "card", new InterfaceC1023650ckF[]{c2268441Dqc.LJI(C2268431Dqb.LIZIZ, C2268431Dqb.LIZJ, C2268431Dqb.LIZLLL, C2268431Dqb.LJ, C2268431Dqb.LJFF, C2268431Dqb.LJI, C2268431Dqb.LJII, C2268431Dqb.LJIIIIZZ, C2268431Dqb.LJIIIZ, C2268431Dqb.LJIIJ, C2268431Dqb.LJIIJJI, C2268431Dqb.LJIIL, C2268431Dqb.LJIILIIL, C2268431Dqb.LJIILJJIL, C2268431Dqb.LJIILL, C2268431Dqb.LJIILLIIL, C2268431Dqb.LJIIZILJ, C2268431Dqb.LJIJ, C2268431Dqb.LJIJI, C2268431Dqb.LJIJJ, C2268431Dqb.LJIJJLI, C2268431Dqb.LJIL, C2268431Dqb.LJJ, C2268431Dqb.LJJI)});
+    }
+}

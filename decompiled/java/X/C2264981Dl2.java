@@ -1,0 +1,13 @@
+package X;
+
+/* JADX INFO: renamed from: X.1Dl2, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes36.dex */
+public final class C2264981Dl2 extends C1023500ck0 {
+    public static final C1023960ckk LIZ;
+
+    static {
+        C2264981Dl2 c2264981Dl2 = new C2264981Dl2();
+        C2264971Dl1.LIZ.getClass();
+        LIZ = C1023500ck0.LIZJ("ad_ucp_shop", "pdp_ucp_other_product_click", "pdp", new InterfaceC1023650ckF[]{c2264981Dl2.LJI(C2264971Dl1.LIZIZ, C2264971Dl1.LIZJ, C2264971Dl1.LIZLLL, C2264971Dl1.LJ, C2264971Dl1.LJFF, C2264971Dl1.LJI, C2264971Dl1.LJII, C2264971Dl1.LJIIIIZZ, C2264971Dl1.LJIIIZ, C2264971Dl1.LJIIJ, C2264971Dl1.LJIIJJI, C2264971Dl1.LJIIL, C2264971Dl1.LJIILIIL, C2264971Dl1.LJIILJJIL, C2264971Dl1.LJIILL, C2264971Dl1.LJIILLIIL, C2264971Dl1.LJIIZILJ, C2264971Dl1.LJIJ, C2264971Dl1.LJIJI, C2264971Dl1.LJIJJ)});
+    }
+}

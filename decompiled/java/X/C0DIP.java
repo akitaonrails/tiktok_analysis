@@ -1,0 +1,28 @@
+package X;
+
+/* JADX INFO: renamed from: X.0DIP, reason: invalid class name */
+/* JADX INFO: loaded from: classes5.dex */
+public final class C0DIP extends C1007790cKf {
+    public static final C0DIP LIZ = new C0DIP();
+    public static final C1002190cBd LIZIZ = C1001860cB6.LJII("ams_unique_id", null);
+    public static final C1002190cBd LIZJ = C1001860cB6.LJII("button_name", null);
+    public static final C1002190cBd LIZLLL = C1001860cB6.LJII("content_type", null);
+    public static final C1002190cBd LJ = C1001860cB6.LJII("enter_from_info", null);
+    public static final C1002190cBd LJFF = C1001860cB6.LJII("enter_method", null);
+    public static final C1002190cBd LJI = C1001860cB6.LJII("idfa", null);
+    public static final C1002190cBd LJII = C1001860cB6.LJII("req_id", null);
+    public static final C1002190cBd LJIIIIZZ = C1001860cB6.LJFF("rit", null);
+    public static final C1002190cBd LJIIIZ = C1001860cB6.LJII("shop_id", null);
+    public static final C1002190cBd LJIIJ = C1001860cB6.LJII("source_content_id", null);
+    public static final C1002190cBd LJIIJJI = C1001860cB6.LJII("source_page_type", null);
+    public static final C1002190cBd LJIIL = C1001860cB6.LJII("spu_id", null);
+    public static final C1002190cBd LJIILIIL = C1001860cB6.LJII("system_start_timestamp", null);
+    public static final C1002190cBd LJIILJJIL = C1001860cB6.LJII("tag", null);
+    public static final C1002190cBd LJIILL = C1001860cB6.LJII("value", null);
+    public static final C1002190cBd LJIILLIIL = C1001860cB6.LJII("vendor_id", null);
+    public static final C1002190cBd LJIIZILJ = C1001860cB6.LJII("variant_id", null);
+    public static final C1002190cBd LJIJ = C1001860cB6.LJII("product_price", null);
+    public static final C1002190cBd LJIJI = C1001860cB6.LJFF("quantity", null);
+    public static final C1002190cBd LJIJJ = C1001860cB6.LJFF("has_promotion", null);
+    public static final C1002190cBd LJIJJLI = C1001860cB6.LJFF("ac_shop_sku_confirm", null);
+}

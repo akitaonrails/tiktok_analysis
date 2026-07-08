@@ -1,0 +1,42 @@
+package X;
+
+/* JADX INFO: renamed from: X.1DdM, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes36.dex */
+public enum EnumC2260221DdM {
+    NUMERIC,
+    DIGIT2,
+    UNDEFINED;
+
+    public String getSkeleonSymbol() {
+        int i = C2260131DdD.LJ[ordinal()];
+        if (i == 1) {
+            return "yyyy";
+        }
+        if (i == 2) {
+            return "yy";
+        }
+        if (i == 3) {
+            return "";
+        }
+        throw new IllegalArgumentException();
+    }
+
+    @Override // java.lang.Enum
+    public String toString() {
+        int i = C2260131DdD.LJ[ordinal()];
+        if (i == 1) {
+            return "numeric";
+        }
+        if (i == 2) {
+            return "2-digit";
+        }
+        if (i == 3) {
+            return "";
+        }
+        throw new IllegalArgumentException();
+    }
+
+    public static EnumC2260221DdM valueOf(String str) {
+        return (EnumC2260221DdM) C08FF.LIZ(EnumC2260221DdM.class, str);
+    }
+}

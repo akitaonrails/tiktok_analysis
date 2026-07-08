@@ -1,0 +1,5 @@
+package com.bytedance.ies.sdk.widgets;
+
+/* JADX INFO: loaded from: classes36.dex */
+public final class BuildConfig {
+}

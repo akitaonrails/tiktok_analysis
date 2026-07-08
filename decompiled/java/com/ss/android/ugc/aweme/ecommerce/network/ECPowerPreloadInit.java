@@ -1,0 +1,10 @@
+package com.ss.android.ugc.aweme.ecommerce.network;
+
+import com.ss.android.ugc.aweme.ecommerce.saas.core.init.IECBusinessInitService;
+
+/* JADX INFO: loaded from: classes3.dex */
+public final class ECPowerPreloadInit implements IECBusinessInitService {
+    @Override // com.ss.android.ugc.aweme.ecommerce.saas.core.init.IECBusinessInitService
+    public final void init() {
+    }
+}

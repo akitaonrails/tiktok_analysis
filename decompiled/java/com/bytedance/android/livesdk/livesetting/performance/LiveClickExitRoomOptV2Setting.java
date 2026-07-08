@@ -1,0 +1,28 @@
+package com.bytedance.android.livesdk.livesetting.performance;
+
+import com.bytedance.android.live.annotation.SettingsKey;
+import com.bytedance.android.live_settings.SettingsManager;
+
+/* JADX INFO: loaded from: classes8.dex */
+@SettingsKey("live_click_exit_room_opt_v2")
+public final class LiveClickExitRoomOptV2Setting {
+    public static final LiveClickExitRoomOptV2Setting INSTANCE = new LiveClickExitRoomOptV2Setting();
+    public static final int DEFAULT = 0;
+    public static final int value = SettingsManager.INSTANCE.getIntValue("live_click_exit_room_opt_v2", DEFAULT);
+
+    public final boolean enable() {
+        return value != 0;
+    }
+
+    public final boolean enableHideInteractLayer() {
+        return (value & 2) == 2 || enableReleaseAll();
+    }
+
+    public final boolean enableReleaseAll() {
+        return (value & 4) == 4;
+    }
+
+    public final boolean enableReleasePlayer() {
+        return (value & 1) == 1 || enableReleaseAll();
+    }
+}

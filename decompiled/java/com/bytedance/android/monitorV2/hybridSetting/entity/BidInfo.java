@@ -1,0 +1,308 @@
+package com.bytedance.android.monitorV2.hybridSetting.entity;
+
+import X.C1520780pg4;
+import X.C1521730phb;
+import X.C2187451AjH;
+import X.C2188811AlT;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+/* JADX INFO: loaded from: classes24.dex */
+public final class BidInfo {
+    public final Map<String, BidConfig> LIZ = new HashMap();
+    public final List<C1520780pg4> LIZIZ = new ArrayList();
+
+    public static class BidConfig {
+        public boolean ajax_web;
+        public String bid;
+        public boolean blank_lynx;
+        public boolean blank_reactnative;
+        public boolean blank_web;
+        public boolean container_error;
+        public boolean custom_p0;
+        public boolean custom_p1;
+        public boolean custom_p2;
+        public boolean custom_p3;
+        public boolean custom_p4;
+        public boolean custom_p5;
+        public boolean custom_p6;
+        public boolean custom_p7;
+        public boolean custom_p8;
+        public Map<String, Integer> eventNameSample;
+        public boolean falcon_perf_web;
+        public boolean fetch_error_lynx;
+        public boolean fetch_error_reactnative;
+        public boolean fetch_error_web;
+        public long hitSample;
+        public boolean js_exception_lynx;
+        public boolean js_exception_web;
+        public boolean jsb_error_lynx;
+        public boolean jsb_error_reactnative;
+        public boolean jsb_error_web;
+        public boolean jsb_perf_lynx;
+        public boolean jsb_perf_web;
+        public boolean native_error_lynx;
+        public boolean native_error_reactnative;
+        public boolean native_error_web;
+        public boolean navigation_start_lynx;
+        public boolean navigation_start_web;
+        public boolean perf_web;
+        public boolean performance_lynx;
+        public boolean performance_reactnative;
+        public boolean res_loader_error_lynx;
+        public boolean res_loader_error_template_lynx;
+        public boolean res_loader_error_template_web;
+        public boolean res_loader_error_web;
+        public boolean res_loader_perf_lynx;
+        public boolean res_loader_perf_template_lynx;
+        public boolean res_loader_perf_template_web;
+        public boolean res_loader_perf_web;
+        public long settingId;
+        public boolean static_error_lynx;
+        public boolean static_error_web;
+        public boolean static_perf_web;
+        public boolean static_sri_web;
+        public boolean tea_switch;
+
+        public BidConfig() {
+            this.bid = "__hybrid_default";
+            this.eventNameSample = new HashMap();
+            this.custom_p0 = false;
+            this.custom_p1 = false;
+            this.custom_p2 = false;
+            this.custom_p3 = false;
+            this.custom_p4 = false;
+            this.custom_p5 = false;
+            this.custom_p6 = false;
+            this.custom_p7 = false;
+            this.custom_p8 = false;
+            this.perf_web = false;
+            this.ajax_web = false;
+            this.static_perf_web = false;
+            this.static_error_web = false;
+            this.js_exception_web = false;
+            this.blank_web = false;
+            this.fetch_error_web = false;
+            this.jsb_error_web = false;
+            this.jsb_perf_web = false;
+            this.falcon_perf_web = false;
+            this.native_error_web = false;
+            this.navigation_start_web = false;
+            this.static_sri_web = false;
+            this.performance_lynx = false;
+            this.blank_lynx = false;
+            this.fetch_error_lynx = false;
+            this.jsb_error_lynx = false;
+            this.jsb_perf_lynx = false;
+            this.native_error_lynx = false;
+            this.navigation_start_lynx = false;
+            this.performance_reactnative = false;
+            this.blank_reactnative = false;
+            this.fetch_error_reactnative = false;
+            this.jsb_error_reactnative = false;
+            this.native_error_reactnative = false;
+            this.container_error = false;
+            this.js_exception_lynx = false;
+            this.static_error_lynx = false;
+            this.tea_switch = false;
+            this.res_loader_perf_web = false;
+            this.res_loader_error_web = false;
+            this.res_loader_perf_template_web = false;
+            this.res_loader_error_template_web = false;
+            this.res_loader_perf_lynx = false;
+            this.res_loader_error_lynx = false;
+            this.res_loader_perf_template_lynx = false;
+            this.res_loader_error_template_lynx = false;
+        }
+
+        public String toString() {
+            StringBuilder sbLIZ = C2188811AlT.LIZ();
+            sbLIZ.append("BidConfig{, hitSample=");
+            sbLIZ.append(this.hitSample);
+            sbLIZ.append(", settingId=");
+            sbLIZ.append(this.settingId);
+            sbLIZ.append(", custom_p0=");
+            sbLIZ.append(this.custom_p0);
+            sbLIZ.append(", custom_p1=");
+            sbLIZ.append(this.custom_p1);
+            sbLIZ.append(", custom_p2=");
+            sbLIZ.append(this.custom_p2);
+            sbLIZ.append(", custom_p3=");
+            sbLIZ.append(this.custom_p3);
+            sbLIZ.append(", custom_p4=");
+            sbLIZ.append(this.custom_p4);
+            sbLIZ.append(", custom_p5=");
+            sbLIZ.append(this.custom_p5);
+            sbLIZ.append(", custom_p6=");
+            sbLIZ.append(this.custom_p6);
+            sbLIZ.append(", custom_p7=");
+            sbLIZ.append(this.custom_p7);
+            sbLIZ.append(", custom_p8=");
+            sbLIZ.append(this.custom_p8);
+            sbLIZ.append(", perf_web=");
+            sbLIZ.append(this.perf_web);
+            sbLIZ.append(", ajax_web=");
+            sbLIZ.append(this.ajax_web);
+            sbLIZ.append(", static_perf_web=");
+            sbLIZ.append(this.static_perf_web);
+            sbLIZ.append(", static_error_web=");
+            sbLIZ.append(this.static_error_web);
+            sbLIZ.append(", js_exception_web=");
+            sbLIZ.append(this.js_exception_web);
+            sbLIZ.append(", blank_web=");
+            sbLIZ.append(this.blank_web);
+            sbLIZ.append(", fetch_error_web=");
+            sbLIZ.append(this.fetch_error_web);
+            sbLIZ.append(", jsb_error_web=");
+            sbLIZ.append(this.jsb_error_web);
+            sbLIZ.append(", jsb_perf_web=");
+            sbLIZ.append(this.jsb_perf_web);
+            sbLIZ.append(", falcon_perf_web=");
+            sbLIZ.append(this.falcon_perf_web);
+            sbLIZ.append(", native_error_web=");
+            sbLIZ.append(this.native_error_web);
+            sbLIZ.append(", navigation_start_web=");
+            sbLIZ.append(this.navigation_start_web);
+            sbLIZ.append(", performance_lynx=");
+            sbLIZ.append(this.performance_lynx);
+            sbLIZ.append(", blank_lynx=");
+            sbLIZ.append(this.blank_lynx);
+            sbLIZ.append(", fetch_error_lynx=");
+            sbLIZ.append(this.fetch_error_lynx);
+            sbLIZ.append(", jsb_error_lynx=");
+            sbLIZ.append(this.jsb_error_lynx);
+            sbLIZ.append(", jsb_perf_lynx=");
+            sbLIZ.append(this.jsb_perf_lynx);
+            sbLIZ.append(", native_error_lynx=");
+            sbLIZ.append(this.native_error_lynx);
+            sbLIZ.append(", navigation_start_lynx=");
+            sbLIZ.append(this.navigation_start_lynx);
+            sbLIZ.append(", performance_reactnative=");
+            sbLIZ.append(this.performance_reactnative);
+            sbLIZ.append(", blank_reactnative=");
+            sbLIZ.append(this.blank_reactnative);
+            sbLIZ.append(", fetch_error_reactnative=");
+            sbLIZ.append(this.fetch_error_reactnative);
+            sbLIZ.append(", jsb_error_reactnative=");
+            sbLIZ.append(this.jsb_error_reactnative);
+            sbLIZ.append(", native_error_reactnative=");
+            sbLIZ.append(this.native_error_reactnative);
+            sbLIZ.append(", container_error=");
+            sbLIZ.append(this.container_error);
+            sbLIZ.append(", js_exception_lynx=");
+            sbLIZ.append(this.js_exception_lynx);
+            sbLIZ.append(", static_error_lynx=");
+            sbLIZ.append(this.static_error_lynx);
+            sbLIZ.append(", tea_switch=");
+            sbLIZ.append(this.tea_switch);
+            sbLIZ.append(", res_loader_perf_web=");
+            sbLIZ.append(this.res_loader_perf_web);
+            sbLIZ.append(", res_loader_error_web=");
+            sbLIZ.append(this.res_loader_error_web);
+            sbLIZ.append(", res_loader_perf_template_web=");
+            sbLIZ.append(this.res_loader_perf_template_web);
+            sbLIZ.append(", res_loader_error_template_web=");
+            sbLIZ.append(this.res_loader_error_template_web);
+            sbLIZ.append(", res_loader_perf_lynx=");
+            sbLIZ.append(this.res_loader_perf_lynx);
+            sbLIZ.append(", res_loader_error_lynx=");
+            sbLIZ.append(this.res_loader_error_lynx);
+            sbLIZ.append(", res_loader_perf_template_lynx=");
+            sbLIZ.append(this.res_loader_perf_template_lynx);
+            sbLIZ.append(", res_loader_error_template_lynx=");
+            sbLIZ.append(this.res_loader_error_template_lynx);
+            sbLIZ.append('}');
+            return C2188811AlT.LIZIZ(sbLIZ);
+        }
+
+        public BidConfig(String str) {
+            this.bid = "__hybrid_default";
+            this.eventNameSample = new HashMap();
+            this.custom_p0 = false;
+            this.custom_p1 = false;
+            this.custom_p2 = false;
+            this.custom_p3 = false;
+            this.custom_p4 = false;
+            this.custom_p5 = false;
+            this.custom_p6 = false;
+            this.custom_p7 = false;
+            this.custom_p8 = false;
+            this.perf_web = false;
+            this.ajax_web = false;
+            this.static_perf_web = false;
+            this.static_error_web = false;
+            this.js_exception_web = false;
+            this.blank_web = false;
+            this.fetch_error_web = false;
+            this.jsb_error_web = false;
+            this.jsb_perf_web = false;
+            this.falcon_perf_web = false;
+            this.native_error_web = false;
+            this.navigation_start_web = false;
+            this.static_sri_web = false;
+            this.performance_lynx = false;
+            this.blank_lynx = false;
+            this.fetch_error_lynx = false;
+            this.jsb_error_lynx = false;
+            this.jsb_perf_lynx = false;
+            this.native_error_lynx = false;
+            this.navigation_start_lynx = false;
+            this.performance_reactnative = false;
+            this.blank_reactnative = false;
+            this.fetch_error_reactnative = false;
+            this.jsb_error_reactnative = false;
+            this.native_error_reactnative = false;
+            this.container_error = false;
+            this.js_exception_lynx = false;
+            this.static_error_lynx = false;
+            this.tea_switch = false;
+            this.res_loader_perf_web = false;
+            this.res_loader_error_web = false;
+            this.res_loader_perf_template_web = false;
+            this.res_loader_error_template_web = false;
+            this.res_loader_perf_lynx = false;
+            this.res_loader_error_lynx = false;
+            this.res_loader_perf_template_lynx = false;
+            this.res_loader_error_template_lynx = false;
+            if (!str.isEmpty()) {
+                this.bid = str;
+            }
+        }
+    }
+
+    public final String toString() {
+        StringBuilder sbLIZ = C2188811AlT.LIZ();
+        sbLIZ.append("BidInfo{bidInfoMap=");
+        sbLIZ.append(this.LIZ);
+        sbLIZ.append(", regexList=");
+        sbLIZ.append(this.LIZIZ);
+        sbLIZ.append('}');
+        return C2188811AlT.LIZIZ(sbLIZ);
+    }
+
+    public final BidConfig LIZ(String str) {
+        if (((HashMap) this.LIZ).containsKey(str)) {
+            return (BidConfig) ((HashMap) this.LIZ).get(str);
+        }
+        if (((HashMap) this.LIZ).containsKey("__hybrid_default")) {
+            int i = C2187451AjH.LIZ;
+            StringBuilder sbLIZ = C2188811AlT.LIZ();
+            sbLIZ.append("Not found bidConfig for ");
+            sbLIZ.append(str);
+            sbLIZ.append(", use ");
+            sbLIZ.append("__hybrid_default");
+            C1521730phb.LJFF("BidInfo", C2188811AlT.LIZIZ(sbLIZ));
+            return (BidConfig) ((HashMap) this.LIZ).get("__hybrid_default");
+        }
+        int i2 = C2187451AjH.LIZ;
+        StringBuilder sbLIZ2 = C2188811AlT.LIZ();
+        sbLIZ2.append("Not found bidConfig for ");
+        sbLIZ2.append(str);
+        sbLIZ2.append(", use ");
+        sbLIZ2.append("__hybrid_default");
+        C1521730phb.LJFF("BidInfo", C2188811AlT.LIZIZ(sbLIZ2));
+        return new BidConfig("__hybrid_default");
+    }
+}

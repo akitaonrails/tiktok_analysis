@@ -1,0 +1,5 @@
+package com.ss.android.ugc.tiktok.pns_basic_network;
+
+/* JADX INFO: loaded from: classes14.dex */
+public class R$string extends com.ss.android.ugc.aweme.app.R$string {
+}

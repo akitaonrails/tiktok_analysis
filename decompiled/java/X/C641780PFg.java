@@ -1,0 +1,7 @@
+package X;
+
+/* JADX INFO: renamed from: X.0PFg, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes11.dex */
+public final class C641780PFg {
+    public static final /* synthetic */ C641780PFg LIZ = new C641780PFg();
+}

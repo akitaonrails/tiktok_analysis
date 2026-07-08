@@ -1,0 +1,22 @@
+package X;
+
+import android.content.Context;
+import android.view.View;
+import com.zhiliaoapp.musically.R;
+import java.util.List;
+import kotlin.jvm.functions.Function2;
+
+/* JADX INFO: renamed from: X.14Gs, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes31.dex */
+public final /* synthetic */ class C20238014Gs extends C2217421BqW implements Function2<Context, List<? extends Integer>, View> {
+    public static final C20238014Gs LL = new C20238014Gs();
+
+    public C20238014Gs() {
+        super(2, C1858870yTN.class, "getReplyQuote", "getReplyQuote(Landroid/content/Context;Ljava/util/List;)Landroid/view/View;", 1);
+    }
+
+    @Override // kotlin.jvm.functions.Function2
+    public final View invoke(Context context, List<? extends Integer> list) {
+        return C1858870yTN.LIZIZ(context, R.id.et1, C1858870yTN.LIZJ(list));
+    }
+}

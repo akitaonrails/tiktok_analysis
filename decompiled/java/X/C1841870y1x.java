@@ -1,0 +1,39 @@
+package X;
+
+import kotlin.coroutines.CoroutineContext;
+
+/* JADX INFO: renamed from: X.0y1x, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes28.dex */
+public final class C1841870y1x implements InterfaceC497601wk {
+    public final CoroutineContext LL;
+    public final C1DFK LLILLJJLI;
+    public C23119094b LLILLL;
+
+    public C1841870y1x() {
+        this(0);
+    }
+
+    public final void LIZ() {
+        this.LLILLL.LIZIZ(null);
+        this.LLILLL = new C23119094b(this.LLILLJJLI);
+    }
+
+    @Override // X.InterfaceC497601wk
+    public final CoroutineContext getCoroutineContext() {
+        C1DFK c1dfk = this.LLILLJJLI;
+        CoroutineContext coroutineContext = this.LL;
+        c1dfk.getClass();
+        return C09A1.LIZLLL(c1dfk, coroutineContext).plus(this.LLILLL);
+    }
+
+    public C1841870y1x(CoroutineContext coroutineContext) {
+        this.LL = coroutineContext;
+        C1DFK c1dfkLIZ = C23118094a.LIZ();
+        this.LLILLJJLI = c1dfkLIZ;
+        this.LLILLL = new C23119094b(c1dfkLIZ);
+    }
+
+    public C1841870y1x(int i) {
+        this(C0PEM.LIZ);
+    }
+}

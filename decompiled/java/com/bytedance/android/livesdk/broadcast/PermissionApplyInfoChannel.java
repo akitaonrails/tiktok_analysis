@@ -1,0 +1,9 @@
+package com.bytedance.android.livesdk.broadcast;
+
+import com.bytedance.android.live.broadcast.model.LivePermissionApplyResponse;
+import com.bytedance.ies.sdk.datachannel.Channel;
+import java.util.Map;
+
+/* JADX INFO: loaded from: classes.dex */
+public final class PermissionApplyInfoChannel extends Channel<Map<String, ? extends LivePermissionApplyResponse.PermissionApplyInfo>> {
+}

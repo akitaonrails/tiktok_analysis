@@ -1,0 +1,20 @@
+package com.ss.android.ugc.aweme.deeplink.actions.music;
+
+import X.AbstractC1950107kR;
+import X.C1950707kX;
+import java.util.HashMap;
+import kotlin.Pair;
+import kotlin.Unit;
+
+/* JADX INFO: loaded from: classes4.dex */
+public final class MelonMusicAuthAction extends AbstractC1950107kR<Unit> {
+    @Override // X.AbstractC1950207kS
+    public final String LJI() {
+        return "melon_auth_success";
+    }
+
+    @Override // X.AbstractC1950207kS
+    public final Pair<String, HashMap<String, Object>> LIZLLL(String str, HashMap<String, Object> map, C1950707kX c1950707kX) {
+        return new Pair<>("//third-party-oauth-redirect/music/melon", map);
+    }
+}

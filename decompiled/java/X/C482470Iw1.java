@@ -1,0 +1,9 @@
+package X;
+
+import com.ss.android.ugc.aweme.ab.ToplivePagePreloadConfig;
+
+/* JADX INFO: renamed from: X.0Iw1, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes8.dex */
+public final class C482470Iw1 {
+    public static final ToplivePagePreloadConfig LIZ = new ToplivePagePreloadConfig(false, 3, 60);
+}

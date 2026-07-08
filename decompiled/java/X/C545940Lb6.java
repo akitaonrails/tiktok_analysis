@@ -1,0 +1,6 @@
+package X;
+
+/* JADX INFO: renamed from: X.0Lb6, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes9.dex */
+public final class C545940Lb6 {
+}

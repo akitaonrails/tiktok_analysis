@@ -1,0 +1,71 @@
+package X;
+
+import android.content.Context;
+import com.ss.android.ugc.profile.business.ur.socialavatar.SocialAvatarServiceImpl;
+import kotlin.Unit;
+import kotlin.jvm.functions.Function2;
+import njp.a;
+
+/* JADX INFO: renamed from: X.0HDX, reason: invalid class name */
+/* JADX INFO: loaded from: classes7.dex */
+@C09DV(c = "com.ss.android.ugc.profile.business.ur.socialavatar.SocialAvatarServiceImpl$updateSocialAvatar$2", f = "SocialAvatarServiceImpl.kt", l = {488, 490}, m = "invokeSuspend")
+public final class C0HDX extends C09AX implements Function2<InterfaceC497601wk, InterfaceC1364105Vn<? super Unit>, Object> {
+    public Object LL;
+    public int LLILLJJLI;
+    public /* synthetic */ Object LLILLL;
+    public final /* synthetic */ boolean LLILZ;
+    public final /* synthetic */ C0HDY LLILZIL;
+    public final /* synthetic */ C437430HDh LLILZLL;
+    public final /* synthetic */ SocialAvatarServiceImpl LLIZ;
+    public final /* synthetic */ Context LLIZLLLIL;
+    public final /* synthetic */ boolean LLJ;
+    public final /* synthetic */ boolean LLJI;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public C0HDX(boolean z, C0HDY c0hdy, C437430HDh c437430HDh, SocialAvatarServiceImpl socialAvatarServiceImpl, Context context, boolean z2, boolean z3, InterfaceC1364105Vn<? super C0HDX> interfaceC1364105Vn) {
+        super(2, interfaceC1364105Vn);
+        this.LLILZ = z;
+        this.LLILZIL = c0hdy;
+        this.LLILZLL = c437430HDh;
+        this.LLIZ = socialAvatarServiceImpl;
+        this.LLIZLLLIL = context;
+        this.LLJ = z2;
+        this.LLJI = z3;
+    }
+
+    @Override // njp.a
+    public final InterfaceC1364105Vn<Unit> create(Object obj, InterfaceC1364105Vn<?> interfaceC1364105Vn) {
+        C0HDX c0hdx = new C0HDX(this.LLILZ, this.LLILZIL, this.LLILZLL, this.LLIZ, this.LLIZLLLIL, this.LLJ, this.LLJI, interfaceC1364105Vn);
+        c0hdx.LLILLL = obj;
+        return c0hdx;
+    }
+
+    /* JADX WARN: Removed duplicated region for block: B:9:0x0021  */
+    /* JADX WARN: Type inference fix 'apply assigned field type' failed
+    java.lang.UnsupportedOperationException: ArgType.getObject(), call class: class jadx.core.dex.instructions.args.ArgType$PrimitiveArg
+    	at jadx.core.dex.instructions.args.ArgType.getObject(ArgType.java:593)
+    	at jadx.core.dex.attributes.nodes.ClassTypeVarsAttr.getTypeVarsMapFor(ClassTypeVarsAttr.java:35)
+    	at jadx.core.dex.nodes.utils.TypeUtils.replaceClassGenerics(TypeUtils.java:177)
+    	at jadx.core.dex.visitors.typeinference.FixTypesVisitor.insertExplicitUseCast(FixTypesVisitor.java:397)
+    	at jadx.core.dex.visitors.typeinference.FixTypesVisitor.tryFieldTypeWithNewCasts(FixTypesVisitor.java:359)
+    	at jadx.core.dex.visitors.typeinference.FixTypesVisitor.applyFieldType(FixTypesVisitor.java:309)
+    	at jadx.core.dex.visitors.typeinference.FixTypesVisitor.visit(FixTypesVisitor.java:94)
+     */
+    @Override // njp.a
+    /*
+        Code decompiled incorrectly, please refer to instructions dump.
+        To view partially-correct add '--show-bad-code' argument
+    */
+    public final java.lang.Object invokeSuspend(java.lang.Object r24) {
+        /*
+            Method dump skipped, instruction units count: 391
+            To view this dump add '--comments-level debug' option
+        */
+        throw new UnsupportedOperationException("Method not decompiled: X.C0HDX.invokeSuspend(java.lang.Object):java.lang.Object");
+    }
+
+    @Override // kotlin.jvm.functions.Function2
+    public final Object invoke(InterfaceC497601wk interfaceC497601wk, InterfaceC1364105Vn<? super Unit> interfaceC1364105Vn) {
+        return ((a) create(interfaceC497601wk, interfaceC1364105Vn)).invokeSuspend(Unit.LIZ);
+    }
+}

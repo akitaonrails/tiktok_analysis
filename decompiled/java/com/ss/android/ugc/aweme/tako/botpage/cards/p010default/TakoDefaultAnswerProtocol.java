@@ -1,0 +1,57 @@
+package com.ss.android.ugc.aweme.tako.botpage.cards.p010default;
+
+import X.AbstractC642490PHz;
+import X.C03H5;
+import X.C13IQ;
+import X.C1857050yQR;
+import X.C1857770yRb;
+import X.C1858670yT3;
+import X.C326880Cre;
+import X.C643310PLd;
+import X.InterfaceC1858000yRy;
+import X.InterfaceC1891350zJl;
+import com.bytedance.assem.arch.reused.ReusedUISlotAssem;
+import com.bytedance.ext_power_list.AssemPowerCell;
+import com.ss.android.ugc.aweme.tako.arch.protocol.ITakoServerCardProtocol;
+import com.ss.android.ugc.aweme.tako.ccl.model.api.Message;
+
+/* JADX INFO: loaded from: classes28.dex */
+public final class TakoDefaultAnswerProtocol implements ITakoServerCardProtocol {
+    @Override // com.ss.android.ugc.aweme.tako.arch.protocol.ITakoCardProtocol
+    public final int qO2() {
+        return 0;
+    }
+
+    @Override // com.ss.android.ugc.aweme.tako.arch.protocol.ITakoCardProtocol
+    public final AbstractC642490PHz<C326880Cre> getConfig() {
+        return new C643310PLd();
+    }
+
+    @Override // com.ss.android.ugc.aweme.tako.arch.protocol.ITakoCardProtocol
+    public final C13IQ<C326880Cre> getDataType() {
+        return C1857770yRb.LIZ();
+    }
+
+    @Override // com.ss.android.ugc.aweme.tako.arch.protocol.ITakoCardProtocol
+    public final Class<? extends AssemPowerCell<? extends ReusedUISlotAssem<? extends C03H5>, ? extends InterfaceC1891350zJl>> T2() {
+        return TakoDefaultAnswerCell.class;
+    }
+
+    @Override // com.ss.android.ugc.aweme.tako.arch.protocol.ITakoCardProtocol
+    /* JADX INFO: renamed from: LIZ, reason: merged with bridge method [inline-methods] */
+    public final boolean ru1(C326880Cre c326880Cre) {
+        if (!C1858670yT3.LJIIIZ(c326880Cre.LLILLL)) {
+            Message message = c326880Cre.LLILLL;
+            if (!message.sender.isSelf && !C1858670yT3.LJII(message) && !C1858670yT3.LJ(c326880Cre.LLILLL)) {
+                return true;
+            }
+            return false;
+        }
+        return false;
+    }
+
+    @Override // com.ss.android.ugc.aweme.tako.arch.protocol.ITakoCardProtocol
+    public final InterfaceC1891350zJl l51(InterfaceC1858000yRy interfaceC1858000yRy) {
+        return new C1857050yQR((C326880Cre) interfaceC1858000yRy);
+    }
+}

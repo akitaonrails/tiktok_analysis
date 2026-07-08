@@ -1,0 +1,7 @@
+package X;
+
+/* JADX INFO: renamed from: X.08fk, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes4.dex */
+public interface InterfaceC2175808fk {
+    C1522840pjO LIZ(String str);
+}

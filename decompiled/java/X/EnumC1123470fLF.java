@@ -1,0 +1,172 @@
+package X;
+
+/* JADX WARN: Failed to restore enum class, 'enum' modifier and super class removed */
+/* JADX WARN: Unknown enum class pattern. Please report as an issue! */
+/* JADX INFO: renamed from: X.0fLF, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes18.dex */
+public final class EnumC1123470fLF {
+    public static final EnumC1123470fLF GIFT_AUDIENCE_LIST_EMTY_SLOT_PAGE;
+    public static final EnumC1123470fLF GIFT_GUIDE_ACTIVITY_EOY_VOTE_FIRST_TIME_BUBBLE;
+    public static final EnumC1123470fLF GIFT_GUIDE_ACTIVITY_EOY_VOTE_ONCE_AGAIN_BUBBLE;
+    public static final EnumC1123470fLF GIFT_GUIDE_BACKPACK_GIFTS_BUBBLE;
+    public static final EnumC1123470fLF GIFT_GUIDE_BUBBLE;
+    public static final EnumC1123470fLF GIFT_GUIDE_BUBBLE_TYPE_FIRST_RECHARGE_BACKPACK;
+    public static final EnumC1123470fLF GIFT_GUIDE_CASH_RECHARGE_TASK_POPUP;
+    public static final EnumC1123470fLF GIFT_GUIDE_ENIGMA_EXPIRED_BUBBLE;
+    public static final EnumC1123470fLF GIFT_GUIDE_ENIGMA_EXPIRING_BUBBLE;
+    public static final EnumC1123470fLF GIFT_GUIDE_ENIGMA_LAUNCH_BUBBLE;
+    public static final EnumC1123470fLF GIFT_GUIDE_FIRST_RECHARGE_BACKPACK_GIFT_NOTICE_BUBBLE;
+    public static final EnumC1123470fLF GIFT_GUIDE_HEART_ME_POPUP_GUIDE;
+    public static final EnumC1123470fLF GIFT_GUIDE_INTERACTIVE_GAMEPLAY_GIFT;
+    public static final EnumC1123470fLF GIFT_GUIDE_INTERACTIVE_GIFT_TAB;
+    public static final EnumC1123470fLF GIFT_GUIDE_MAGIC_GIFT;
+    public static final EnumC1123470fLF GIFT_GUIDE_MATCH_ITEM_BUBBLE;
+    public static final EnumC1123470fLF GIFT_GUIDE_OUTFIT_GIFT;
+    public static final EnumC1123470fLF GIFT_GUIDE_POPUP;
+    public static final EnumC1123470fLF GIFT_GUIDE_POPUP_ASR;
+    public static final EnumC1123470fLF GIFT_GUIDE_POPUP_BADGE;
+    public static final EnumC1123470fLF GIFT_GUIDE_POPUP_BALANCE;
+    public static final EnumC1123470fLF GIFT_GUIDE_POPUP_EDUCATION;
+    public static final EnumC1123470fLF GIFT_GUIDE_POPUP_FANS_MEMBERSHIP_POINTS;
+    public static final EnumC1123470fLF GIFT_GUIDE_POPUP_FANS_MEMBERSHIP_REACTIVATE;
+    public static final EnumC1123470fLF GIFT_GUIDE_POPUP_FIRST_RECHARGE;
+    public static final EnumC1123470fLF GIFT_GUIDE_POPUP_GAMING_CHEER_MOMENT;
+    public static final EnumC1123470fLF GIFT_GUIDE_POPUP_LIVE_GOAL;
+    public static final EnumC1123470fLF GIFT_GUIDE_POPUP_MATCH_SUPPORT;
+    public static final EnumC1123470fLF GIFT_GUIDE_POPUP_MATCH_TOP_3;
+    public static final EnumC1123470fLF GIFT_GUIDE_POPUP_NEW_GIFTER;
+    public static final EnumC1123470fLF GIFT_GUIDE_POPUP_RECHARGE;
+    public static final EnumC1123470fLF GIFT_GUIDE_POPUP_RETENTION_TASK;
+    public static final EnumC1123470fLF GIFT_GUIDE_POPUP_UG_TASK_GIFT;
+    public static final EnumC1123470fLF GIFT_GUIDE_POPUP_UG_TASK_SHOW;
+    public static final EnumC1123470fLF GIFT_GUIDE_POPUP_USER_LEVEL;
+    public static final EnumC1123470fLF GIFT_GUIDE_PREMIUM_SHOP_CAMPAIGN_GUIDE;
+    public static final EnumC1123470fLF GIFT_GUIDE_PREMIUM_SHOP_GIFT_GUIDE;
+    public static final EnumC1123470fLF GIFT_GUIDE_PREMIUM_SHOP_INVITATION_GUIDE;
+    public static final EnumC1123470fLF GIFT_GUIDE_PREMIUM_SHOP_UNLOCK_GIFT_GUIDE;
+    public static final EnumC1123470fLF GIFT_GUIDE_PRIVILEGE_CENTER_UPGRADE_GUIDE;
+    public static final EnumC1123470fLF GIFT_GUIDE_PRIVILEGE_GAIN_GIFT_GUIDE;
+    public static final EnumC1123470fLF GIFT_GUIDE_RETENTION_CONSUMPTION_GUIDE;
+    public static final EnumC1123470fLF GIFT_GUIDE_SHINY_CARD_GIFT;
+    public static final EnumC1123470fLF GIFT_GUIDE_SPECIAL_GIFT_TASK_POPUP;
+    public static final EnumC1123470fLF GIFT_GUIDE_STAR_COMMENT_GUIDE;
+    public static final /* synthetic */ EnumC1123470fLF[] LLILLJJLI;
+    public static final /* synthetic */ C2254308sP LLILLL;
+    public final String LL;
+
+    public static InterfaceC2044707zh<EnumC1123470fLF> getEntries() {
+        return LLILLL;
+    }
+
+    static {
+        EnumC1123470fLF enumC1123470fLF = new EnumC1123470fLF("GIFT_GUIDE_BUBBLE", 0, "gift_guide_bubble");
+        GIFT_GUIDE_BUBBLE = enumC1123470fLF;
+        EnumC1123470fLF enumC1123470fLF2 = new EnumC1123470fLF("GIFT_GUIDE_POPUP", 1, "gift_guide_popup");
+        GIFT_GUIDE_POPUP = enumC1123470fLF2;
+        EnumC1123470fLF enumC1123470fLF3 = new EnumC1123470fLF("GIFT_GUIDE_POPUP_BADGE", 2, "gift_guide_popup_badge");
+        GIFT_GUIDE_POPUP_BADGE = enumC1123470fLF3;
+        EnumC1123470fLF enumC1123470fLF4 = new EnumC1123470fLF("GIFT_GUIDE_POPUP_EDUCATION", 3, "gift_guide_popup_education");
+        GIFT_GUIDE_POPUP_EDUCATION = enumC1123470fLF4;
+        EnumC1123470fLF enumC1123470fLF5 = new EnumC1123470fLF("GIFT_GUIDE_POPUP_NEW_GIFTER", 4, "gift_guide_popup_new_gifter");
+        GIFT_GUIDE_POPUP_NEW_GIFTER = enumC1123470fLF5;
+        EnumC1123470fLF enumC1123470fLF6 = new EnumC1123470fLF("GIFT_AUDIENCE_LIST_EMTY_SLOT_PAGE", 5, "top2_empty_slot_page");
+        GIFT_AUDIENCE_LIST_EMTY_SLOT_PAGE = enumC1123470fLF6;
+        EnumC1123470fLF enumC1123470fLF7 = new EnumC1123470fLF("GIFT_GUIDE_POPUP_BALANCE", 6, "gift_guide_popup_balance");
+        GIFT_GUIDE_POPUP_BALANCE = enumC1123470fLF7;
+        EnumC1123470fLF enumC1123470fLF8 = new EnumC1123470fLF("GIFT_GUIDE_POPUP_RECHARGE", 7, "gift_guide_popup_recharged");
+        GIFT_GUIDE_POPUP_RECHARGE = enumC1123470fLF8;
+        EnumC1123470fLF enumC1123470fLF9 = new EnumC1123470fLF("GIFT_GUIDE_MATCH_ITEM_BUBBLE", 8, "match_card_guide_bubble");
+        GIFT_GUIDE_MATCH_ITEM_BUBBLE = enumC1123470fLF9;
+        EnumC1123470fLF enumC1123470fLF10 = new EnumC1123470fLF("GIFT_GUIDE_BACKPACK_GIFTS_BUBBLE", 9, "backpack_gifts_notice_bubble");
+        GIFT_GUIDE_BACKPACK_GIFTS_BUBBLE = enumC1123470fLF10;
+        EnumC1123470fLF enumC1123470fLF11 = new EnumC1123470fLF("GIFT_GUIDE_POPUP_USER_LEVEL", 10, "gift_guide_user_level_popup");
+        GIFT_GUIDE_POPUP_USER_LEVEL = enumC1123470fLF11;
+        EnumC1123470fLF enumC1123470fLF12 = new EnumC1123470fLF("GIFT_GUIDE_POPUP_MATCH_TOP_3", 11, "gift_guide_match_top3_popup");
+        GIFT_GUIDE_POPUP_MATCH_TOP_3 = enumC1123470fLF12;
+        EnumC1123470fLF enumC1123470fLF13 = new EnumC1123470fLF("GIFT_GUIDE_POPUP_MATCH_SUPPORT", 12, "gift_guide_match_support_popup");
+        GIFT_GUIDE_POPUP_MATCH_SUPPORT = enumC1123470fLF13;
+        EnumC1123470fLF enumC1123470fLF14 = new EnumC1123470fLF("GIFT_GUIDE_POPUP_LIVE_GOAL", 13, "gift_guide_live_goal_popup");
+        GIFT_GUIDE_POPUP_LIVE_GOAL = enumC1123470fLF14;
+        EnumC1123470fLF enumC1123470fLF15 = new EnumC1123470fLF("GIFT_GUIDE_POPUP_GAMING_CHEER_MOMENT", 14, "gift_guide_game_cheer_moment_popup");
+        GIFT_GUIDE_POPUP_GAMING_CHEER_MOMENT = enumC1123470fLF15;
+        EnumC1123470fLF enumC1123470fLF16 = new EnumC1123470fLF("GIFT_GUIDE_POPUP_UG_TASK_SHOW", 15, "gift_guide_ug_task_show_popup");
+        GIFT_GUIDE_POPUP_UG_TASK_SHOW = enumC1123470fLF16;
+        EnumC1123470fLF enumC1123470fLF17 = new EnumC1123470fLF("GIFT_GUIDE_POPUP_UG_TASK_GIFT", 16, "gift_guide_ug_task_gift_popup");
+        GIFT_GUIDE_POPUP_UG_TASK_GIFT = enumC1123470fLF17;
+        EnumC1123470fLF enumC1123470fLF18 = new EnumC1123470fLF("GIFT_GUIDE_POPUP_FANS_MEMBERSHIP_POINTS", 17, "gift_guide_popup_fans_membership_points");
+        GIFT_GUIDE_POPUP_FANS_MEMBERSHIP_POINTS = enumC1123470fLF18;
+        EnumC1123470fLF enumC1123470fLF19 = new EnumC1123470fLF("GIFT_GUIDE_POPUP_FANS_MEMBERSHIP_REACTIVATE", 18, "gift_guide_popup_fans_membership_reactivate");
+        GIFT_GUIDE_POPUP_FANS_MEMBERSHIP_REACTIVATE = enumC1123470fLF19;
+        EnumC1123470fLF enumC1123470fLF20 = new EnumC1123470fLF("GIFT_GUIDE_POPUP_FIRST_RECHARGE", 19, "gift_guide_popup_first_recharge");
+        GIFT_GUIDE_POPUP_FIRST_RECHARGE = enumC1123470fLF20;
+        EnumC1123470fLF enumC1123470fLF21 = new EnumC1123470fLF("GIFT_GUIDE_PREMIUM_SHOP_GIFT_GUIDE", 20, "premium_shop_gift_bubble_guide");
+        GIFT_GUIDE_PREMIUM_SHOP_GIFT_GUIDE = enumC1123470fLF21;
+        EnumC1123470fLF enumC1123470fLF22 = new EnumC1123470fLF("GIFT_GUIDE_STAR_COMMENT_GUIDE", 21, "star_comment_guide");
+        GIFT_GUIDE_STAR_COMMENT_GUIDE = enumC1123470fLF22;
+        EnumC1123470fLF enumC1123470fLF23 = new EnumC1123470fLF("GIFT_GUIDE_PRIVILEGE_GAIN_GIFT_GUIDE", 22, "privilege_gained_notice_bubble");
+        GIFT_GUIDE_PRIVILEGE_GAIN_GIFT_GUIDE = enumC1123470fLF23;
+        EnumC1123470fLF enumC1123470fLF24 = new EnumC1123470fLF("GIFT_GUIDE_PRIVILEGE_CENTER_UPGRADE_GUIDE", 23, "privilege_upgrade_notice_bubble");
+        GIFT_GUIDE_PRIVILEGE_CENTER_UPGRADE_GUIDE = enumC1123470fLF24;
+        EnumC1123470fLF enumC1123470fLF25 = new EnumC1123470fLF("GIFT_GUIDE_PREMIUM_SHOP_UNLOCK_GIFT_GUIDE", 24, "premium_shop_gift_unlock_bubble");
+        GIFT_GUIDE_PREMIUM_SHOP_UNLOCK_GIFT_GUIDE = enumC1123470fLF25;
+        EnumC1123470fLF enumC1123470fLF26 = new EnumC1123470fLF("GIFT_GUIDE_PREMIUM_SHOP_CAMPAIGN_GUIDE", 25, "premium_shop_campaign_bubble");
+        GIFT_GUIDE_PREMIUM_SHOP_CAMPAIGN_GUIDE = enumC1123470fLF26;
+        EnumC1123470fLF enumC1123470fLF27 = new EnumC1123470fLF("GIFT_GUIDE_PREMIUM_SHOP_INVITATION_GUIDE", 26, "premium_shop_invitation_bubble");
+        GIFT_GUIDE_PREMIUM_SHOP_INVITATION_GUIDE = enumC1123470fLF27;
+        EnumC1123470fLF enumC1123470fLF28 = new EnumC1123470fLF("GIFT_GUIDE_POPUP_RETENTION_TASK", 27, "gift_guide_retention_task_popup");
+        GIFT_GUIDE_POPUP_RETENTION_TASK = enumC1123470fLF28;
+        EnumC1123470fLF enumC1123470fLF29 = new EnumC1123470fLF("GIFT_GUIDE_BUBBLE_TYPE_FIRST_RECHARGE_BACKPACK", 28, "first_recharge_backpack_gift_bubble");
+        GIFT_GUIDE_BUBBLE_TYPE_FIRST_RECHARGE_BACKPACK = enumC1123470fLF29;
+        EnumC1123470fLF enumC1123470fLF30 = new EnumC1123470fLF("GIFT_GUIDE_HEART_ME_POPUP_GUIDE", 29, "gift_guide_heartme_task_show_popup");
+        GIFT_GUIDE_HEART_ME_POPUP_GUIDE = enumC1123470fLF30;
+        EnumC1123470fLF enumC1123470fLF31 = new EnumC1123470fLF("GIFT_GUIDE_FIRST_RECHARGE_BACKPACK_GIFT_NOTICE_BUBBLE", 30, "first_recharge_backpack_notice_bubble");
+        GIFT_GUIDE_FIRST_RECHARGE_BACKPACK_GIFT_NOTICE_BUBBLE = enumC1123470fLF31;
+        EnumC1123470fLF enumC1123470fLF32 = new EnumC1123470fLF("GIFT_GUIDE_SPECIAL_GIFT_TASK_POPUP", 31, "gift_guide_special_gift_task_popup");
+        GIFT_GUIDE_SPECIAL_GIFT_TASK_POPUP = enumC1123470fLF32;
+        EnumC1123470fLF enumC1123470fLF33 = new EnumC1123470fLF("GIFT_GUIDE_CASH_RECHARGE_TASK_POPUP", 32, "gift_guide_cash_recharge_task_popup");
+        GIFT_GUIDE_CASH_RECHARGE_TASK_POPUP = enumC1123470fLF33;
+        EnumC1123470fLF enumC1123470fLF34 = new EnumC1123470fLF("GIFT_GUIDE_RETENTION_CONSUMPTION_GUIDE", 33, "gift_guide_retention_consumption_task_popup");
+        GIFT_GUIDE_RETENTION_CONSUMPTION_GUIDE = enumC1123470fLF34;
+        EnumC1123470fLF enumC1123470fLF35 = new EnumC1123470fLF("GIFT_GUIDE_INTERACTIVE_GIFT_TAB", 34, "interactive_gift_tab");
+        GIFT_GUIDE_INTERACTIVE_GIFT_TAB = enumC1123470fLF35;
+        EnumC1123470fLF enumC1123470fLF36 = new EnumC1123470fLF("GIFT_GUIDE_MAGIC_GIFT", 35, "magic_gift_guide");
+        GIFT_GUIDE_MAGIC_GIFT = enumC1123470fLF36;
+        EnumC1123470fLF enumC1123470fLF37 = new EnumC1123470fLF("GIFT_GUIDE_OUTFIT_GIFT", 36, "outfit_gift_guide");
+        GIFT_GUIDE_OUTFIT_GIFT = enumC1123470fLF37;
+        EnumC1123470fLF enumC1123470fLF38 = new EnumC1123470fLF("GIFT_GUIDE_SHINY_CARD_GIFT", 37, "shiny_card_gift_guide");
+        GIFT_GUIDE_SHINY_CARD_GIFT = enumC1123470fLF38;
+        EnumC1123470fLF enumC1123470fLF39 = new EnumC1123470fLF("GIFT_GUIDE_INTERACTIVE_GAMEPLAY_GIFT", 38, "interactive_gameplay_gift_guide");
+        GIFT_GUIDE_INTERACTIVE_GAMEPLAY_GIFT = enumC1123470fLF39;
+        EnumC1123470fLF enumC1123470fLF40 = new EnumC1123470fLF("GIFT_GUIDE_ACTIVITY_EOY_VOTE_FIRST_TIME_BUBBLE", 39, "activity_eoy_vote_first_time_bubble");
+        GIFT_GUIDE_ACTIVITY_EOY_VOTE_FIRST_TIME_BUBBLE = enumC1123470fLF40;
+        EnumC1123470fLF enumC1123470fLF41 = new EnumC1123470fLF("GIFT_GUIDE_ACTIVITY_EOY_VOTE_ONCE_AGAIN_BUBBLE", 40, "activity_eoy_vote_once_again_bubble");
+        GIFT_GUIDE_ACTIVITY_EOY_VOTE_ONCE_AGAIN_BUBBLE = enumC1123470fLF41;
+        EnumC1123470fLF enumC1123470fLF42 = new EnumC1123470fLF("GIFT_GUIDE_POPUP_ASR", 41, "asr_gift_guide");
+        GIFT_GUIDE_POPUP_ASR = enumC1123470fLF42;
+        EnumC1123470fLF enumC1123470fLF43 = new EnumC1123470fLF("GIFT_GUIDE_ENIGMA_LAUNCH_BUBBLE", 42, "privilege_enigma_new_function_launch_bubble");
+        GIFT_GUIDE_ENIGMA_LAUNCH_BUBBLE = enumC1123470fLF43;
+        EnumC1123470fLF enumC1123470fLF44 = new EnumC1123470fLF("GIFT_GUIDE_ENIGMA_EXPIRING_BUBBLE", 43, "privilege_enigma_expiring_bubble");
+        GIFT_GUIDE_ENIGMA_EXPIRING_BUBBLE = enumC1123470fLF44;
+        EnumC1123470fLF enumC1123470fLF45 = new EnumC1123470fLF("GIFT_GUIDE_ENIGMA_EXPIRED_BUBBLE", 44, "privilege_enigma_expired_bubble");
+        GIFT_GUIDE_ENIGMA_EXPIRED_BUBBLE = enumC1123470fLF45;
+        EnumC1123470fLF[] enumC1123470fLFArr = {enumC1123470fLF, enumC1123470fLF2, enumC1123470fLF3, enumC1123470fLF4, enumC1123470fLF5, enumC1123470fLF6, enumC1123470fLF7, enumC1123470fLF8, enumC1123470fLF9, enumC1123470fLF10, enumC1123470fLF11, enumC1123470fLF12, enumC1123470fLF13, enumC1123470fLF14, enumC1123470fLF15, enumC1123470fLF16, enumC1123470fLF17, enumC1123470fLF18, enumC1123470fLF19, enumC1123470fLF20, enumC1123470fLF21, enumC1123470fLF22, enumC1123470fLF23, enumC1123470fLF24, enumC1123470fLF25, enumC1123470fLF26, enumC1123470fLF27, enumC1123470fLF28, enumC1123470fLF29, enumC1123470fLF30, enumC1123470fLF31, enumC1123470fLF32, enumC1123470fLF33, enumC1123470fLF34, enumC1123470fLF35, enumC1123470fLF36, enumC1123470fLF37, enumC1123470fLF38, enumC1123470fLF39, enumC1123470fLF40, enumC1123470fLF41, enumC1123470fLF42, enumC1123470fLF43, enumC1123470fLF44, enumC1123470fLF45};
+        LLILLJJLI = enumC1123470fLFArr;
+        LLILLL = new C2254308sP(enumC1123470fLFArr);
+    }
+
+    public static EnumC1123470fLF[] values() {
+        return (EnumC1123470fLF[]) LLILLJJLI.clone();
+    }
+
+    public final String getValue() {
+        return this.LL;
+    }
+
+    public static EnumC1123470fLF valueOf(String str) {
+        return (EnumC1123470fLF) C08FF.LIZ(EnumC1123470fLF.class, str);
+    }
+
+    public EnumC1123470fLF(String str, int i, String str2) {
+        this.LL = str2;
+    }
+}

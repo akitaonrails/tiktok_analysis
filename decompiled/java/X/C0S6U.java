@@ -1,0 +1,16 @@
+package X;
+
+import kotlin.jvm.functions.Function1;
+
+/* JADX INFO: renamed from: X.0S6U, reason: invalid class name */
+/* JADX INFO: loaded from: classes12.dex */
+public final class C0S6U extends C09AY implements Function1<C0RJW, C0RJW> {
+    public C0S6U() {
+        super(1);
+    }
+
+    @Override // kotlin.jvm.functions.Function1
+    public /* bridge */ /* synthetic */ C0RJW invoke(C0RJW c0rjw) {
+        return c0rjw;
+    }
+}

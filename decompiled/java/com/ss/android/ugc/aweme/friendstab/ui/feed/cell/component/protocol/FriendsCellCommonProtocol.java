@@ -1,0 +1,15 @@
+package com.ss.android.ugc.aweme.friendstab.ui.feed.cell.component.protocol;
+
+import X.C03H5;
+import X.C690870R8b;
+import X.C723830SaL;
+import com.bytedance.assem.arch.reused.ReusedUISlotAssem;
+import kotlin.jvm.internal.AwS377S0200000_11;
+
+/* JADX INFO: loaded from: classes12.dex */
+public abstract class FriendsCellCommonProtocol<T, U> implements FriendsV3CellConfigProtocol<C690870R8b, ReusedUISlotAssem<? extends C03H5>> {
+    @Override // com.ss.android.ugc.aweme.friendstab.ui.feed.cell.component.protocol.FriendsV3CellConfigProtocol
+    public void NG(ReusedUISlotAssem<? extends C03H5> reusedUISlotAssem, C690870R8b c690870R8b) {
+        C723830SaL.LIZ(reusedUISlotAssem, null, new AwS377S0200000_11((ReusedUISlotAssem) reusedUISlotAssem, (ReusedUISlotAssem<? extends C03H5>) c690870R8b, (C690870R8b) 37));
+    }
+}

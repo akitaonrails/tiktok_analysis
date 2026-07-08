@@ -1,0 +1,59 @@
+package com.bytedance.android.live.liveinteract.multilive.model;
+
+import X.C0IMD;
+import X.C1516680pZS;
+import X.C1516700pZU;
+import java.io.IOException;
+import java.util.List;
+import tikcast.linkmic.common._MgTraceInfo_ProtoDecoder;
+import webcast.data.multi_guest_play._CountdownConfig_ProtoDecoder;
+
+/* JADX INFO: loaded from: classes.dex */
+public final class _CountdownStartParams_ProtoDecoder implements C0IMD<CountdownStartParams> {
+    @Override // X.C0IMD
+    public final void LIZ(CountdownStartParams countdownStartParams) {
+    }
+
+    @Override // X.C0IMD
+    public final CountdownStartParams LIZJ(C1516680pZS c1516680pZS) throws IOException {
+        CountdownStartParams countdownStartParams = new CountdownStartParams();
+        long jLIZJ = c1516680pZS.LIZJ();
+        while (true) {
+            int iLJI = c1516680pZS.LJI();
+            if (iLJI != -1) {
+                if (iLJI != 1) {
+                    if (iLJI != 2) {
+                        if (iLJI != 3) {
+                            if (iLJI != 4) {
+                                if (iLJI != 5) {
+                                    if (iLJI != 101) {
+                                        C1516700pZU.LJ(c1516680pZS);
+                                    } else {
+                                        countdownStartParams.mgTraceInfo = _MgTraceInfo_ProtoDecoder.LIZLLL(c1516680pZS);
+                                    }
+                                } else {
+                                    countdownStartParams.linkmicId = C1516700pZU.LIZLLL(c1516680pZS);
+                                }
+                            } else {
+                                countdownStartParams.userId = c1516680pZS.LJIIJJI();
+                            }
+                        } else {
+                            countdownStartParams.countdownConfig = _CountdownConfig_ProtoDecoder.LIZLLL(c1516680pZS);
+                        }
+                    } else {
+                        countdownStartParams.channelId = c1516680pZS.LJIIJJI();
+                    }
+                } else {
+                    countdownStartParams.roomId = c1516680pZS.LJIIJJI();
+                }
+            } else {
+                c1516680pZS.LJ(jLIZJ);
+                return countdownStartParams;
+            }
+        }
+    }
+
+    @Override // X.C0IMD
+    public final /* bridge */ /* synthetic */ void LIZIZ(C1516680pZS c1516680pZS, CountdownStartParams countdownStartParams, List list) {
+    }
+}

@@ -1,0 +1,21 @@
+package X;
+
+import android.content.Context;
+import java.util.Map;
+import kotlin.Unit;
+import org.json.JSONException;
+
+/* JADX INFO: renamed from: X.0vd2, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes27.dex */
+public final /* synthetic */ class C1749540vd2 extends C2217421BqW implements InterfaceC1631630sYr<Context, Map<String, String>, EnumC1749470vcv, Map<String, ? extends String>, Unit> {
+    public C1749540vd2(C1749450vct c1749450vct) {
+        super(4, c1749450vct, C1749450vct.class, "copyToClipboardAction", "copyToClipboardAction(Landroid/content/Context;Ljava/util/Map;Lcom/bytedance/android/livesdk/comp/impl/pcs/utils/PcsContactUtil$ActionSource;Ljava/util/Map;)V", 0);
+    }
+
+    @Override // X.InterfaceC1631630sYr
+    public final Unit invoke(Context context, Map<String, String> map, EnumC1749470vcv enumC1749470vcv, Map<String, ? extends String> map2) throws JSONException {
+        this.receiver.getClass();
+        C1749450vct.LIZIZ(context, map, enumC1749470vcv, map2);
+        return Unit.LIZ;
+    }
+}

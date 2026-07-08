@@ -1,0 +1,16 @@
+package X;
+
+import kotlin.jvm.functions.Function0;
+
+/* JADX INFO: renamed from: X.0B6J, reason: invalid class name */
+/* JADX INFO: loaded from: classes5.dex */
+public final class C0B6J extends C09AY implements Function0<Boolean> {
+    public C0B6J() {
+        super(0);
+    }
+
+    @Override // kotlin.jvm.functions.Function0
+    public final Boolean invoke() {
+        return Boolean.valueOf(C0C64.LJIILLIIL().LJIIIIZZ(31744, 2, "skip_pick_store_abtests", true, false));
+    }
+}

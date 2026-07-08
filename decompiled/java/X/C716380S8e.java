@@ -1,0 +1,6 @@
+package X;
+
+/* JADX INFO: renamed from: X.0S8e, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes12.dex */
+public final class C716380S8e {
+}

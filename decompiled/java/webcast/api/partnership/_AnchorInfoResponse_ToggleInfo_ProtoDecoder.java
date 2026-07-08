@@ -1,0 +1,46 @@
+package webcast.api.partnership;
+
+import X.C0IMD;
+import X.C1516680pZS;
+import X.C1516700pZU;
+import java.io.IOException;
+import java.util.List;
+import webcast.api.partnership.AnchorInfoResponse;
+
+/* JADX INFO: loaded from: classes.dex */
+public final class _AnchorInfoResponse_ToggleInfo_ProtoDecoder implements C0IMD<AnchorInfoResponse.ToggleInfo> {
+    public static AnchorInfoResponse.ToggleInfo LIZLLL(C1516680pZS c1516680pZS) throws IOException {
+        AnchorInfoResponse.ToggleInfo toggleInfo = new AnchorInfoResponse.ToggleInfo();
+        long jLIZJ = c1516680pZS.LIZJ();
+        while (true) {
+            int iLJI = c1516680pZS.LJI();
+            if (iLJI != -1) {
+                if (iLJI != 1) {
+                    if (iLJI != 2) {
+                        C1516700pZU.LJ(c1516680pZS);
+                    } else {
+                        toggleInfo.toggleStatus = c1516680pZS.LJIIJ();
+                    }
+                } else {
+                    toggleInfo.gameTagId = c1516680pZS.LJIIJJI();
+                }
+            } else {
+                c1516680pZS.LJ(jLIZJ);
+                return toggleInfo;
+            }
+        }
+    }
+
+    @Override // X.C0IMD
+    public final AnchorInfoResponse.ToggleInfo LIZJ(C1516680pZS c1516680pZS) {
+        return LIZLLL(c1516680pZS);
+    }
+
+    @Override // X.C0IMD
+    public final /* bridge */ /* synthetic */ void LIZ(AnchorInfoResponse.ToggleInfo toggleInfo) {
+    }
+
+    @Override // X.C0IMD
+    public final /* bridge */ /* synthetic */ void LIZIZ(C1516680pZS c1516680pZS, AnchorInfoResponse.ToggleInfo toggleInfo, List list) {
+    }
+}

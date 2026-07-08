@@ -1,0 +1,42 @@
+package com.ss.ttm.player;
+
+import java.nio.ByteBuffer;
+
+/* JADX INFO: loaded from: classes36.dex */
+public abstract class AudioProxyTrait extends TraitObject {
+
+    public static class AudioFrameInfo {
+        public ByteBuffer[] mBuffers;
+        public int mSamples;
+        public long mTimestamp;
+    }
+
+    public abstract void audioClose();
+
+    public abstract void audioOpen(AudioMediaInfo audioMediaInfo);
+
+    public abstract void audioWrite(AudioFrameInfo audioFrameInfo);
+
+    public AudioProxyTrait(int i) {
+    }
+
+    public static class AudioMediaInfo {
+        public final int LIZ;
+        public final int LIZIZ;
+        public final int LIZJ;
+        public final int LIZLLL;
+        public final int LJ;
+        public final int LJFF;
+        public final int LJI;
+
+        public AudioMediaInfo(int i, int i2, int i3, int i4, int i5, int i6, int i7) {
+            this.LIZ = i;
+            this.LIZIZ = i2;
+            this.LIZJ = i3;
+            this.LIZLLL = i4;
+            this.LJ = i5;
+            this.LJFF = i6;
+            this.LJI = i7;
+        }
+    }
+}

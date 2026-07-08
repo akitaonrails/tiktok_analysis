@@ -1,0 +1,70 @@
+package X;
+
+import com.bytedance.android.livesdk.model.AdLiveEnterRoomConfig;
+import com.ss.android.ugc.aweme.feed.model.CardStruct;
+import java.util.Map;
+
+/* JADX INFO: renamed from: X.0IVU, reason: invalid class name */
+/* JADX INFO: loaded from: classes8.dex */
+public final class C0IVU {
+    public String LIZ;
+    public String LIZIZ;
+    public String LIZJ;
+    public Long LIZLLL;
+    public String LJ;
+    public String LJFF;
+    public String LJI;
+    public Boolean LJII;
+    public String LJIIIIZZ;
+    public String LJIIIZ;
+    public String LJIIJ;
+    public String LJIIJJI;
+    public String LJIIL;
+    public String LJIILIIL;
+    public String LJIILJJIL;
+    public Long LJIILL;
+    public String LJIILLIIL;
+    public long LJIJI;
+    public String LJIJJ;
+    public String LJIJJLI;
+    public int LJJ;
+    public String LJJI;
+    public String LJJIFFI;
+    public String LJJII;
+    public String LJJIII;
+    public String LJJIIJ;
+    public String LJJIIJZLJL;
+    public String LJJIIZ;
+    public String LJJIJIIJI;
+    public AdLiveEnterRoomConfig LJJIJL;
+    public int LJJIJLIJ;
+    public int LJJIL;
+    public long LJJIZ;
+    public String LJJJ;
+    public Integer LJJJI;
+    public Long LJJJIL;
+    public String LJJJJ;
+    public Map<String, String> LJJJJI;
+    public String LJJJJIZL;
+    public Integer LJJJJJ;
+    public Integer LJJJJJL;
+    public Integer LJJJJL;
+    public String LJJJJZI;
+    public String LJJJLIIL;
+    public Map<String, String> LJJJLL;
+    public Map<String, String> LJJJLZIJ;
+    public String LJJJZ;
+    public String LJJL;
+    public String LJJLI;
+    public String LJJLIIIIJ;
+    public Integer LJIIZILJ = 0;
+    public final String LJIJ = "";
+    public final int LJIL = -1;
+    public Long LJJIIZI = -1L;
+    public Long LJJIJ = -1L;
+    public Long LJJIJIIJIL = -1L;
+    public Long LJJIJIL = -1L;
+    public final String LJJJJLI = CardStruct.IStatusCode.DEFAULT;
+    public final long LJJJJLL = -1;
+    public final long LJJJJZ = -1;
+}

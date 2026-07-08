@@ -1,0 +1,10 @@
+package com.ss.android.ugc.aweme.detail.ui;
+
+import androidx.lifecycle.MutableLiveData;
+import androidx.lifecycle.ViewModel;
+
+/* JADX INFO: loaded from: classes10.dex */
+public final class DetailLoadStateManager extends ViewModel {
+    public static final /* synthetic */ int LLILLJJLI = 0;
+    public final MutableLiveData<Boolean> LL = new MutableLiveData<>();
+}

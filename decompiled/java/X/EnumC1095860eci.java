@@ -1,0 +1,127 @@
+package X;
+
+/* JADX WARN: Failed to restore enum class, 'enum' modifier and super class removed */
+/* JADX WARN: Unknown enum class pattern. Please report as an issue! */
+/* JADX INFO: renamed from: X.0eci, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes18.dex */
+public final class EnumC1095860eci {
+    public static final EnumC1095860eci FANS_CLUB_ANCHOR_NEW_SUPER_FANS_ANIM;
+    public static final EnumC1095860eci FANS_CLUB_ANIM_ABOUT_TO_UPGRADE_TYPE;
+    public static final EnumC1095860eci FANS_CLUB_ANIM_BIG_LEVEL_UP_TYPE;
+    public static final EnumC1095860eci FANS_CLUB_ANIM_CLAIMED_TYPE;
+    public static final EnumC1095860eci FANS_CLUB_ANIM_CLAIM_GUIDE_OPT_TYPE;
+    public static final EnumC1095860eci FANS_CLUB_ANIM_CLAIM_GUIDE_TYPE;
+    public static final EnumC1095860eci FANS_CLUB_ANIM_CLAIM_NOTIF_TYPE_SEQ_END;
+    public static final EnumC1095860eci FANS_CLUB_ANIM_CLAIM_NOTIF_TYPE_SEQ_MID;
+    public static final EnumC1095860eci FANS_CLUB_ANIM_CLAIM_NOTIF_TYPE_SEQ_START;
+    public static final EnumC1095860eci FANS_CLUB_ANIM_ENTRANCE_TYPE;
+    public static final EnumC1095860eci FANS_CLUB_ANIM_FINISH_ALL_TASK_TYPE;
+    public static final EnumC1095860eci FANS_CLUB_ANIM_GUIDE_FILE_ANIM_TYPE;
+    public static final EnumC1095860eci FANS_CLUB_ANIM_GUIDE_IMAGE_TEXT_TYPE;
+    public static final EnumC1095860eci FANS_CLUB_ANIM_GUIDE_IMAGE_TYPE;
+    public static final EnumC1095860eci FANS_CLUB_ANIM_GUIDE_TEXT_TYPE;
+    public static final EnumC1095860eci FANS_CLUB_ANIM_HIDE_DOT_TYPE;
+    public static final EnumC1095860eci FANS_CLUB_ANIM_HIGH_LIGHT_GUIDE_TYPE;
+    public static final EnumC1095860eci FANS_CLUB_ANIM_INCREASE_SCORE_TYPE;
+    public static final EnumC1095860eci FANS_CLUB_ANIM_PLUS_TO_ONE_TYPE;
+    public static final EnumC1095860eci FANS_CLUB_ANIM_PLUS_TO_ONE_UNKOWN;
+    public static final EnumC1095860eci FANS_CLUB_ANIM_POINTS_DECREASE;
+    public static final EnumC1095860eci FANS_CLUB_ANIM_POINTS_INCREASE;
+    public static final EnumC1095860eci FANS_CLUB_ANIM_POINTS_INCREASE_FROM_ZERO;
+    public static final EnumC1095860eci FANS_CLUB_ANIM_POINTS_RECOVER;
+    public static final EnumC1095860eci FANS_CLUB_ANIM_SHOW_DOT_TYPE;
+    public static final EnumC1095860eci FANS_CLUB_ANIM_SLEEP_TO_ACTIVE_TYPE;
+    public static final EnumC1095860eci FANS_CLUB_ANIM_SMALL_LEVEL_UP_TYPE;
+    public static final EnumC1095860eci FANS_CLUB_ANIM_UNJOIN_ENHANCE_GUIDE_TYPE;
+    public static final EnumC1095860eci FANS_CLUB_MILESTONE_GUIDE_ANIM;
+    public static final EnumC1095860eci FANS_CLUB_ROOM_INFO_ANIM_GUIDE_TYPE;
+    public static final EnumC1095860eci FANS_CLUB_UNJOIN_ANIM_GUIDE_TEXT_TYPE;
+    public static final /* synthetic */ EnumC1095860eci[] LL;
+    public static final /* synthetic */ C2254308sP LLILLJJLI;
+    public static final EnumC1095860eci SUPER_FANS_GUIDE_ANIM;
+
+    public static InterfaceC2044707zh<EnumC1095860eci> getEntries() {
+        return LLILLJJLI;
+    }
+
+    static {
+        EnumC1095860eci enumC1095860eci = new EnumC1095860eci("FANS_CLUB_ANIM_PLUS_TO_ONE_UNKOWN", 0);
+        FANS_CLUB_ANIM_PLUS_TO_ONE_UNKOWN = enumC1095860eci;
+        EnumC1095860eci enumC1095860eci2 = new EnumC1095860eci("FANS_CLUB_ANIM_UNJOIN_ENHANCE_GUIDE_TYPE", 1);
+        FANS_CLUB_ANIM_UNJOIN_ENHANCE_GUIDE_TYPE = enumC1095860eci2;
+        EnumC1095860eci enumC1095860eci3 = new EnumC1095860eci("FANS_CLUB_ANIM_CLAIM_GUIDE_TYPE", 2);
+        FANS_CLUB_ANIM_CLAIM_GUIDE_TYPE = enumC1095860eci3;
+        EnumC1095860eci enumC1095860eci4 = new EnumC1095860eci("FANS_CLUB_ANIM_CLAIM_NOTIF_TYPE_SEQ_START", 3);
+        FANS_CLUB_ANIM_CLAIM_NOTIF_TYPE_SEQ_START = enumC1095860eci4;
+        EnumC1095860eci enumC1095860eci5 = new EnumC1095860eci("FANS_CLUB_ANIM_CLAIM_NOTIF_TYPE_SEQ_MID", 4);
+        FANS_CLUB_ANIM_CLAIM_NOTIF_TYPE_SEQ_MID = enumC1095860eci5;
+        EnumC1095860eci enumC1095860eci6 = new EnumC1095860eci("FANS_CLUB_ANIM_CLAIM_NOTIF_TYPE_SEQ_END", 5);
+        FANS_CLUB_ANIM_CLAIM_NOTIF_TYPE_SEQ_END = enumC1095860eci6;
+        EnumC1095860eci enumC1095860eci7 = new EnumC1095860eci("FANS_CLUB_ANIM_CLAIMED_TYPE", 6);
+        FANS_CLUB_ANIM_CLAIMED_TYPE = enumC1095860eci7;
+        EnumC1095860eci enumC1095860eci8 = new EnumC1095860eci("FANS_CLUB_ANIM_SHOW_DOT_TYPE", 7);
+        FANS_CLUB_ANIM_SHOW_DOT_TYPE = enumC1095860eci8;
+        EnumC1095860eci enumC1095860eci9 = new EnumC1095860eci("FANS_CLUB_ANIM_HIDE_DOT_TYPE", 8);
+        FANS_CLUB_ANIM_HIDE_DOT_TYPE = enumC1095860eci9;
+        EnumC1095860eci enumC1095860eci10 = new EnumC1095860eci("FANS_CLUB_ANIM_PLUS_TO_ONE_TYPE", 9);
+        FANS_CLUB_ANIM_PLUS_TO_ONE_TYPE = enumC1095860eci10;
+        EnumC1095860eci enumC1095860eci11 = new EnumC1095860eci("FANS_CLUB_ANIM_SMALL_LEVEL_UP_TYPE", 10);
+        FANS_CLUB_ANIM_SMALL_LEVEL_UP_TYPE = enumC1095860eci11;
+        EnumC1095860eci enumC1095860eci12 = new EnumC1095860eci("FANS_CLUB_ANIM_BIG_LEVEL_UP_TYPE", 11);
+        FANS_CLUB_ANIM_BIG_LEVEL_UP_TYPE = enumC1095860eci12;
+        EnumC1095860eci enumC1095860eci13 = new EnumC1095860eci("FANS_CLUB_ANIM_INCREASE_SCORE_TYPE", 12);
+        FANS_CLUB_ANIM_INCREASE_SCORE_TYPE = enumC1095860eci13;
+        EnumC1095860eci enumC1095860eci14 = new EnumC1095860eci("FANS_CLUB_ANIM_FINISH_ALL_TASK_TYPE", 13);
+        FANS_CLUB_ANIM_FINISH_ALL_TASK_TYPE = enumC1095860eci14;
+        EnumC1095860eci enumC1095860eci15 = new EnumC1095860eci("FANS_CLUB_ANIM_SLEEP_TO_ACTIVE_TYPE", 14);
+        FANS_CLUB_ANIM_SLEEP_TO_ACTIVE_TYPE = enumC1095860eci15;
+        EnumC1095860eci enumC1095860eci16 = new EnumC1095860eci("FANS_CLUB_ANIM_ABOUT_TO_UPGRADE_TYPE", 15);
+        FANS_CLUB_ANIM_ABOUT_TO_UPGRADE_TYPE = enumC1095860eci16;
+        EnumC1095860eci enumC1095860eci17 = new EnumC1095860eci("FANS_CLUB_ANIM_ENTRANCE_TYPE", 16);
+        FANS_CLUB_ANIM_ENTRANCE_TYPE = enumC1095860eci17;
+        EnumC1095860eci enumC1095860eci18 = new EnumC1095860eci("FANS_CLUB_ANIM_POINTS_INCREASE_FROM_ZERO", 17);
+        FANS_CLUB_ANIM_POINTS_INCREASE_FROM_ZERO = enumC1095860eci18;
+        EnumC1095860eci enumC1095860eci19 = new EnumC1095860eci("FANS_CLUB_ANIM_POINTS_INCREASE", 18);
+        FANS_CLUB_ANIM_POINTS_INCREASE = enumC1095860eci19;
+        EnumC1095860eci enumC1095860eci20 = new EnumC1095860eci("FANS_CLUB_ANIM_POINTS_DECREASE", 19);
+        FANS_CLUB_ANIM_POINTS_DECREASE = enumC1095860eci20;
+        EnumC1095860eci enumC1095860eci21 = new EnumC1095860eci("FANS_CLUB_ANIM_POINTS_RECOVER", 20);
+        FANS_CLUB_ANIM_POINTS_RECOVER = enumC1095860eci21;
+        EnumC1095860eci enumC1095860eci22 = new EnumC1095860eci("FANS_CLUB_ANIM_CLAIM_GUIDE_OPT_TYPE", 21);
+        FANS_CLUB_ANIM_CLAIM_GUIDE_OPT_TYPE = enumC1095860eci22;
+        EnumC1095860eci enumC1095860eci23 = new EnumC1095860eci("SUPER_FANS_GUIDE_ANIM", 22);
+        SUPER_FANS_GUIDE_ANIM = enumC1095860eci23;
+        EnumC1095860eci enumC1095860eci24 = new EnumC1095860eci("FANS_CLUB_MILESTONE_GUIDE_ANIM", 23);
+        FANS_CLUB_MILESTONE_GUIDE_ANIM = enumC1095860eci24;
+        EnumC1095860eci enumC1095860eci25 = new EnumC1095860eci("FANS_CLUB_ANIM_HIGH_LIGHT_GUIDE_TYPE", 24);
+        FANS_CLUB_ANIM_HIGH_LIGHT_GUIDE_TYPE = enumC1095860eci25;
+        EnumC1095860eci enumC1095860eci26 = new EnumC1095860eci("FANS_CLUB_ANIM_GUIDE_TEXT_TYPE", 25);
+        FANS_CLUB_ANIM_GUIDE_TEXT_TYPE = enumC1095860eci26;
+        EnumC1095860eci enumC1095860eci27 = new EnumC1095860eci("FANS_CLUB_ANIM_GUIDE_IMAGE_TEXT_TYPE", 26);
+        FANS_CLUB_ANIM_GUIDE_IMAGE_TEXT_TYPE = enumC1095860eci27;
+        EnumC1095860eci enumC1095860eci28 = new EnumC1095860eci("FANS_CLUB_ANIM_GUIDE_IMAGE_TYPE", 27);
+        FANS_CLUB_ANIM_GUIDE_IMAGE_TYPE = enumC1095860eci28;
+        EnumC1095860eci enumC1095860eci29 = new EnumC1095860eci("FANS_CLUB_ANIM_GUIDE_FILE_ANIM_TYPE", 28);
+        FANS_CLUB_ANIM_GUIDE_FILE_ANIM_TYPE = enumC1095860eci29;
+        EnumC1095860eci enumC1095860eci30 = new EnumC1095860eci("FANS_CLUB_ANCHOR_NEW_SUPER_FANS_ANIM", 29);
+        FANS_CLUB_ANCHOR_NEW_SUPER_FANS_ANIM = enumC1095860eci30;
+        EnumC1095860eci enumC1095860eci31 = new EnumC1095860eci("FANS_CLUB_UNJOIN_ANIM_GUIDE_TEXT_TYPE", 30);
+        FANS_CLUB_UNJOIN_ANIM_GUIDE_TEXT_TYPE = enumC1095860eci31;
+        EnumC1095860eci enumC1095860eci32 = new EnumC1095860eci("FANS_CLUB_ROOM_INFO_ANIM_GUIDE_TYPE", 31);
+        FANS_CLUB_ROOM_INFO_ANIM_GUIDE_TYPE = enumC1095860eci32;
+        EnumC1095860eci[] enumC1095860eciArr = {enumC1095860eci, enumC1095860eci2, enumC1095860eci3, enumC1095860eci4, enumC1095860eci5, enumC1095860eci6, enumC1095860eci7, enumC1095860eci8, enumC1095860eci9, enumC1095860eci10, enumC1095860eci11, enumC1095860eci12, enumC1095860eci13, enumC1095860eci14, enumC1095860eci15, enumC1095860eci16, enumC1095860eci17, enumC1095860eci18, enumC1095860eci19, enumC1095860eci20, enumC1095860eci21, enumC1095860eci22, enumC1095860eci23, enumC1095860eci24, enumC1095860eci25, enumC1095860eci26, enumC1095860eci27, enumC1095860eci28, enumC1095860eci29, enumC1095860eci30, enumC1095860eci31, enumC1095860eci32};
+        LL = enumC1095860eciArr;
+        LLILLJJLI = new C2254308sP(enumC1095860eciArr);
+    }
+
+    public static EnumC1095860eci[] values() {
+        return (EnumC1095860eci[]) LL.clone();
+    }
+
+    public static EnumC1095860eci valueOf(String str) {
+        return (EnumC1095860eci) C08FF.LIZ(EnumC1095860eci.class, str);
+    }
+
+    public EnumC1095860eci(String str, int i) {
+    }
+}

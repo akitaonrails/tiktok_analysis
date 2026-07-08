@@ -1,0 +1,97 @@
+package X;
+
+/* JADX WARN: Failed to restore enum class, 'enum' modifier and super class removed */
+/* JADX WARN: Unknown enum class pattern. Please report as an issue! */
+/* JADX INFO: renamed from: X.0iJf, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes20.dex */
+public final class EnumC1237810iJf {
+    public static final EnumC1237810iJf ACE_COLDSTART_POPUP_FORCE;
+    public static final EnumC1237810iJf ACE_COLDSTART_POPUP_OPTIONAL;
+    public static final EnumC1237810iJf ACE_LOGOUT_POPUP_FORCE;
+    public static final EnumC1237810iJf ACE_LOGOUT_POPUP_OPTIONAL;
+    public static final EnumC1237810iJf DYA_BIND_EMAIL_SOURCE_TYPE_ACCOUNT_MANAGEMENT_EMAIL;
+    public static final EnumC1237810iJf DYA_BIND_EMAIL_SOURCE_TYPE_ACCOUNT_MANAGEMENT_PASSWORD;
+    public static final EnumC1237810iJf DYA_BIND_EMAIL_SOURCE_TYPE_EMAIL_NOTIFICATION;
+    public static final EnumC1237810iJf DYA_BIND_EMAIL_SOURCE_TYPE_FEED;
+    public static final EnumC1237810iJf DYA_BIND_EMAIL_SOURCE_TYPE_INBOX;
+    public static final EnumC1237810iJf DYA_BIND_EMAIL_SOURCE_TYPE_LOGIN;
+    public static final EnumC1237810iJf DYA_BIND_EMAIL_SOURCE_TYPE_LOGOUT_ALERT;
+    public static final EnumC1237810iJf DYA_BIND_EMAIL_SOURCE_TYPE_PROFILE;
+    public static final EnumC1237810iJf DYA_BIND_EMAIL_SOURCE_TYPE_SECURITY_ALERT_TOAST;
+    public static final EnumC1237810iJf DYA_BIND_EMAIL_SOURCE_TYPE_SIGN_UP;
+    public static final EnumC1237810iJf DYA_BIND_EMAIL_SOURCE_TYPE_TWO_STEP_VERIFICATION;
+    public static final EnumC1237810iJf DYA_BIND_EMAIL_SOURCE_TYPE_UNKNOWN;
+    public static final EnumC1237810iJf GENERAL_POPUP_FORCE;
+    public static final EnumC1237810iJf GENERAL_POPUP_OPTIONAL;
+    public static final /* synthetic */ EnumC1237810iJf[] LLILLJJLI;
+    public static final /* synthetic */ C2254308sP LLILLL;
+    public static final EnumC1237810iJf PRE_LOGIN_NON_1P_EMAIL;
+    public static final EnumC1237810iJf VERIFY_NON_1P_EMAIL;
+    public final int LL;
+
+    public static InterfaceC2044707zh<EnumC1237810iJf> getEntries() {
+        return LLILLL;
+    }
+
+    static {
+        EnumC1237810iJf enumC1237810iJf = new EnumC1237810iJf("DYA_BIND_EMAIL_SOURCE_TYPE_UNKNOWN", 0, 0);
+        DYA_BIND_EMAIL_SOURCE_TYPE_UNKNOWN = enumC1237810iJf;
+        EnumC1237810iJf enumC1237810iJf2 = new EnumC1237810iJf("DYA_BIND_EMAIL_SOURCE_TYPE_ACCOUNT_MANAGEMENT_EMAIL", 1, 1);
+        DYA_BIND_EMAIL_SOURCE_TYPE_ACCOUNT_MANAGEMENT_EMAIL = enumC1237810iJf2;
+        EnumC1237810iJf enumC1237810iJf3 = new EnumC1237810iJf("DYA_BIND_EMAIL_SOURCE_TYPE_ACCOUNT_MANAGEMENT_PASSWORD", 2, 2);
+        DYA_BIND_EMAIL_SOURCE_TYPE_ACCOUNT_MANAGEMENT_PASSWORD = enumC1237810iJf3;
+        EnumC1237810iJf enumC1237810iJf4 = new EnumC1237810iJf("DYA_BIND_EMAIL_SOURCE_TYPE_TWO_STEP_VERIFICATION", 3, 3);
+        DYA_BIND_EMAIL_SOURCE_TYPE_TWO_STEP_VERIFICATION = enumC1237810iJf4;
+        EnumC1237810iJf enumC1237810iJf5 = new EnumC1237810iJf("DYA_BIND_EMAIL_SOURCE_TYPE_SECURITY_ALERT_TOAST", 4, 4);
+        DYA_BIND_EMAIL_SOURCE_TYPE_SECURITY_ALERT_TOAST = enumC1237810iJf5;
+        EnumC1237810iJf enumC1237810iJf6 = new EnumC1237810iJf("DYA_BIND_EMAIL_SOURCE_TYPE_LOGOUT_ALERT", 5, 5);
+        DYA_BIND_EMAIL_SOURCE_TYPE_LOGOUT_ALERT = enumC1237810iJf6;
+        EnumC1237810iJf enumC1237810iJf7 = new EnumC1237810iJf("DYA_BIND_EMAIL_SOURCE_TYPE_SIGN_UP", 6, 6);
+        DYA_BIND_EMAIL_SOURCE_TYPE_SIGN_UP = enumC1237810iJf7;
+        EnumC1237810iJf enumC1237810iJf8 = new EnumC1237810iJf("DYA_BIND_EMAIL_SOURCE_TYPE_LOGIN", 7, 7);
+        DYA_BIND_EMAIL_SOURCE_TYPE_LOGIN = enumC1237810iJf8;
+        EnumC1237810iJf enumC1237810iJf9 = new EnumC1237810iJf("DYA_BIND_EMAIL_SOURCE_TYPE_FEED", 8, 8);
+        DYA_BIND_EMAIL_SOURCE_TYPE_FEED = enumC1237810iJf9;
+        EnumC1237810iJf enumC1237810iJf10 = new EnumC1237810iJf("DYA_BIND_EMAIL_SOURCE_TYPE_INBOX", 9, 9);
+        DYA_BIND_EMAIL_SOURCE_TYPE_INBOX = enumC1237810iJf10;
+        EnumC1237810iJf enumC1237810iJf11 = new EnumC1237810iJf("DYA_BIND_EMAIL_SOURCE_TYPE_PROFILE", 10, 10);
+        DYA_BIND_EMAIL_SOURCE_TYPE_PROFILE = enumC1237810iJf11;
+        EnumC1237810iJf enumC1237810iJf12 = new EnumC1237810iJf("DYA_BIND_EMAIL_SOURCE_TYPE_EMAIL_NOTIFICATION", 11, 12);
+        DYA_BIND_EMAIL_SOURCE_TYPE_EMAIL_NOTIFICATION = enumC1237810iJf12;
+        EnumC1237810iJf enumC1237810iJf13 = new EnumC1237810iJf("ACE_COLDSTART_POPUP_FORCE", 12, 21);
+        ACE_COLDSTART_POPUP_FORCE = enumC1237810iJf13;
+        EnumC1237810iJf enumC1237810iJf14 = new EnumC1237810iJf("ACE_COLDSTART_POPUP_OPTIONAL", 13, 22);
+        ACE_COLDSTART_POPUP_OPTIONAL = enumC1237810iJf14;
+        EnumC1237810iJf enumC1237810iJf15 = new EnumC1237810iJf("ACE_LOGOUT_POPUP_FORCE", 14, 23);
+        ACE_LOGOUT_POPUP_FORCE = enumC1237810iJf15;
+        EnumC1237810iJf enumC1237810iJf16 = new EnumC1237810iJf("ACE_LOGOUT_POPUP_OPTIONAL", 15, 24);
+        ACE_LOGOUT_POPUP_OPTIONAL = enumC1237810iJf16;
+        EnumC1237810iJf enumC1237810iJf17 = new EnumC1237810iJf("GENERAL_POPUP_FORCE", 16, 25);
+        GENERAL_POPUP_FORCE = enumC1237810iJf17;
+        EnumC1237810iJf enumC1237810iJf18 = new EnumC1237810iJf("GENERAL_POPUP_OPTIONAL", 17, 26);
+        GENERAL_POPUP_OPTIONAL = enumC1237810iJf18;
+        EnumC1237810iJf enumC1237810iJf19 = new EnumC1237810iJf("VERIFY_NON_1P_EMAIL", 18, 27);
+        VERIFY_NON_1P_EMAIL = enumC1237810iJf19;
+        EnumC1237810iJf enumC1237810iJf20 = new EnumC1237810iJf("PRE_LOGIN_NON_1P_EMAIL", 19, 28);
+        PRE_LOGIN_NON_1P_EMAIL = enumC1237810iJf20;
+        EnumC1237810iJf[] enumC1237810iJfArr = {enumC1237810iJf, enumC1237810iJf2, enumC1237810iJf3, enumC1237810iJf4, enumC1237810iJf5, enumC1237810iJf6, enumC1237810iJf7, enumC1237810iJf8, enumC1237810iJf9, enumC1237810iJf10, enumC1237810iJf11, enumC1237810iJf12, enumC1237810iJf13, enumC1237810iJf14, enumC1237810iJf15, enumC1237810iJf16, enumC1237810iJf17, enumC1237810iJf18, enumC1237810iJf19, enumC1237810iJf20};
+        LLILLJJLI = enumC1237810iJfArr;
+        LLILLL = new C2254308sP(enumC1237810iJfArr);
+    }
+
+    public static EnumC1237810iJf[] values() {
+        return (EnumC1237810iJf[]) LLILLJJLI.clone();
+    }
+
+    public final int getValue() {
+        return this.LL;
+    }
+
+    public static EnumC1237810iJf valueOf(String str) {
+        return (EnumC1237810iJf) C08FF.LIZ(EnumC1237810iJf.class, str);
+    }
+
+    public EnumC1237810iJf(String str, int i, int i2) {
+        this.LL = i2;
+    }
+}

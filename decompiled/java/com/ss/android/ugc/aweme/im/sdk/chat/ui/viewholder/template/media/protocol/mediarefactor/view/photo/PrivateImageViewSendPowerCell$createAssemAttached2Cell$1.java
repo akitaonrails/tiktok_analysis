@@ -1,0 +1,183 @@
+package com.ss.android.ugc.aweme.im.sdk.chat.ui.viewholder.template.media.protocol.mediarefactor.view.photo;
+
+import X.AbstractC899510ZQn;
+import X.C019F;
+import X.C01GW;
+import X.C09R3;
+import X.C0QSJ;
+import X.C0ZL0;
+import X.C0ZQI;
+import X.C0ZSU;
+import X.C0ZSY;
+import X.C13BV;
+import X.C13IQ;
+import X.C13LE;
+import X.C1562980qm8;
+import X.C1637806bA;
+import X.C1637906bB;
+import X.C1807670x8n;
+import X.C19719912Dl;
+import X.C19EG;
+import X.C2217381BqS;
+import X.C452501pT;
+import X.C462510IBt;
+import X.C5182020e;
+import X.C687700QyG;
+import X.C724240Sb0;
+import X.C724750Sbp;
+import X.C869590Y9l;
+import X.InterfaceC1146704e9;
+import X.InterfaceC1808750xAX;
+import X.InterfaceC2217461Bqa;
+import X.InterfaceC665370Q7z;
+import X.InterfaceC889250YuZ;
+import androidx.fragment.app.Fragment;
+import androidx.lifecycle.LifecycleCoroutineScope;
+import androidx.lifecycle.LifecycleOwnerKt;
+import com.bytedance.assem.arch.viewModel.AssemVMLazy;
+import com.google.android.gms.common.ConnectionResult;
+import com.ss.android.ugc.aweme.im.chatroom.api.model.SessionInfo;
+import com.ss.android.ugc.aweme.im.common.scope.ChatRoomScope;
+import com.ss.android.ugc.aweme.im.sdk.chat.data.model.MessageLeftIconState;
+import com.ss.android.ugc.aweme.im.sdk.chat.messagelist.skeleton.ability.SkeletonLayoutAssemblerBridge;
+import com.ss.android.ugc.aweme.im.sdk.chat.messagelist.skeleton.cell.IMSkeletonLayoutReusedUISlotAssemSend;
+import com.ss.android.ugc.aweme.im.sticker.api.viewmodel.Photo2StickerViewModel;
+import com.ss.android.ugc.aweme.im.viewmodel.PanelStateViewModel;
+import java.util.ArrayList;
+import java.util.List;
+import kotlin.jvm.internal.AFwS248S0000000_14;
+import kotlin.jvm.internal.AwS380S0200000_14;
+import kotlin.jvm.internal.AwS558S0100000_14;
+
+/* JADX INFO: loaded from: classes15.dex */
+public final class PrivateImageViewSendPowerCell$createAssemAttached2Cell$1 extends IMSkeletonLayoutReusedUISlotAssemSend implements InterfaceC1146704e9 {
+    public static final /* synthetic */ InterfaceC2217461Bqa<Object>[] LLLIZZ;
+    public final C01GW LLLIIII;
+    public final AssemVMLazy LLLIIIIL;
+    public final AssemVMLazy LLLIIIL;
+    public final /* synthetic */ PrivateImageViewSendPowerCell LLLIIL;
+    public volatile InterfaceC1808750xAX LLLIILIL;
+    public volatile SessionInfo LLLIL;
+    public volatile C0ZSY LLLILZ;
+    public InterfaceC665370Q7z LLLILZJ;
+    public C0QSJ LLLILZLLLI;
+
+    static {
+        C2217381BqS c2217381BqS = new C2217381BqS(PrivateImageViewSendPowerCell$createAssemAttached2Cell$1.class, "photo2StickerRepo", "getPhoto2StickerRepo()Lcom/ss/android/ugc/aweme/im/sticker/api/service/photo2sticker/Photo2StickerInlineRepository;", 0);
+        C09R3 c09r3 = C13LE.LIZ;
+        c09r3.getClass();
+        C2217381BqS c2217381BqS2 = new C2217381BqS(PrivateImageViewSendPowerCell$createAssemAttached2Cell$1.class, "photo2StickerSessionInfo", "getPhoto2StickerSessionInfo()Lcom/ss/android/ugc/aweme/im/chatroom/api/model/SessionInfo;", 0);
+        c09r3.getClass();
+        C2217381BqS c2217381BqS3 = new C2217381BqS(PrivateImageViewSendPowerCell$createAssemAttached2Cell$1.class, "photo2StickerViewModel", "getPhoto2StickerViewModel()Lcom/ss/android/ugc/aweme/im/sticker/api/viewmodel/Photo2StickerViewModel;", 0);
+        c09r3.getClass();
+        C2217381BqS c2217381BqS4 = new C2217381BqS(PrivateImageViewSendPowerCell$createAssemAttached2Cell$1.class, "panelStateVM", "getPanelStateVM()Lcom/ss/android/ugc/aweme/im/viewmodel/PanelStateViewModel;", 0);
+        c09r3.getClass();
+        C2217381BqS c2217381BqS5 = new C2217381BqS(PrivateImageViewSendPowerCell$createAssemAttached2Cell$1.class, "imPhoto2StickerService", "getImPhoto2StickerService()Lcom/ss/android/ugc/aweme/im/sticker/api/service/IIMPhoto2StickerService;", 0);
+        c09r3.getClass();
+        LLLIZZ = new InterfaceC2217461Bqa[]{c2217381BqS, c2217381BqS2, c2217381BqS3, c2217381BqS4, c2217381BqS5};
+    }
+
+    public final InterfaceC1808750xAX Wp() {
+        InterfaceC1808750xAX interfaceC1808750xAX = this.LLLIILIL;
+        if (interfaceC1808750xAX == null) {
+            synchronized (this) {
+                interfaceC1808750xAX = this.LLLIILIL;
+                if (interfaceC1808750xAX == null) {
+                    InterfaceC1808750xAX interfaceC1808750xAX2 = (InterfaceC1808750xAX) C1807670x8n.LLLLZIL();
+                    this.LLLIILIL = interfaceC1808750xAX2;
+                    return interfaceC1808750xAX2;
+                }
+            }
+        }
+        return interfaceC1808750xAX;
+    }
+
+    @Override // X.InterfaceC1146704e9
+    public final void checkParentScope() {
+        C687700QyG.LIZ(this, new Class[]{ChatRoomScope.class});
+    }
+
+    @Override // X.InterfaceC1146704e9
+    public final List getParentScopes() {
+        ArrayList arrayList = new ArrayList();
+        arrayList.add(ChatRoomScope.class);
+        return arrayList;
+    }
+
+    public final SessionInfo Vp() throws IllegalAccessException {
+        C0QSJ c0qsjLIZLLL = this.LLLILZLLLI;
+        if (c0qsjLIZLLL == null) {
+            InterfaceC665370Q7z interfaceC665370Q7zLJIIIZ = this.LLLILZJ;
+            if (interfaceC665370Q7zLJIIIZ == null) {
+                interfaceC665370Q7zLJIIIZ = C687700QyG.LJIIIZ(this);
+                this.LLLILZJ = interfaceC665370Q7zLJIIIZ;
+            }
+            c0qsjLIZLLL = C687700QyG.LIZLLL(interfaceC665370Q7zLJIIIZ, new Class[]{ChatRoomScope.class});
+            this.LLLILZLLLI = c0qsjLIZLLL;
+            if (c0qsjLIZLLL == null) {
+                return null;
+            }
+        }
+        SessionInfo sessionInfo = (SessionInfo) c0qsjLIZLLL.getAbility(SessionInfo.class);
+        C687700QyG.LJ(sessionInfo, SessionInfo.class);
+        return sessionInfo;
+    }
+
+    @Override // com.ss.android.ugc.aweme.im.sdk.chat.messagelist.skeleton.cell.IMSkeletonLayoutReusedUISlotAssemSend, com.ss.android.ugc.aweme.im.sdk.chat.messagelist.skeleton.cell.AbsSkeletonLayoutReusedUISlotAssem
+    public final void op() {
+        super.op();
+        SkeletonLayoutAssemblerBridge skeletonLayoutAssemblerBridgeBp = Bp();
+        AbstractC899510ZQn<?, ?> abstractC899510ZQnFQ2 = skeletonLayoutAssemblerBridgeBp != null ? skeletonLayoutAssemblerBridgeBp.fQ2(C462510IBt.LIZ) : null;
+        if (!(abstractC899510ZQnFQ2 instanceof AbstractC899510ZQn) || abstractC899510ZQnFQ2 == null) {
+            return;
+        }
+        tp(C462510IBt.LIZ);
+        sp(new AwS380S0200000_14(this, (PrivateImageViewSendPowerCell$createAssemAttached2Cell$1) abstractC899510ZQnFQ2, (AbstractC899510ZQn<?, MessageLeftIconState>) 51));
+    }
+
+    @Override // com.ss.android.ugc.aweme.im.sdk.chat.messagelist.skeleton.cell.IMSkeletonLayoutReusedUISlotAssem
+    public final List<C1562980qm8<C0ZL0>> Gp(C869590Y9l c869590Y9l) {
+        LifecycleCoroutineScope lifecycleScope;
+        C0ZSU c0zsu = C0ZSU.LIZ;
+        C19EG activity = this.LLLIIL.getActivity();
+        Fragment fragmentLJI = C724240Sb0.LJI(this);
+        if (fragmentLJI != null && (lifecycleScope = LifecycleOwnerKt.getLifecycleScope(fragmentLJI)) != null) {
+            C0ZQI c0zqiUp = Up();
+            InterfaceC889250YuZ interfaceC889250YuZ = (InterfaceC889250YuZ) this.LLLIIII.getValue();
+            if (interfaceC889250YuZ == null) {
+                return C13BV.INSTANCE;
+            }
+            AssemVMLazy assemVMLazy = this.LLLIIIIL;
+            InterfaceC2217461Bqa<Object>[] interfaceC2217461BqaArr = LLLIZZ;
+            Photo2StickerViewModel photo2StickerViewModel = (Photo2StickerViewModel) assemVMLazy.getValue();
+            C0ZSY c0zsy = this.LLLILZ;
+            if (c0zsy == null) {
+                synchronized (this) {
+                    c0zsy = this.LLLILZ;
+                    if (c0zsy == null) {
+                        c0zsy = (C0ZSY) C1807670x8n.LLLLLLZ();
+                        this.LLLILZ = c0zsy;
+                    }
+                }
+            }
+            PanelStateViewModel panelStateViewModel = (PanelStateViewModel) this.LLLIIIL.getValue();
+            c0zsu.getClass();
+            return C0ZSU.LIZ(activity, null, c869590Y9l, interfaceC889250YuZ, null, null, c0zqiUp, c0zsy, photo2StickerViewModel, panelStateViewModel, lifecycleScope);
+        }
+        return C13BV.INSTANCE;
+    }
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public PrivateImageViewSendPowerCell$createAssemAttached2Cell$1(PrivateImageViewSendPowerCell privateImageViewSendPowerCell, C19719912Dl c19719912Dl) {
+        super(c19719912Dl);
+        this.LLLIIL = privateImageViewSendPowerCell;
+        this.LLLIIII = C452501pT.LIZIZ(new AwS558S0100000_14(this, ConnectionResult.DRIVE_EXTERNAL_STORAGE_REQUIRED));
+        C019F c019f = C019F.LIZ;
+        AwS558S0100000_14 awS558S0100000_14 = new AwS558S0100000_14(this, 1499);
+        C19719912Dl c19719912DlLIZ = C13LE.LIZ(Photo2StickerViewModel.class);
+        C1637906bB c1637906bB = C1637806bA.LIZ;
+        this.LLLIIIIL = C724750Sbp.LIZ(this, C724750Sbp.LJIIJ(this, c19719912DlLIZ), c019f, c1637906bB, new C5182020e((C13IQ) c19719912DlLIZ, 449), AFwS248S0000000_14.get$arr$(484), awS558S0100000_14, true);
+        C19719912Dl c19719912DlLIZ2 = C13LE.LIZ(PanelStateViewModel.class);
+        this.LLLIIIL = C724750Sbp.LIZ(this, C724750Sbp.LJIIJ(this, c19719912DlLIZ2), c019f, c1637906bB, new C5182020e((C13IQ) c19719912DlLIZ2, 450), AFwS248S0000000_14.get$arr$(485), null, true);
+    }
+}

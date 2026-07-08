@@ -1,0 +1,12 @@
+package com.ss.android.ugc.aweme.inbox.bulletin.vscope;
+
+import X.InterfaceC494301wD;
+import kotlin.Unit;
+import kotlin.jvm.functions.Function1;
+
+/* JADX INFO: loaded from: classes10.dex */
+public interface BulletinQuickSendButtonAbility extends InterfaceC494301wD {
+    void Il1(Function1<? super Boolean, Unit> function1);
+
+    boolean sv0();
+}

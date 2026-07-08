@@ -1,0 +1,48 @@
+package X;
+
+/* JADX INFO: renamed from: X.04yX, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes3.dex */
+public final class C1273104yX implements InterfaceC1891350zJl {
+    public final int LL;
+
+    public final boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        return (obj instanceof C1273104yX) && this.LL == ((C1273104yX) obj).LL;
+    }
+
+    @Override // X.InterfaceC1891350zJl
+    public final Object getChangePayload(InterfaceC1891350zJl interfaceC1891350zJl) {
+        return null;
+    }
+
+    public final int hashCode() {
+        return this.LL;
+    }
+
+    public final String toString() {
+        StringBuilder sbLIZ = C2188811AlT.LIZ();
+        sbLIZ.append("VideoCountItem(numOfVideo=");
+        sbLIZ.append(this.LL);
+        sbLIZ.append(')');
+        return C2188811AlT.LIZIZ(sbLIZ);
+    }
+
+    public C1273104yX(int i) {
+        this.LL = i;
+    }
+
+    @Override // X.InterfaceC1891350zJl
+    public final boolean areContentsTheSame(InterfaceC1891350zJl interfaceC1891350zJl) {
+        return interfaceC1891350zJl instanceof C1273104yX;
+    }
+
+    @Override // X.InterfaceC1891350zJl
+    public final boolean areItemTheSame(InterfaceC1891350zJl interfaceC1891350zJl) {
+        if ((interfaceC1891350zJl instanceof C1273104yX) && ((C1273104yX) interfaceC1891350zJl).LL == this.LL) {
+            return true;
+        }
+        return false;
+    }
+}

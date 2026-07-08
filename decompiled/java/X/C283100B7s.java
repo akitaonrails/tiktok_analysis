@@ -1,0 +1,13 @@
+package X;
+
+import kotlin.jvm.internal.AFwS190S0000000_4;
+
+/* JADX INFO: renamed from: X.0B7s, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes5.dex */
+public final class C283100B7s {
+    public static final C01GW LIZ = C452501pT.LIZIZ(AFwS190S0000000_4.get$arr$(4777));
+
+    public static final int LIZ() {
+        return ((Number) LIZ.getValue()).intValue();
+    }
+}

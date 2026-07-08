@@ -1,0 +1,7 @@
+package X;
+
+/* JADX INFO: renamed from: X.0k5H, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes21.dex */
+public final class C1305770k5H {
+    public static final /* synthetic */ int LIZ = 0;
+}

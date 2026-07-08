@@ -1,0 +1,11 @@
+package X;
+
+import java.io.Serializable;
+import java.util.Set;
+
+/* JADX INFO: renamed from: X.0dIm, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes17.dex */
+public final class C1045060dIm implements Serializable, Cloneable {
+    public String clickThrough;
+    public Set<String> clickTracking;
+}

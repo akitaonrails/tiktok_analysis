@@ -1,0 +1,22 @@
+package X;
+
+import kotlin.Unit;
+import kotlin.jvm.functions.Function1;
+
+/* JADX INFO: renamed from: X.0ewN, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes18.dex */
+public final class C1108050ewN extends C09AY implements Function1<C0II9, Unit> {
+    public C1108050ewN() {
+        super(1);
+    }
+
+    @Override // kotlin.jvm.functions.Function1
+    public final Unit invoke(C0II9 c0ii9) {
+        if (C494680Jac.LJII(c0ii9)) {
+            C1108350ewr.LIZLLL(C1697810uHb.LJIIJJI(1, 2), 128, EnumC1108060ewO.SUB_ONLY_LIVE_PREVIEW_CARD);
+        } else {
+            C1108350ewr.LIZJ(C1697810uHb.LJIIJJI(1, 2), 128, EnumC1108060ewO.SUB_ONLY_LIVE_PREVIEW_CARD);
+        }
+        return Unit.LIZ;
+    }
+}

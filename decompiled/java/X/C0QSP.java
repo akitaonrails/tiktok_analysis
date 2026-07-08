@@ -1,0 +1,19 @@
+package X;
+
+import com.bytedance.tt.reliability.monitor.catchchecker.TryCatchGuardChecker;
+
+/* JADX INFO: renamed from: X.0QSP, reason: invalid class name */
+/* JADX INFO: loaded from: classes11.dex */
+public /* synthetic */ class C0QSP {
+    public static final /* synthetic */ int[] LIZ;
+
+    static {
+        int[] iArr = new int[C0QXT.values().length];
+        try {
+            iArr[C0QXT.PRODUCT_CARD.ordinal()] = 1;
+        } catch (NoSuchFieldError e) {
+            TryCatchGuardChecker.doCheck(e);
+        }
+        LIZ = iArr;
+    }
+}

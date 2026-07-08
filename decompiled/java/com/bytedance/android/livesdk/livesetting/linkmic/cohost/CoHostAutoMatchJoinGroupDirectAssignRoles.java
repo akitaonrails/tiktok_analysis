@@ -1,0 +1,19 @@
+package com.bytedance.android.livesdk.livesetting.linkmic.cohost;
+
+import com.bytedance.android.live.annotation.SettingsKey;
+import com.bytedance.android.live_settings.SettingsManager;
+
+/* JADX INFO: loaded from: classes16.dex */
+@SettingsKey(preciseExperiment = false, value = "live_cohost_auto_match_join_group_direct_assign_roles")
+public final class CoHostAutoMatchJoinGroupDirectAssignRoles {
+    public static final boolean DEFAULT = true;
+    public static final CoHostAutoMatchJoinGroupDirectAssignRoles INSTANCE = new CoHostAutoMatchJoinGroupDirectAssignRoles();
+
+    public final boolean getValue() {
+        return SettingsManager.INSTANCE.getBooleanValue("live_cohost_auto_match_join_group_direct_assign_roles", DEFAULT);
+    }
+
+    public final boolean actionEnabled() {
+        return getValue();
+    }
+}

@@ -1,0 +1,31 @@
+package X;
+
+import com.ss.android.ugc.aweme.relation.auth.pipeline.common.RelationAuthDialogControl;
+import kotlin.jvm.internal.AFwS217S0000000_28;
+
+/* JADX INFO: renamed from: X.0e06, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes17.dex */
+public final class C1071920e06 extends AbstractC1071880e02 {
+    public final RelationAuthDialogControl LIZ;
+    public final C01GW LIZIZ = C452501pT.LIZIZ(AFwS217S0000000_28.get$arr$(650));
+
+    public C1071920e06(RelationAuthDialogControl relationAuthDialogControl) {
+        this.LIZ = relationAuthDialogControl;
+    }
+
+    /* JADX WARN: Removed duplicated region for block: B:39:0x00fb  */
+    /* JADX WARN: Removed duplicated region for block: B:45:0x0117  */
+    /* JADX WARN: Removed duplicated region for block: B:63:0x0205  */
+    @Override // X.InterfaceC1071510dzR
+    /*
+        Code decompiled incorrectly, please refer to instructions dump.
+        To view partially-correct add '--show-bad-code' argument
+    */
+    public final java.lang.Object LIZ(X.C1071220dyy r20, X.InterfaceC1364105Vn<? super X.C1071240dz0> r21) {
+        /*
+            Method dump skipped, instruction units count: 615
+            To view this dump add '--comments-level debug' option
+        */
+        throw new UnsupportedOperationException("Method not decompiled: X.C1071920e06.LIZ(X.0dyy, X.05Vn):java.lang.Object");
+    }
+}

@@ -1,0 +1,73 @@
+package com.aweme.account.login;
+
+import X.C1308910kAL;
+import X.C1697810uHb;
+import X.C299020Bno;
+import X.C335910DEv;
+import X.EnumC335920DEw;
+import com.bytedance.sysoptimizer.EnterTransitionCrashOptimizer;
+import com.bytedance.tt.reliability.monitor.catchchecker.TryCatchGuardChecker;
+import com.ss.android.ugc.aweme.account.otl.BaseOTLIntentHandlerActivity;
+import com.zhiliaoapp.musically.R;
+
+/* JADX INFO: loaded from: classes2.dex */
+public final class OTLIntentHandlerActivity extends BaseOTLIntentHandlerActivity {
+    public static final String _pnsPageId = "KyohZy4kLSgpZy4wKyo5Jzt9JCorICF9HELIOSBxEAACEnLSs4AS49LCkpOw4wPCw6IDsq";
+
+    @Override // com.bytedance.ies.foundation.activity.BaseActivity, X.C19GS, X.C19EG, android.app.Activity
+    public final void onStop() {
+        super.onStop();
+        if (EnterTransitionCrashOptimizer.getContext() != null) {
+            try {
+                getWindow().getDecorView().getViewTreeObserver().dispatchOnPreDraw();
+            } catch (Throwable th) {
+                TryCatchGuardChecker.doCheck(th);
+            }
+        }
+        try {
+            getWindow().getDecorView().getViewTreeObserver().dispatchOnPreDraw();
+        } catch (Throwable th2) {
+            TryCatchGuardChecker.doCheck(th2);
+        }
+    }
+
+    @Override // com.bytedance.ies.foundation.activity.BaseActivity, X.C19GS, android.app.Activity, android.view.ContextThemeWrapper, android.content.ContextWrapper, android.content.Context
+    public final void setTheme(int i) {
+        boolean z;
+        super.setTheme(i);
+        if (C299020Bno.LIZ() != 0) {
+            boolean z2 = false;
+            if (!C1697810uHb.LJIIJJI(Integer.valueOf(R.style.a9t), Integer.valueOf(R.style.a9u), Integer.valueOf(R.style.a9v), Integer.valueOf(R.style.a9s)).contains(Integer.valueOf(i))) {
+                Integer numLIZ = C1308910kAL.LIZ(R.attr.g0c, this);
+                if (numLIZ != null && numLIZ.intValue() == -1) {
+                    z = true;
+                } else {
+                    z = false;
+                }
+                Integer numLIZ2 = C1308910kAL.LIZ(R.attr.g0d, this);
+                if (numLIZ2 == null || numLIZ2.intValue() != 0) {
+                    z2 = true;
+                }
+                if (z) {
+                    getTheme().applyStyle(R.style.a9u, true);
+                } else {
+                    getTheme().applyStyle(R.style.a9t, true);
+                }
+                if (z2) {
+                    getTheme().applyStyle(R.style.a9v, true);
+                } else {
+                    getTheme().applyStyle(R.style.a9s, true);
+                }
+            }
+        }
+        EnumC335920DEw enumC335920DEwLIZ = C335910DEv.LIZ();
+        if (enumC335920DEwLIZ == EnumC335920DEw.V1) {
+            getTheme().applyStyle(R.style.a9x, true);
+        } else {
+            if (enumC335920DEwLIZ != EnumC335920DEw.V2) {
+                return;
+            }
+            getTheme().applyStyle(R.style.a9y, true);
+        }
+    }
+}

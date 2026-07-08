@@ -1,0 +1,22 @@
+package X;
+
+import com.bytedance.android.livesdk.livesetting.linkmic.cohost.InteractionSourceTypeTrackingSetting;
+import java.util.Map;
+import kotlin.Pair;
+
+/* JADX INFO: renamed from: X.0ayu, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes16.dex */
+public final class C955860ayu {
+    public static final Map<Integer, String> LIZ = C2097608Jq.LJIIIIZZ(new Pair(0, "SOURCE_TYPE_UNKNOWN"), new Pair(1, "SOURCE_TYPE_FRIEND_LIST"), new Pair(2, "SOURCE_TYPE_RECOMMEND_LIST"), new Pair(3, "SOURCE_TYPE_RECENT"), new Pair(4, "SOURCE_TYPE_OTHER_FOLLOW"), new Pair(5, "SOURCE_TYPE_QUICK_PAIR"), new Pair(6, "SOURCE_TYPE_ACTIVITY"), new Pair(7, "SOURCE_TYPE_QUICK_RECOMMEND"), new Pair(43, "SOURCE_TYPE_QUICK_RECOMMEND"), new Pair(8, "SOURCE_TYPE_OFFICIAL_CHANNEL"), new Pair(9, "SOURCE_TYPE_BEST_TEAMMATE"), new Pair(10, "SOURCE_TYPE_RESERVATION"), new Pair(11, "SOURCE_TYPE_PAIRING"), new Pair(12, "SOURCE_TYPE_PAIRING_ON_RESERVATION"), new Pair(13, "SOURCE_TYPE_TOPIC_QUICK_PAIR"), new Pair(14, "SOURCE_TYPE_TOPIC_QUICK_RECOMMEND"), new Pair(20, "SOURCE_TYPE_WEEKLY_RANK"), new Pair(21, "SOURCE_TYPE_HOURLY_RANK"), new Pair(23, "SOURCE_TYPE_WEEKLY_RISING"), new Pair(24, "SOURCE_TYPE_WEEKLY_ROOKIE"), new Pair(25, "SOURCE_TYPE_CONNECTION_LIST"), new Pair(26, "SOURCE_TYPE_DAILY_RANK"), new Pair(27, "SOURCE_TYPE_DAILY_RANK_HALL_OF_FAME"), new Pair(28, "SOURCE_TYPE_RESERVATION_BUBBLE"), new Pair(29, "SOURCE_TYPE_PAIRING_BUBBLE"), new Pair(30, "SOURCE_TYPE_LEAGUE_PHASE_ONE"), new Pair(31, "SOURCE_TYPE_LEAGUE_PHASE_TWO"), new Pair(32, "SOURCE_TYPE_LEAGUE_PHASE_THREE"), new Pair(33, "SOURCE_TYPE_DAILY_ROOKIE"), new Pair(34, "SOURCE_TYPE_MAY_KNOW_LIST"), new Pair(35, "SOURCE_TYPE_BANNER"), new Pair(36, "SOURCE_TYPE_FANS_TEAM_RANK"), new Pair(37, "SOURCE_TYPE_SEARCH"), new Pair(38, "SOURCE_TYPE_EOY_RANK_LIST"), new Pair(39, "SOURCE_TYPE_LEAGUE_CAMPAIGN_RANK"), new Pair(40, "SOURCE_TYPE_CREATOR_CLASS_RANK"), new Pair(15, "SOURCE_TYPE_ONLINE_FRIEND_CAPSULE"), new Pair(44, "SOURCE_TYPE_GTM_MAINPAGE_1VN_KING"), new Pair(45, "SOURCE_TYPE_GTM_MAINPAGE_1VN_KNIGHT"), new Pair(46, "SOURCE_TYPE_GTM_RANK_1VN_KING"), new Pair(47, "SOURCE_TYPE_GTM_RANK_1VN_KNIGHT"), new Pair(48, "SOURCE_TYPE_LEAGUE_RECOMMEND_LIST_SEARCH"), new Pair(49, "SOURCE_TYPE_LEAGUE_RECOMMEND_LIST_ACTIVITY_PAGE"), new Pair(50, "SOURCE_TYPE_LEAGUE_MATCH_QUICK_PAIR"), new Pair(51, "SOURCE_TYPE_LEAGUE_MATCH_QUICK_RECOMMEND"), new Pair(52, "SOURCE_TYPE_LEAGUE_MATCH_QUICK_RECOMMEND_DURING_COHOST"), new Pair(53, "SOURCE_TYPE_INVITE_OFFLIVE_FRIEND"), new Pair(54, "SOURCE_TYPE_AVAILABLE_FRIEND_CAPULE"), new Pair(55, "SOURCE_TYPE_RECOMMENDED_FRIEND_CAPULE"), new Pair(64, "SOURCE_TYPE_LEAGUE_MATCH_DIRECT_BATTLE_ACTIVITY_PAGE"), new Pair(67, "SOURCE_TYPE_LEAGUE_MATCH_DIRECT_BATTLE_ACTIVITY_PAGE_PROFILE"), new Pair(68, "SOURCE_TYPE_LEAGUE_MATCH_DIRECT_BATTLE_RANK_LIST_PROFILE"), new Pair(70, "SOURCE_TYPE_FRIEND_RANK_LIST_PAGE"), new Pair(71, "SOURCE_TYPE_FRIEND_SUGGESTION_CAPSULE"), new Pair(72, "SOURCE_TYPE_SEARCH_FRIEND_SECTION"), new Pair(75, "SOURCE_TYPE_COMPANION_QUICK_COHOST_QUICK_RECOMMAND"));
+
+    public static final String LIZ(Integer num) {
+        if (num == null) {
+            return "SOURCE_TYPE_UNKNOWN";
+        }
+        String sourceTypeString = LIZ.get(num);
+        if (sourceTypeString == null && (sourceTypeString = InteractionSourceTypeTrackingSetting.INSTANCE.getSourceTypeString(num)) == null) {
+            return "SOURCE_TYPE_UNKNOWN";
+        }
+        return sourceTypeString;
+    }
+}

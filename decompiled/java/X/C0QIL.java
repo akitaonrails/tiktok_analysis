@@ -1,0 +1,15 @@
+package X;
+
+import com.bytedance.keva.Keva;
+import kotlin.jvm.internal.AFwS196S0000000_10;
+
+/* JADX INFO: renamed from: X.0QIL, reason: invalid class name */
+/* JADX INFO: loaded from: classes11.dex */
+public final class C0QIL {
+    public static final C01GW LIZ = C452501pT.LIZIZ(AFwS196S0000000_10.get$arr$(561));
+
+    public static int LIZ() {
+        int i = ((Keva) LIZ.getValue()).getInt("search_history_count", 0);
+        return i <= 0 ? ((Number) C0BCA.LIZ.getValue()).intValue() : i;
+    }
+}

@@ -1,0 +1,7 @@
+package X;
+
+/* JADX INFO: renamed from: X.0kVl, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes21.dex */
+public final class C1322190kVl {
+    public static Boolean LIZ;
+}

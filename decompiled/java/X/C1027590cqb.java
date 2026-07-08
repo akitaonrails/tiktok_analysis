@@ -1,0 +1,104 @@
+package X;
+
+import com.ss.android.ugc.aweme.commercialize.feed.preload.PreloadData;
+import java.util.List;
+import java.util.Map;
+import org.json.JSONObject;
+
+/* JADX INFO: renamed from: X.0cqb, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes17.dex */
+public final class C1027590cqb {
+    public String LIZ;
+    public String LIZIZ;
+    public final Map<String, String> LIZJ;
+    public boolean LIZLLL;
+    public boolean LJ;
+    public Integer LJFF;
+    public final boolean LJI;
+    public final PreloadData LJII;
+    public int LJIIIIZZ;
+    public int LJIIIZ;
+    public String LJIIJ;
+    public int LJIIJJI;
+    public int LJIIL;
+    public int LJIILIIL;
+    public long LJIILJJIL;
+    public boolean LJIILL;
+    public String LJIILLIIL;
+    public int LJIIZILJ;
+    public String LJIJ;
+    public int LJIJI;
+    public int LJIJJ;
+    public boolean LJIJJLI;
+    public int LJIL;
+    public int LJJ;
+    public int LJJI;
+    public int LJJIFFI;
+    public JSONObject LJJII;
+    public String LJJIII;
+    public String LJJIIJ;
+    public String LJJIIJZLJL;
+    public String LJJIIZ;
+    public String LJJIIZI;
+    public List<String> LJJIJ;
+    public int LJJIJIIJI;
+    public boolean LJJIJIIJIL;
+    public int LJJIJIL;
+    public String LJJIJL;
+    public boolean LJJIJLIJ;
+    public boolean LJJIL;
+    public boolean LJJIZ;
+    public boolean LJJJ;
+    public String LJJJI;
+    public String LJJJIL;
+    public boolean LJJJJ;
+
+    public C1027590cqb(int i) {
+        Map<String, String> mapLJ = C2097608Jq.LJ();
+        C13BV c13bv = C13BV.INSTANCE;
+        this.LIZ = "";
+        this.LIZIZ = "";
+        this.LIZJ = mapLJ;
+        this.LIZLLL = true;
+        this.LJ = false;
+        this.LJFF = null;
+        this.LJI = true;
+        this.LJII = null;
+        this.LJIIIIZZ = 0;
+        this.LJIIIZ = 0;
+        this.LJIIJ = "";
+        this.LJIIJJI = 0;
+        this.LJIIL = 0;
+        this.LJIILIIL = 0;
+        this.LJIILJJIL = 0L;
+        this.LJIILL = false;
+        this.LJIILLIIL = null;
+        this.LJIIZILJ = 0;
+        this.LJIJ = "";
+        this.LJIJI = 0;
+        this.LJIJJ = 0;
+        this.LJIJJLI = false;
+        this.LJIL = 0;
+        this.LJJ = 0;
+        this.LJJI = 0;
+        this.LJJIFFI = 0;
+        this.LJJII = null;
+        this.LJJIII = "";
+        this.LJJIIJ = "";
+        this.LJJIIJZLJL = "";
+        this.LJJIIZ = "";
+        this.LJJIIZI = "";
+        this.LJJIJ = c13bv;
+        this.LJJIJIIJI = 0;
+        this.LJJIJIIJIL = false;
+        this.LJJIJIL = 0;
+        this.LJJIJL = "";
+        this.LJJIJLIJ = false;
+        this.LJJIL = false;
+        this.LJJIZ = false;
+        this.LJJJ = false;
+        this.LJJJI = null;
+        this.LJJJIL = null;
+        this.LJJJJ = false;
+    }
+}

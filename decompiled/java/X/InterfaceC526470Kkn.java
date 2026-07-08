@@ -1,0 +1,10 @@
+package X;
+
+import com.ss.android.ugc.aweme.shortvideo.mvtemplate.choosemedia.model.TikTokMediaModel;
+import java.util.List;
+
+/* JADX INFO: renamed from: X.0Kkn, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes9.dex */
+public interface InterfaceC526470Kkn {
+    boolean LIZ(List<? extends TikTokMediaModel> list);
+}

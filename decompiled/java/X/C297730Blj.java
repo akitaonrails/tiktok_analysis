@@ -1,0 +1,16 @@
+package X;
+
+import kotlin.jvm.functions.Function0;
+
+/* JADX INFO: renamed from: X.0Blj, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes5.dex */
+public final class C297730Blj extends C09AY implements Function0<Boolean> {
+    public C297730Blj() {
+        super(0);
+    }
+
+    @Override // kotlin.jvm.functions.Function0
+    public final Boolean invoke() {
+        return Boolean.valueOf(C0C64.LJIILLIIL().LJIIIIZZ(31744, 2, "enable_main_container_preload_refactor", true, false));
+    }
+}

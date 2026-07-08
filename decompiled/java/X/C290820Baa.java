@@ -1,0 +1,9 @@
+package X;
+
+/* JADX INFO: renamed from: X.0Baa, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes5.dex */
+public final class C290820Baa {
+    public static final boolean LIZ() {
+        return C0C64.LJIILLIIL().LJIIIZ(31744, "migrate_ve_logic_to_nle2", true, false);
+    }
+}

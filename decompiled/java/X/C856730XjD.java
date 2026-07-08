@@ -1,0 +1,117 @@
+package X;
+
+import android.content.Context;
+import androidx.fragment.app.FragmentManager;
+import com.ss.android.ugc.aweme.shortvideo.edit.VideoPublishEditModel;
+import java.util.ArrayList;
+import java.util.Iterator;
+import kotlin.jvm.internal.AwS154S0101000_14;
+
+/* JADX INFO: renamed from: X.0XjD, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes15.dex */
+public final class C856730XjD extends AbstractC856750XjF {
+    public final VideoPublishEditModel LIZLLL;
+    public final ArrayList<AbstractC856710XjB> LJ;
+    public final InterfaceC1455860nzM LJFF;
+
+    @Override // X.AbstractC856750XjF
+    public final boolean LJII() {
+        return true;
+    }
+
+    @Override // X.AbstractC856750XjF
+    public final int LIZIZ() {
+        return EnumC856780XjI.SUBSCRIBE_VIDEO_CHECK_TYPE.getCheckType();
+    }
+
+    @Override // X.AbstractC856750XjF
+    public final AbstractC856710XjB LIZJ() {
+        AbstractC856710XjB abstractC856710XjB = null;
+        if (!C362380EIq.LIZ()) {
+            Iterator<AbstractC856710XjB> it2 = this.LJ.iterator();
+            while (true) {
+                if (!it2.hasNext()) {
+                    break;
+                }
+                AbstractC856710XjB next = it2.next();
+                if (next.LIZ() == C0FPS.ECOMMERCE.getScene()) {
+                    abstractC856710XjB = next;
+                    break;
+                }
+            }
+            return abstractC856710XjB;
+        }
+        if (this.LIZLLL.creativeModel.audioCopyrightDetectModel.getHasShopAnchor() || C857680Xkk.LIZIZ(this.LIZLLL)) {
+            Iterator<AbstractC856710XjB> it3 = this.LJ.iterator();
+            while (true) {
+                if (!it3.hasNext()) {
+                    break;
+                }
+                AbstractC856710XjB next2 = it3.next();
+                if (next2.LIZ() == C0FPS.ECOMMERCE.getScene()) {
+                    abstractC856710XjB = next2;
+                    break;
+                }
+            }
+            return abstractC856710XjB;
+        }
+        for (AbstractC856710XjB abstractC856710XjB2 : this.LJ) {
+            AbstractC856710XjB abstractC856710XjB3 = abstractC856710XjB2;
+            if (!C384190F4n.LIZIZ(this.LJFF)) {
+                if (abstractC856710XjB3.LIZ() == C0FPS.SHORT_VIDEO.getScene()) {
+                    abstractC856710XjB = abstractC856710XjB2;
+                    break;
+                }
+            } else {
+                if (abstractC856710XjB3.LIZ() == C0FPS.LONG_VIDEO.getScene()) {
+                    abstractC856710XjB = abstractC856710XjB2;
+                    break;
+                }
+            }
+        }
+        return abstractC856710XjB;
+    }
+
+    @Override // X.AbstractC856750XjF
+    public final ArrayList<AbstractC856710XjB> LJ() {
+        return this.LJ;
+    }
+
+    @Override // X.AbstractC856750XjF
+    public final InterfaceC1455860nzM LJFF() {
+        return this.LJFF;
+    }
+
+    @Override // X.AbstractC856750XjF
+    public final VideoPublishEditModel LJI() {
+        return this.LIZLLL;
+    }
+
+    public C856730XjD(VideoPublishEditModel videoPublishEditModel, ArrayList arrayList, InterfaceC1446740nke interfaceC1446740nke) {
+        super(videoPublishEditModel, arrayList, interfaceC1446740nke);
+        this.LIZLLL = videoPublishEditModel;
+        this.LJ = arrayList;
+        this.LJFF = interfaceC1446740nke;
+    }
+
+    @Override // X.AbstractC856750XjF
+    public final void LJIIIIZZ(FragmentManager fragmentManager, Context context, VideoPublishEditModel videoPublishEditModel, int i, AwS154S0101000_14 awS154S0101000_14, AwS154S0101000_14 awS154S0101000_142) {
+        AbstractC856710XjB next;
+        Iterator<AbstractC856710XjB> it2 = this.LJ.iterator();
+        while (true) {
+            if (it2.hasNext()) {
+                next = it2.next();
+                if (next.LIZ() == C0FPS.ECOMMERCE.getScene()) {
+                    break;
+                }
+            } else {
+                next = null;
+                break;
+            }
+        }
+        AbstractC856710XjB abstractC856710XjB = next;
+        if (abstractC856710XjB != null) {
+            abstractC856710XjB.LJ(fragmentManager, context, videoPublishEditModel, i, awS154S0101000_14, awS154S0101000_142);
+        }
+    }
+}

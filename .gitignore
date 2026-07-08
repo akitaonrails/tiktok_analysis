@@ -1,8 +1,11 @@
-# Large binaries / reverse-engineering artifacts
+# Original app binary — redistributable, get it from APKPure (see README)
 *.xapk
 *.apk
 *.apks
 *.dex
+
+# Intermediate reverse-engineering workspace (regenerate from the .xapk)
 unpacked/
-decompiled/
 _work/
+
+# NOTE: decompiled/ is intentionally tracked (the decompiled Java source).

@@ -1,0 +1,23 @@
+package X;
+
+import com.bytedance.pumbaa.hybrid.governance.jsi.PnsJsiConfigModel;
+import com.bytedance.pumbaa.hybrid.governance.jsi.ThirdPartyJSIItem;
+
+/* JADX INFO: renamed from: X.1EOK, reason: invalid class name */
+/* JADX INFO: loaded from: classes36.dex */
+public final class C1EOK {
+    public static PnsJsiConfigModel LIZ;
+    public static long LIZIZ = System.currentTimeMillis();
+
+    public static final PnsJsiConfigModel LIZ() {
+        if (LIZ == null || System.currentTimeMillis() - LIZIZ > 1200000) {
+            PnsJsiConfigModel pnsJsiConfigModel = LIZ;
+            if (pnsJsiConfigModel == null) {
+                pnsJsiConfigModel = new PnsJsiConfigModel(C1697810uHb.LJIILJJIL("com.ss.android.ugc.aweme.checkout.ShopifyCheckoutMessageBridge#postMessage", "com.ss.android.ugc.aweme.compliance.sandbox.webview.TTHYBRIDXHR#postMessage", "InJavaScriptLocalObj#showSource", "JSInterface#getManifest", "JSInterface#getPageConfig", "com.bytedance.sdk.xbridge.protocol.impl.web.JSB2Impl#invokeMethod", "com.bytedance.sdk.xbridge.protocol.impl.web.JSB3Impl#_invokeMethod", "com.bytedance.sdk.xbridge.protocol.impl.web.JSB3Impl#call", "com.bytedance.sdk.xbridge.protocol.impl.web.JSB4Impl#_invokeMethod", "com.bytedance.ies.web.jsbridge2.WebViewBridge#invokeMethod", "com.bytedance.ies.bullet.service.webkit.GlobalProps#getGlobalProps", "com.bytedance.lynx.hybrid.webkit.GlobalProps#getGlobalProps", "com.ss.android.ugc.aweme.hybridkit.web.hooks.RestrictiveRuleReporter#reportRestrictiveRule", "JSInterface#postMessage", "com.bytedance.hybrid.spark.security.web_js.core.WJSIReport#postMessage", "com.ss.android.ugc.aweme.compliance.sandbox.webview.WebViewInterceptReport#postMessage", "com.ss.android.anywheredoor.core.jsbridge.ArenaJSBridge#invokeMethod", "Callback#on", "LogBoxCallback#postMessage", "#handle", "JSBridge#findAll", "#communicateToPlatform", "#hdtLighthouseInfo", "#log", "#emitVConsoleReady", "com.bytedance.sdk.bridge.js.delegate.JavaScriptInterfaceModule#call", "com.bytedance.sdk.bridge.js.delegate.JavaScriptInterfaceModule#callSync", "com.bytedance.sdk.bridge.js.delegate.JavaScriptInterfaceModule#_invokeMethod", "com.facebook.appevents.FacebookSDKJSInterface#sendEvent"), C1697810uHb.LJIILJJIL("com.bytedance.android.monitorV2.webview.WebViewMonitorJsBridge#request", "com.bytedance.android.monitorV2.webview.WebViewMonitorJsBridge#sendInitTimeInfo", "com.bytedance.android.monitorV2.webview.WebViewMonitorJsBridge#terminatedPreCollect", "com.bytedance.android.monitorV2.webview.WebViewMonitorJsBridge#traceMark", "com.bytedance.android.monitorV2.webview.WebViewMonitorJsBridge#batch", "com.bytedance.android.monitorV2.webview.WebViewMonitorJsBridge#config", "com.bytedance.android.monitorV2.webview.WebViewMonitorJsBridge#cover", "com.bytedance.android.monitorV2.webview.WebViewMonitorJsBridge#customReport", "com.bytedance.android.monitorV2.webview.WebViewMonitorJsBridge#injectJS", "com.bytedance.android.monitorV2.webview.WebViewMonitorJsBridge#reportDirectly", "com.bytedance.android.monitorV2.webview.WebViewMonitorJsBridge#reportPageLatestData", "com.bytedance.android.monitorV2.webview.WebViewMonitorJsBridge#reportPiaInfo", "com.bytedance.android.monitorV2.webview.WebViewMonitorJsBridge#reportVerifiedData", "com.bytedance.android.monitorV2.webview.WebViewMonitorJsBridge#getInfo", "com.bytedance.android.monitorV2.webview.WebViewMonitorJsBridge#getVersion", "com.bytedance.android.monitor.webview.WebViewMonitorJsBridge#batch", "com.bytedance.android.monitor.webview.WebViewMonitorJsBridge#cover", "com.bytedance.android.monitor.webview.WebViewMonitorJsBridge#customReport", "com.bytedance.android.monitor.webview.WebViewMonitorJsBridge#injectJS", "com.bytedance.android.monitor.webview.WebViewMonitorJsBridge#reportDirectly", "com.bytedance.android.monitor.webview.WebViewMonitorJsBridge#reportPageLatestData", "com.bytedance.android.monitor.webview.WebViewMonitorJsBridge#sendInitTimeInfo", "com.bytedance.android.monitor.webview.WebViewMonitorJsBridge#getVersion", "AndroidJsInterface#callMethodParams", "AndroidJsInterface#offMethodParams", "AndroidJsInterface#onMethodParams", "JS2NativeInterface#_invokeMethod", "com.ss.android.ugc.aweme.i18n.xbridge.compliance.bridge.route.PnsWebApIInterface#historyGo"), C1697810uHb.LJIILJJIL(new ThirdPartyJSIItem("com.ss.android.ugc.aweme.amazon.AmazonShopWebInterfaceHandler#postMessage", C1697810uHb.LJIILJJIL(".amazon.com", "shop-external.amazon"))));
+            }
+            LIZ = (PnsJsiConfigModel) C821960WMg.LIZ(PnsJsiConfigModel.class, "pns_jsi_config", pnsJsiConfigModel);
+            LIZIZ = System.currentTimeMillis();
+        }
+        return LIZ;
+    }
+}

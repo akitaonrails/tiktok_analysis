@@ -1,0 +1,6 @@
+package X;
+
+/* JADX INFO: renamed from: X.0c5J, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes17.dex */
+public interface InterfaceC998270c5J extends InterfaceC998220c5E {
+}

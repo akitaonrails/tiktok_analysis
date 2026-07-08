@@ -1,0 +1,24 @@
+package X;
+
+import kotlin.jvm.internal.Intrinsics;
+
+/* JADX INFO: renamed from: X.0QC4, reason: invalid class name */
+/* JADX INFO: loaded from: classes11.dex */
+public final class C0QC4 implements InterfaceC1891350zJl {
+    public static final C0QC4 LL = new C0QC4();
+
+    @Override // X.InterfaceC1891350zJl
+    public final Object getChangePayload(InterfaceC1891350zJl interfaceC1891350zJl) {
+        return null;
+    }
+
+    @Override // X.InterfaceC1891350zJl
+    public final boolean areContentsTheSame(InterfaceC1891350zJl interfaceC1891350zJl) {
+        return Intrinsics.LJFF(interfaceC1891350zJl, this);
+    }
+
+    @Override // X.InterfaceC1891350zJl
+    public final boolean areItemTheSame(InterfaceC1891350zJl interfaceC1891350zJl) {
+        return Intrinsics.LJFF(interfaceC1891350zJl, this);
+    }
+}

@@ -1,0 +1,23 @@
+package com.bytedance.android.livesdk.livesetting.broadcast;
+
+import com.bytedance.android.live.annotation.SettingsKey;
+import com.bytedance.android.live_settings.SettingsManager;
+
+/* JADX INFO: loaded from: classes30.dex */
+@SettingsKey(preciseExperiment = false, value = "anchor_finish_encourage_v2")
+public final class AnchorFinishEncourageV2ABSetting {
+    public static final int DEFAULT = 0;
+    public static final AnchorFinishEncourageV2ABSetting INSTANCE = new AnchorFinishEncourageV2ABSetting();
+
+    public final boolean isEnable() {
+        return SettingsManager.INSTANCE.getIntValue("anchor_finish_encourage_v2", DEFAULT) != 0;
+    }
+
+    public final boolean isV1() {
+        return SettingsManager.INSTANCE.getIntValue("anchor_finish_encourage_v2", DEFAULT) == 1;
+    }
+
+    public final boolean isV2() {
+        return SettingsManager.INSTANCE.getIntValue("anchor_finish_encourage_v2", DEFAULT) == 2;
+    }
+}

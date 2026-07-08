@@ -1,0 +1,11 @@
+package X;
+
+/* JADX INFO: renamed from: X.0u2L, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes26.dex */
+public final class C1688350u2L {
+    public C1688350u2L() {
+    }
+
+    public C1688350u2L(int i) {
+    }
+}

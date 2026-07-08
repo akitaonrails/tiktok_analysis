@@ -1,0 +1,5 @@
+package com.ss.android.ugc.tiktok.commercialize_publish_depend;
+
+/* JADX INFO: loaded from: classes14.dex */
+public class R$drawable extends com.ss.android.ugc.aweme.app.R$drawable {
+}

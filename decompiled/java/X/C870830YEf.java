@@ -1,0 +1,75 @@
+package X;
+
+import com.bytedance.android.livesdk.livesetting.game.DefaultHighLightCutConfig;
+import com.bytedance.im.core.client.configs.BatchAckSamplingConfig;
+import com.bytedance.im.core.client.configs.IMCompletenessConfiguration;
+import com.bytedance.im.core.client.configs.ReportTaskInfoConfig;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+/* JADX INFO: renamed from: X.0YEf, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes15.dex */
+public final class C870830YEf {
+    public String LIZ;
+    public boolean LIZIZ;
+    public boolean LIZJ;
+    public long LIZLLL;
+    public String LJ;
+    public int LJIIIZ;
+    public int[] LJIIJJI;
+    public int LJIILJJIL;
+    public boolean LJIILLIIL;
+    public boolean LJIIZILJ;
+    public boolean LJIJ;
+    public boolean LJIJI;
+    public final boolean LJFF = true;
+    public String LJI = "";
+    public final int LJII = 6144;
+    public final int LJIIIIZZ = 1024;
+    public int[] LJIIJ = {0};
+    public boolean LJIIL = true;
+    public int LJIILIIL = 1;
+    public final int LJIILL = 1;
+    public final int LJIJJ = -1;
+    public C0Y6A LJIJJLI = new C870920YEo();
+    public final boolean LJIL = true;
+    public C871840YIc LJJ = new C871840YIc(120, 3, DefaultHighLightCutConfig.DEFAULT_CUT_INTERVAL);
+    public int LJJI = 0;
+    public final int LJJIFFI = 30;
+    public boolean LJJII = false;
+    public boolean LJJIII = true;
+    public boolean LJJIIJ = false;
+    public ReportTaskInfoConfig LJJIIJZLJL = new ReportTaskInfoConfig();
+    public boolean LJJIIZ = false;
+    public int LJJIIZI = 1;
+    public final int LJJIJ = 50;
+    public final int LJJIJIIJI = 1;
+    public long LJJIJIIJIL = 2000;
+    public final C007P LJJIJIL = C007P.LIZIZ;
+    public final boolean LJJIJL = true;
+    public boolean LJJIJLIJ = false;
+    public final float LJJIL = 1.0f;
+    public boolean LJJIZ = false;
+    public C871020YEy LJJJ = new C871020YEy(false, null, 15);
+    public boolean LJJJI = false;
+    public C878260Ycq LJJJIL = null;
+    public final long LJJJJ = 20;
+    public boolean LJJJJI = false;
+    public C870510YCz LJJJJIZL = new C870510YCz(false, 7);
+    public boolean LJJJJJ = true;
+    public BatchAckSamplingConfig LJJJJJL = new BatchAckSamplingConfig();
+    public boolean LJJJJL = false;
+    public IMCompletenessConfiguration LJJJJLI = new IMCompletenessConfiguration();
+    public List<AbstractC873670YPd> LJJJJLL = new ArrayList();
+    public C871190YFp LJJJJZ = new C871190YFp(false, 0, 0, 4);
+    public C0Y2V LJJJJZI = new C0Y2V(false, 0, C1697810uHb.LJIIJJI(0, 1), Collections.singletonList(4));
+    public int LJJJLIIL = 1;
+    public List<Integer> LJJJLL = new ArrayList();
+    public C0YLG LJJJLZIJ = new C0YLG(0, 0, 0, 0, 0, 0, 0, 0);
+    public boolean LJJJZ = false;
+    public boolean LJJL = false;
+    public boolean LJJLI = false;
+    public C0YA7 LJJLIIIIJ = new C0YA7(null, null, null, 0, false, false, null, false, false, null, null, false, false, null, null, false, null, false, false, null, false, false, false, false, null, 0.0f, false, null, null, false, 0, null, false, false, false, null, false, false, false, false, false, false, false, false, false, false, false, false, false, -1, 16777215);
+    public C870290YCd LJJLIIIJ = new C870290YCd(0, false, 7);
+}

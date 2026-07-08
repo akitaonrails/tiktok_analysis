@@ -1,0 +1,49 @@
+package X;
+
+import java.util.List;
+
+/* JADX INFO: renamed from: X.1366, reason: invalid class name */
+/* JADX INFO: loaded from: classes31.dex */
+public final class AnonymousClass1366 extends C199547135t {
+
+    @InterfaceC199548135u
+    public C136E defaultTiming;
+
+    @InterfaceC199548135u
+    public List<Object> items;
+
+    @InterfaceC199548135u
+    public C136J position;
+
+    @InterfaceC199548135u
+    public Boolean useSmartTiming;
+
+    @Override // X.C199547135t, X.C199536135i
+    /* JADX INFO: renamed from: LIZ */
+    public final C199536135i clone() {
+        return super.clone();
+    }
+
+    @Override // X.C199547135t
+    /* JADX INFO: renamed from: LIZJ */
+    public final C199547135t clone() {
+        return super.clone();
+    }
+
+    @Override // X.C199547135t, X.C199536135i, java.util.AbstractMap
+    public final Object clone() {
+        return super.clone();
+    }
+
+    @Override // X.C199547135t, X.C199536135i
+    public final void LIZIZ(Object obj, String str) {
+        super.LIZIZ(obj, str);
+    }
+
+    @Override // X.C199547135t
+    /* JADX INFO: renamed from: LIZLLL */
+    public final C199547135t LIZIZ(Object obj, String str) {
+        super.LIZIZ(obj, str);
+        return this;
+    }
+}

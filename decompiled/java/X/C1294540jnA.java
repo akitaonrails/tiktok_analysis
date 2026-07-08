@@ -1,0 +1,32 @@
+package X;
+
+/* JADX INFO: renamed from: X.0jnA, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes21.dex */
+public final class C1294540jnA implements InterfaceC1294510jn7 {
+    public final String LIZ;
+    public final int LIZIZ;
+    public final C1294530jn9 LIZJ;
+    public final boolean LIZLLL;
+
+    public final String toString() {
+        StringBuilder sbLIZ = C2188811AlT.LIZ();
+        sbLIZ.append("ShapePath{name=");
+        sbLIZ.append(this.LIZ);
+        sbLIZ.append(", index=");
+        sbLIZ.append(this.LIZIZ);
+        sbLIZ.append('}');
+        return C2188811AlT.LIZIZ(sbLIZ);
+    }
+
+    @Override // X.InterfaceC1294510jn7
+    public final InterfaceC1295810jpD LIZ(C1295950jpR c1295950jpR, C1294720jnS c1294720jnS, AbstractC1295030jnx abstractC1295030jnx) {
+        return new C1294550jnB(c1295950jpR, abstractC1295030jnx, this);
+    }
+
+    public C1294540jnA(String str, int i, C1294530jn9 c1294530jn9, boolean z) {
+        this.LIZ = str;
+        this.LIZIZ = i;
+        this.LIZJ = c1294530jn9;
+        this.LIZLLL = z;
+    }
+}

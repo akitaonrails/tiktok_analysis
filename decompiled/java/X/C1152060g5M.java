@@ -1,0 +1,173 @@
+package X;
+
+import com.bytedance.android.live.annotation.ScopeValue;
+import com.bytedance.android.live_settings.LiveSettingModel;
+import com.google.gson.q;
+import java.util.HashMap;
+
+/* JADX INFO: renamed from: X.0g5M, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes19.dex */
+public final class C1152060g5M {
+    public final HashMap<String, LiveSettingModel> LIZ = new HashMap<>(54);
+    public final HashMap<String, ScopeValue> LIZIZ = new HashMap<>(54);
+
+    public final HashMap<String, ScopeValue> LIZ() {
+        if (this.LIZIZ.size() > 0) {
+            return this.LIZIZ;
+        }
+        HashMap<String, ScopeValue> map = this.LIZIZ;
+        ScopeValue scopeValue = ScopeValue.BROADCAST;
+        map.put("livesdk_mock_background_white", scopeValue);
+        this.LIZIZ.put("try_mode_fix_ab", scopeValue);
+        this.LIZIZ.put("broadcast_page_preload", scopeValue);
+        this.LIZIZ.put("live_center_ec_suggestion", ScopeValue.OTHER);
+        this.LIZIZ.put("fix_flash_card_ui_padding", scopeValue);
+        this.LIZIZ.put("green_screen_null_npe_fix_ab", scopeValue);
+        this.LIZIZ.put("private_account_disable_gift", scopeValue);
+        this.LIZIZ.put("preview_animation_config", scopeValue);
+        this.LIZIZ.put("preview_widget_load_setting", scopeValue);
+        this.LIZIZ.put("banner_image_load_default_type", scopeValue);
+        this.LIZIZ.put("gbl_ec_live_console_schema", scopeValue);
+        this.LIZIZ.put("go_live_opt_verify_schema", scopeValue);
+        this.LIZIZ.put("live_try_mode_use_ttlh_split", scopeValue);
+        this.LIZIZ.put("broadcast_e2e_protect", scopeValue);
+        this.LIZIZ.put("broadcast_noise_suppression_setting", scopeValue);
+        this.LIZIZ.put("broadcast_overall_score_level", scopeValue);
+        this.LIZIZ.put("live_stream_linkmic_video_e2e_frame_interval", scopeValue);
+        this.LIZIZ.put("broadcast_widget_frame_budget", scopeValue);
+        this.LIZIZ.put("broadcast_widget_load_opt", scopeValue);
+        this.LIZIZ.put("link_mic_voice_chat_fix_context_assignment", ScopeValue.LINKMIC);
+        this.LIZIZ.put("live_anchor_status_diagnostics_enable", scopeValue);
+        this.LIZIZ.put("live_anchor_status_diagnostics_perf_config", scopeValue);
+        this.LIZIZ.put("live_anchor_status_diagnostics_perf_config_android", scopeValue);
+        this.LIZIZ.put("ttkec_billboard_limit_drag", scopeValue);
+        this.LIZIZ.put("live_campaign_schema", scopeValue);
+        this.LIZIZ.put("live_center_horizontal_spacing", scopeValue);
+        this.LIZIZ.put("live_center_vertical_spacing", scopeValue);
+        this.LIZIZ.put("live_center_manual_refresh_enable", scopeValue);
+        this.LIZIZ.put("live_center_native_page_renew", scopeValue);
+        this.LIZIZ.put("live_center_state_remove_on_click", scopeValue);
+        this.LIZIZ.put("live_extend_screen_offline", scopeValue);
+        this.LIZIZ.put("live_fest_schema", scopeValue);
+        this.LIZIZ.put("live_manager_coexist_live_studio", scopeValue);
+        this.LIZIZ.put("live_perf_mock_setting", scopeValue);
+        this.LIZIZ.put("live_show_campaign_guide_in_room", scopeValue);
+        this.LIZIZ.put("live_speed_test_leak_fix_switch", scopeValue);
+        this.LIZIZ.put("live_undisclosed_market_scheme", ScopeValue.WATCHLIVE);
+        this.LIZIZ.put("live_violations_detailed_appeal_scheme", scopeValue);
+        this.LIZIZ.put("mock_link_mic_aab_download_fail", scopeValue);
+        this.LIZIZ.put("live_stream_fix_resolution_override_enable", scopeValue);
+        this.LIZIZ.put("preview_game_content_dialog_new_ui_enable", scopeValue);
+        this.LIZIZ.put("live_stream_linkmic_remote_video_frozen", scopeValue);
+        this.LIZIZ.put("show_live_manager_entrance", scopeValue);
+        this.LIZIZ.put("ttlh_enable_native_log", scopeValue);
+        this.LIZIZ.put("ttlh_event_driven_log_enable", scopeValue);
+        this.LIZIZ.put("ttlh_linkmic_log_switch", scopeValue);
+        this.LIZIZ.put("ttlh_live_log_switch", scopeValue);
+        this.LIZIZ.put("ttlh_perf_adaptive_log_enable", scopeValue);
+        this.LIZIZ.put("ttlh_linkmic_portrait_settings", scopeValue);
+        this.LIZIZ.put("ttls_push_event_opt", scopeValue);
+        this.LIZIZ.put("live_tns_signal_report_setting", scopeValue);
+        this.LIZIZ.put("fix_green_screen_resume", scopeValue);
+        this.LIZIZ.put("fix_task_init_by_start_push", scopeValue);
+        this.LIZIZ.put("test_ttlh_split_update_params", scopeValue);
+        return this.LIZIZ;
+    }
+
+    public final HashMap<String, LiveSettingModel> LIZIZ() {
+        if (this.LIZ.size() > 0) {
+            return this.LIZ;
+        }
+        Boolean bool = Boolean.FALSE;
+        this.LIZ.put("com.bytedance.android.livesdk.LivesdkMockBackgroundWhiteSetting", new LiveSettingModel("livesdk_mock_background_white", "boolean", new q(bool)));
+        Boolean bool2 = Boolean.TRUE;
+        this.LIZ.put("com.bytedance.android.livesdk.broadcast.TryModeFixAbSetting", new LiveSettingModel("try_mode_fix_ab", "boolean", new q(bool2)));
+        this.LIZ.put("com.bytedance.android.livesdk.broadcast.end.BroadcastPagePreloadSetting", new LiveSettingModel("broadcast_page_preload", "boolean", new q(bool2)));
+        this.LIZ.put("com.bytedance.android.livesdk.broadcast.interaction.widget.livecenter.LiveCenterECSuggestionSetting", new LiveSettingModel("live_center_ec_suggestion", "boolean", new q(bool2)));
+        this.LIZ.put("com.bytedance.android.livesdk.broadcast.interaction.widget.livecenter.realtime.FixFlashCardUiPaddingSetting", new LiveSettingModel("fix_flash_card_ui_padding", "boolean", new q(bool2)));
+        this.LIZ.put("com.bytedance.android.livesdk.broadcast.preview.GreenScreenNullNpeFixAbSetting", new LiveSettingModel("green_screen_null_npe_fix_ab", "boolean", new q(bool2)));
+        this.LIZ.put("com.bytedance.android.livesdk.broadcast.preview.PrivateAccountDisableGiftSetting", new LiveSettingModel("private_account_disable_gift", "boolean", new q(bool2)));
+        this.LIZ.put("com.bytedance.android.livesdk.broadcast.preview.animation.manager.PreviewAnimationConfigSetting", new LiveSettingModel("preview_animation_config", "java.lang.String", new q("")));
+        this.LIZ.put("com.bytedance.android.livesdk.broadcast.preview.modecontainer.PreviewWidgetLoadSetting", new LiveSettingModel("preview_widget_load_setting", "PreviewWidgetLoadConfig", new q("")));
+        this.LIZ.put("com.bytedance.android.livesdk.broadcast.preview.widget.revision.BannerImageLoadDefaultTypeSetting", new LiveSettingModel("banner_image_load_default_type", "boolean", new q(bool2)));
+        this.LIZ.put("com.bytedance.android.livesdk.broadcast.preview.widget.setting.PreviewShoppingManageLiveSchemaSetting", new LiveSettingModel("gbl_ec_live_console_schema", "java.lang.String", new q("aweme://lynxview_popup/?disable_tea_intercept=1&radius=10&hide_nav_bar=1&use_forest=1&target_handler=ecom&container_bgcolor=app_theme&close_by_mask=1&need_out_animation=bottom&channel=reactlynx_talent_live_showcase&self_sale=0&use_bdx=1&close_by_gesture=0&ec_inject_data_spark_router_redirect=1&use_gecko_first=1&dynamic=1&show_mask=1&live_status=before_live&drag_by_gesture=0&height_percent=73&bundle=app%2Ftemplate.js&keyboard_adjust=0&trans_status_bar=0&tea_init_time=1724309360505&popup_enter_type=bottom&surl=https%3A%2F%2Flf16-gecko-source.tiktokcdn.com%2Fobj%2Fbyte-gurd-source-sg%2Fteu%2Fclient-t%2Flynx%2Freactlynx_talent_live_showcase%2Fapp%2Ftemplate.js&toggle=0")));
+        this.LIZ.put("com.bytedance.android.livesdk.broadcast.preview.widget.startlive.GoLiveOptVerifySchemaSetting", new LiveSettingModel("go_live_opt_verify_schema", "GoLiveOptVerifySchemaSettingAdapter", new q("")));
+        this.LIZ.put("com.bytedance.android.livesdk.broadcast.preview.widget.startlive.LiveTryModeUseTTLHSplitSetting", new LiveSettingModel("live_try_mode_use_ttlh_split", "boolean", new q(bool)));
+        LiveSettingModel liveSettingModel = new LiveSettingModel("broadcast_e2e_protect", "boolean", new q(bool2));
+        liveSettingModel.setCacheNoUpdate(true);
+        this.LIZ.put("com.bytedance.android.livesdk.broadcast.setting.BroadcastE2EProtectSetting", liveSettingModel);
+        LiveSettingModel liveSettingModel2 = new LiveSettingModel("broadcast_noise_suppression_setting", "NoiseSuppressionConfig", new q(""));
+        liveSettingModel2.setCacheNoUpdate(true);
+        this.LIZ.put("com.bytedance.android.livesdk.broadcast.setting.BroadcastNoiseSuppressionSetting", liveSettingModel2);
+        LiveSettingModel liveSettingModel3 = new LiveSettingModel("broadcast_overall_score_level", "BroadcastOverallScoreLevelMapping", new q(""));
+        liveSettingModel3.setCacheNoUpdate(true);
+        this.LIZ.put("com.bytedance.android.livesdk.broadcast.setting.BroadcastOverallScoreLevelSetting", liveSettingModel3);
+        this.LIZ.put("com.bytedance.android.livesdk.broadcast.setting.BroadcastVideoE2EDelaySampleSetting", new LiveSettingModel("live_stream_linkmic_video_e2e_frame_interval", "int", new q((Number) 50)));
+        LiveSettingModel liveSettingModel4 = new LiveSettingModel("broadcast_widget_frame_budget", "BroadcastWidgetFrameBudgetOption", new q(""));
+        liveSettingModel4.setCacheNoUpdate(true);
+        this.LIZ.put("com.bytedance.android.livesdk.broadcast.setting.BroadcastWidgetFrameBudgetSetting", liveSettingModel4);
+        LiveSettingModel liveSettingModel5 = new LiveSettingModel("broadcast_widget_load_opt", "boolean", new q(bool));
+        liveSettingModel5.setCacheNoUpdate(true);
+        this.LIZ.put("com.bytedance.android.livesdk.broadcast.setting.BroadcastWidgetLoadOptSetting", liveSettingModel5);
+        LiveSettingModel liveSettingModel6 = new LiveSettingModel("link_mic_voice_chat_fix_context_assignment", "boolean", new q(bool2));
+        liveSettingModel6.setCacheNoUpdate(true);
+        this.LIZ.put("com.bytedance.android.livesdk.livesetting.linkmic.LinkMicVoiceChatFixContextAssignment", liveSettingModel6);
+        this.LIZ.put("com.bytedance.android.livesdk.broadcast.setting.LiveAnchorStatusDiagnosticsEnableSetting", new LiveSettingModel("live_anchor_status_diagnostics_enable", "boolean", new q(bool)));
+        this.LIZ.put("com.bytedance.android.livesdk.broadcast.setting.LiveAnchorStatusDiagnosticsPerfConfigSetting", new LiveSettingModel("live_anchor_status_diagnostics_perf_config", "LiveAnchorStatusDiagnosticsPerfConfig", new q("")));
+        this.LIZ.put("com.bytedance.android.livesdk.broadcast.setting.LiveAnchorStatusDiagnosticsPerfConfigAndroidSetting", new LiveSettingModel("live_anchor_status_diagnostics_perf_config_android", "LiveAnchorStatusDiagnosticsPerfConfigAndroidConfig", new q("")));
+        this.LIZ.put("com.bytedance.android.livesdk.broadcast.setting.LiveBillboardLimitSetting", new LiveSettingModel("ttkec_billboard_limit_drag", "boolean", new q(bool)));
+        this.LIZ.put("com.bytedance.android.livesdk.broadcast.setting.LiveCampaignSchemaSetting", new LiveSettingModel("live_campaign_schema", "CampaignSchemaData", new q("")));
+        LiveSettingModel liveSettingModel7 = new LiveSettingModel("live_center_horizontal_spacing", "int", new q((Number) 12));
+        liveSettingModel7.setCacheNoUpdate(true);
+        this.LIZ.put("com.bytedance.android.livesdk.broadcast.setting.LiveCenterCardHSpacingConfig", liveSettingModel7);
+        LiveSettingModel liveSettingModel8 = new LiveSettingModel("live_center_vertical_spacing", "int", new q((Number) 10));
+        liveSettingModel8.setCacheNoUpdate(true);
+        this.LIZ.put("com.bytedance.android.livesdk.broadcast.setting.LiveCenterCardVSpacingConfig", liveSettingModel8);
+        LiveSettingModel liveSettingModel9 = new LiveSettingModel("live_center_manual_refresh_enable", "int", new q((Number) 1));
+        liveSettingModel9.setCacheNoUpdate(true);
+        this.LIZ.put("com.bytedance.android.livesdk.broadcast.setting.LiveCenterManualRefreshSetting", liveSettingModel9);
+        this.LIZ.put("com.bytedance.android.livesdk.broadcast.setting.LiveCenterNativePageRenew", new LiveSettingModel("live_center_native_page_renew", "int", new q((Number) 0)));
+        LiveSettingModel liveSettingModel10 = new LiveSettingModel("live_center_state_remove_on_click", "boolean", new q(bool2));
+        liveSettingModel10.setCacheNoUpdate(true);
+        this.LIZ.put("com.bytedance.android.livesdk.broadcast.setting.LiveCenterStateRemoveOnClick", liveSettingModel10);
+        this.LIZ.put("com.bytedance.android.livesdk.broadcast.setting.LiveExtendScreenOfflineSetting", new LiveSettingModel("live_extend_screen_offline", "boolean", new q(bool)));
+        this.LIZ.put("com.bytedance.android.livesdk.broadcast.setting.LiveFestSchemaSetting", new LiveSettingModel("live_fest_schema", "java.lang.String", new q("aweme://lynxview?url=https%3A%2F%2Flf-main-gecko-source.tiktokcdn.com%2Fobj%2Ftiktok-teko-internal-sg%2F7%2Fgecko%2Fresource%2Ftiktok_live_2024_eoy_warmup_wallet_popup%2Fgecko%2Fpages%2Fhome%2Ftemplate.js%0A&use_spark=1&bdhm_bid=&join_url=sslocal%3A%2F%2Fwebcast_webview%3Furl%3Dhttps%253A%252F%252Fcampaign-va.tiktokv.com%252Ffalcon%252F2024_10_fest_warmup%252Fpages%252Fhome%252Findex.html%253F__live_platform__%253Dwebcast%2526hide_nav_bar%253D1%2526activity_name%253Dt_24_fest_w%2526enable_resource_intercept%253D1%2526target_handler%253Dwebcast%2526_pia_%253D1%2526fe_enter_from%253Dend_page_popup%26__live_platform__%3Dwebcast%26hide_nav_bar%3D1%26fe_enter_from%3Dend_page_popup%26activity_name%3Dt_24_fest_w%26enable_resource_intercept%3D1%26target_handler%3Dwebcast%26_pia_%3D1%26use_forest%3D1")));
+        LiveSettingModel liveSettingModel11 = new LiveSettingModel("live_manager_coexist_live_studio", "boolean", new q(bool));
+        liveSettingModel11.setCacheNoUpdate(true);
+        this.LIZ.put("com.bytedance.android.livesdk.broadcast.setting.LiveManagerCoexistLiveStudioSetting", liveSettingModel11);
+        this.LIZ.put("com.bytedance.android.livesdk.broadcast.setting.LivePerfMockSetting", new LiveSettingModel("live_perf_mock_setting", "LivePerfMockData", new q("")));
+        LiveSettingModel liveSettingModel12 = new LiveSettingModel("live_show_campaign_guide_in_room", "int", new q((Number) 0));
+        liveSettingModel12.setCacheNoUpdate(true);
+        this.LIZ.put("com.bytedance.android.livesdk.broadcast.setting.LiveShowCampaignGuideInRoom", liveSettingModel12);
+        LiveSettingModel liveSettingModel13 = new LiveSettingModel("live_speed_test_leak_fix_switch", "boolean", new q(bool2));
+        liveSettingModel13.setCacheNoUpdate(true);
+        this.LIZ.put("com.bytedance.android.livesdk.broadcast.setting.LiveSpeedTestLeakFixSwitch", liveSettingModel13);
+        LiveSettingModel liveSettingModel14 = new LiveSettingModel("live_undisclosed_market_scheme", "java.lang.String", new q("aweme://lynxview_popup/?keyboard_adjust=0&hide_nav_bar=1&live_status=during_live&is_living=true&dynamic=1&popup_enter_type=bottom&height_percent=73&radius=10&channel=reactlynx_talent_live_showcase&bundle=app/template.js&close_by_mask=1&need_out_animation=bottom&close_by_gesture=0&drag_by_gesture=0&use_gecko_first=1&use_bdx=1&container_bgcolor=app_theme&surl=https%3A%2F%2Flf16-gecko-source.tiktokcdn.com%2Fobj%2Fbyte-gurd-source-sg%2Fteu%2Fclient-t%2Flynx%2Freactlynx_talent_live_showcase%2Fapp%2Ftemplate.js&ab_params=oec_affiliate_incident_toast_configuration,live_tts_pin_not_check_inventory&enable_code_cache=1&group=-1&disable_share=1&share_group=0&user_type=author"));
+        liveSettingModel14.setCacheNoUpdate(true);
+        this.LIZ.put("com.bytedance.android.livesdk.broadcast.setting.LiveUndisclosedCCToggleSchemeSetting", liveSettingModel14);
+        this.LIZ.put("com.bytedance.android.livesdk.broadcast.setting.LiveViolationsDetailedAppealSchemeSetting", new LiveSettingModel("live_violations_detailed_appeal_scheme", "java.lang.String", new q("sslocal://webcast_lynxview_popup?url=https%3A%2F%2Flf16-gecko-source.tiktokcdn.com%2Fobj%2Fbyte-gurd-source-sg%2Ftiktok%2Ffe%2Flive%2Ftiktok_live_fundamental_live_treco%2Fpages%2Fpunish-pre-appeal%2Ftemplate.js&hide_loading=1&container_bg_color=ffffff&gravity=bottom&height=60%25&radius=8&transition_animation=bottom")));
+        this.LIZ.put("com.bytedance.android.livesdk.broadcast.setting.MockLinkMicAabDownloadFail", new LiveSettingModel("mock_link_mic_aab_download_fail", "int", new q((Number) 0)));
+        this.LIZ.put("com.bytedance.android.livesdk.broadcast.setting.OverrideCaptureResolutionFixSetting", new LiveSettingModel("live_stream_fix_resolution_override_enable", "boolean", new q(bool)));
+        LiveSettingModel liveSettingModel15 = new LiveSettingModel("preview_game_content_dialog_new_ui_enable", "boolean", new q(bool2));
+        liveSettingModel15.setCacheNoUpdate(true);
+        this.LIZ.put("com.bytedance.android.livesdk.broadcast.setting.PreviewGameContentDialogNewUISetting", liveSettingModel15);
+        this.LIZ.put("com.bytedance.android.livesdk.broadcast.setting.RemoteVideoFrozenSetting", new LiveSettingModel("live_stream_linkmic_remote_video_frozen", "int", new q((Number) 200)));
+        LiveSettingModel liveSettingModel16 = new LiveSettingModel("show_live_manager_entrance", "boolean", new q(bool2));
+        liveSettingModel16.setCacheNoUpdate(true);
+        this.LIZ.put("com.bytedance.android.livesdk.broadcast.setting.ShowLiveManagerEntranceSetting", liveSettingModel16);
+        this.LIZ.put("com.bytedance.android.livesdk.broadcast.setting.TTLHEnableNativeLog", new LiveSettingModel("ttlh_enable_native_log", "boolean", new q(bool)));
+        this.LIZ.put("com.bytedance.android.livesdk.broadcast.setting.TTLHEventDrivenLogSetting", new LiveSettingModel("ttlh_event_driven_log_enable", "boolean", new q(bool2)));
+        this.LIZ.put("com.bytedance.android.livesdk.broadcast.setting.TTLHLinkMicLogSwitch", new LiveSettingModel("ttlh_linkmic_log_switch", "boolean", new q(bool2)));
+        this.LIZ.put("com.bytedance.android.livesdk.broadcast.setting.TTLHLiveLogSwitch", new LiveSettingModel("ttlh_live_log_switch", "boolean", new q(bool2)));
+        this.LIZ.put("com.bytedance.android.livesdk.broadcast.setting.TTLHPerfAdaptiveLogSetting", new LiveSettingModel("ttlh_perf_adaptive_log_enable", "boolean", new q(bool2)));
+        this.LIZ.put("com.bytedance.android.livesdk.broadcast.setting.TTLHVideoResolutionPortraitSettings", new LiveSettingModel("ttlh_linkmic_portrait_settings", "java.lang.String[]", new q("")));
+        this.LIZ.put("com.bytedance.android.livesdk.broadcast.setting.TTLSPushEventInterceptor", new LiveSettingModel("ttls_push_event_opt", "java.lang.String[]", new q("")));
+        LiveSettingModel liveSettingModel17 = new LiveSettingModel("live_tns_signal_report_setting", "TnsSignalReport", new q(""));
+        liveSettingModel17.setCacheNoUpdate(true);
+        this.LIZ.put("com.bytedance.android.livesdk.broadcast.setting.TnsSignalReportSetting", liveSettingModel17);
+        this.LIZ.put("com.bytedance.android.livesdk.broadcast.video.FixGreenScreenResumeSetting", new LiveSettingModel("fix_green_screen_resume", "boolean", new q(bool)));
+        this.LIZ.put("com.bytedance.android.livesdk.broadcast.video.FixTaskInitByStartPushSetting", new LiveSettingModel("fix_task_init_by_start_push", "boolean", new q(bool2)));
+        this.LIZ.put("com.bytedance.android.livesdk.broadcast.video.TestTtlhSplitUpdateParamsSetting", new LiveSettingModel("test_ttlh_split_update_params", "boolean", new q(bool)));
+        return this.LIZ;
+    }
+}

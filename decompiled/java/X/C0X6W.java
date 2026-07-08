@@ -1,0 +1,12 @@
+package X;
+
+/* JADX INFO: renamed from: X.0X6W, reason: invalid class name */
+/* JADX INFO: loaded from: classes14.dex */
+public final class C0X6W {
+    public long LIZ;
+    public long LIZIZ;
+    public long LIZJ;
+    public long LIZLLL;
+    public long LJ;
+    public long LJFF;
+}

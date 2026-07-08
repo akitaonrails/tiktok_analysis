@@ -1,0 +1,13 @@
+package tikcast.api.anchor_tool;
+
+import X.C09CT;
+
+/* JADX INFO: loaded from: classes29.dex */
+public final class StartInteractiveEffectResp {
+
+    @C09CT("data")
+    public ResponseData data;
+
+    public static final class ResponseData {
+    }
+}

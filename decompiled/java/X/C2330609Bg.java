@@ -1,0 +1,83 @@
+package X;
+
+import com.ss.android.ugc.aweme.tools.draft.viewmodel.DraftViewModel;
+
+/* JADX INFO: renamed from: X.09Bg, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes4.dex */
+public final class C2330609Bg<T> implements InterfaceC346701Wf {
+    public final /* synthetic */ InterfaceC346701Wf LL;
+    public final /* synthetic */ DraftViewModel LLILLJJLI;
+    public final /* synthetic */ String LLILLL;
+
+    public C2330609Bg(InterfaceC346701Wf interfaceC346701Wf, DraftViewModel draftViewModel, String str) {
+        this.LL = interfaceC346701Wf;
+        this.LLILLJJLI = draftViewModel;
+        this.LLILLL = str;
+    }
+
+    /* JADX WARN: Removed duplicated region for block: B:21:0x004f  */
+    @Override // X.InterfaceC346701Wf
+    /*
+        Code decompiled incorrectly, please refer to instructions dump.
+        To view partially-correct add '--show-bad-code' argument
+    */
+    public final java.lang.Object emit(java.lang.Object r8, X.InterfaceC1364105Vn r9) {
+        /*
+            r7 = this;
+            boolean r0 = r9 instanceof X.C2330709Bh
+            if (r0 == 0) goto L4f
+            r6 = r9
+            X.09Bh r6 = (X.C2330709Bh) r6
+            int r2 = r6.LLILLJJLI
+            r1 = -2147483648(0xffffffff80000000, float:-0.0)
+            r0 = r2 & r1
+            if (r0 == 0) goto L4f
+            int r2 = r2 - r1
+            r6.LLILLJJLI = r2
+        L12:
+            java.lang.Object r1 = r6.LL
+            java.lang.Object r5 = X.C099R.LJFF()
+            int r0 = r6.LLILLJJLI
+            r4 = 2
+            r3 = 1
+            if (r0 == 0) goto L28
+            if (r0 == r3) goto L3e
+            if (r0 != r4) goto L55
+            X.C155000ia.LIZIZ(r1)
+        L25:
+            kotlin.Unit r0 = kotlin.Unit.LIZ
+            return r0
+        L28:
+            X.C155000ia.LIZIZ(r1)
+            X.01Wf r2 = r7.LL
+            java.util.List r8 = (java.util.List) r8
+            com.ss.android.ugc.aweme.tools.draft.viewmodel.DraftViewModel r1 = r7.LLILLJJLI
+            java.lang.String r0 = r7.LLILLL
+            r6.LLILLL = r2
+            r6.LLILLJJLI = r3
+            java.lang.Object r1 = r1.vQ2(r0, r8, r6)
+            if (r1 != r5) goto L43
+            return r5
+        L3e:
+            X.01Wf r2 = r6.LLILLL
+            X.C155000ia.LIZIZ(r1)
+        L43:
+            r0 = 0
+            r6.LLILLL = r0
+            r6.LLILLJJLI = r4
+            java.lang.Object r0 = r2.emit(r1, r6)
+            if (r0 != r5) goto L25
+            return r5
+        L4f:
+            X.09Bh r6 = new X.09Bh
+            r6.<init>(r7, r9)
+            goto L12
+        L55:
+            java.lang.IllegalStateException r1 = new java.lang.IllegalStateException
+            java.lang.String r0 = "call to 'resume' before 'invoke' with coroutine"
+            r1.<init>(r0)
+            throw r1
+        */
+        throw new UnsupportedOperationException("Method not decompiled: X.C2330609Bg.emit(java.lang.Object, X.05Vn):java.lang.Object");
+    }
+}

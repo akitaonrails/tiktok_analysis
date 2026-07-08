@@ -1,0 +1,11 @@
+package X;
+
+import kotlin.jvm.internal.AFwS187S0000000_2;
+
+/* JADX INFO: renamed from: X.04aX, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes3.dex */
+public final class C1124304aX {
+    public static final C1124304aX LIZ = new C1124304aX();
+    public static long LIZIZ = -1;
+    public static final C01GW LIZJ = C452501pT.LIZIZ(AFwS187S0000000_2.get$arr$(10));
+}

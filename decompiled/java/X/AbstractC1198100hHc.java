@@ -1,0 +1,9 @@
+package X;
+
+/* JADX INFO: renamed from: X.0hHc, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes19.dex */
+public abstract class AbstractC1198100hHc<T> {
+    public T LIZ() {
+        return null;
+    }
+}

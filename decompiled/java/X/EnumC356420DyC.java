@@ -1,0 +1,37 @@
+package X;
+
+/* JADX WARN: Failed to restore enum class, 'enum' modifier and super class removed */
+/* JADX WARN: Unknown enum class pattern. Please report as an issue! */
+/* JADX INFO: renamed from: X.0DyC, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes6.dex */
+public final class EnumC356420DyC {
+    public static final EnumC356420DyC ACTIVATED;
+    public static final /* synthetic */ EnumC356420DyC[] LL;
+    public static final /* synthetic */ C2254308sP LLILLJJLI;
+    public static final EnumC356420DyC REMOVED;
+
+    public static InterfaceC2044707zh<EnumC356420DyC> getEntries() {
+        return LLILLJJLI;
+    }
+
+    static {
+        EnumC356420DyC enumC356420DyC = new EnumC356420DyC("REMOVED", 0);
+        REMOVED = enumC356420DyC;
+        EnumC356420DyC enumC356420DyC2 = new EnumC356420DyC("ACTIVATED", 1);
+        ACTIVATED = enumC356420DyC2;
+        EnumC356420DyC[] enumC356420DyCArr = {enumC356420DyC, enumC356420DyC2};
+        LL = enumC356420DyCArr;
+        LLILLJJLI = new C2254308sP(enumC356420DyCArr);
+    }
+
+    public static EnumC356420DyC[] values() {
+        return (EnumC356420DyC[]) LL.clone();
+    }
+
+    public static EnumC356420DyC valueOf(String str) {
+        return (EnumC356420DyC) C08FF.LIZ(EnumC356420DyC.class, str);
+    }
+
+    public EnumC356420DyC(String str, int i) {
+    }
+}

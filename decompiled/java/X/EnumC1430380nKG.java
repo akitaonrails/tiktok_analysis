@@ -1,0 +1,357 @@
+package X;
+
+/* JADX WARN: Failed to restore enum class, 'enum' modifier and super class removed */
+/* JADX WARN: Unknown enum class pattern. Please report as an issue! */
+/* JADX INFO: renamed from: X.0nKG, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes23.dex */
+public final class EnumC1430380nKG {
+    public static final EnumC1430380nKG ADS_ANCHOR;
+    public static final EnumC1430380nKG AD_PHOTO_CAROUSEL_ANCHOR;
+    public static final EnumC1430380nKG AI_IMAGINE_ANCHOR_TYPE;
+    public static final EnumC1430380nKG AI_LIVE_PHOTO_ANCHOR_TYPE;
+    public static final EnumC1430380nKG AI_PLAYGROUND_ANCHOR;
+    public static final EnumC1430380nKG AI_PORTRAIT_ANCHOR_TYPE;
+    public static final EnumC1430380nKG AI_REMIX_ANCHOR;
+    public static final EnumC1430380nKG AI_SELF_ANCHOR;
+    public static final EnumC1430380nKG ANCHOR_AIGC_AVATAR;
+    public static final EnumC1430380nKG ANCHOR_AIGT_TEMPLATE;
+    public static final EnumC1430380nKG ANCHOR_AUTO_CUT;
+    public static final EnumC1430380nKG ANCHOR_BOOKTOK;
+    public static final EnumC1430380nKG ANCHOR_BREATHWRK;
+    public static final EnumC1430380nKG ANCHOR_EDITOR_PRO;
+    public static final EnumC1430380nKG ANCHOR_EDIT_EFFECT;
+    public static final EnumC1430380nKG ANCHOR_LIVE_VIDEO_CLIP_CAMPAIGN;
+    public static final EnumC1430380nKG ANCHOR_MOVIETOK;
+    public static final EnumC1430380nKG ANCHOR_PHOTO_MODE_TEMPLATE;
+    public static final EnumC1430380nKG ANCHOR_PUGC_TEMPLATE;
+    public static final EnumC1430380nKG ANCHOR_SGT_TEMPLATE;
+    public static final EnumC1430380nKG ANCHOR_SHOP_LINK;
+    public static final EnumC1430380nKG ANCHOR_SHOP_MIX;
+    public static final EnumC1430380nKG ANCHOR_SHOP_WINDOW;
+    public static final EnumC1430380nKG ANCHOR_SHOWCASE;
+    public static final EnumC1430380nKG ANCHOR_SOUND_SYNC;
+    public static final EnumC1430380nKG ANCHOR_SPORT;
+    public static final EnumC1430380nKG ANCHOR_TCM_COMMENT;
+    public static final EnumC1430380nKG ANCHOR_TICKETMASTER;
+    public static final EnumC1430380nKG ANCHOR_TT_CC_TEMPLATE;
+    public static final EnumC1430380nKG ANCHOR_UGC_TEMPLATE;
+    public static final EnumC1430380nKG ANCHOR_VOICECONVERSION;
+    public static final EnumC1430380nKG ARTICLE;
+    public static final EnumC1430380nKG ARTICLE_PHOTO_MODE;
+    public static final EnumC1430380nKG BA_DOWNLOAD_ANCHOR;
+    public static final EnumC1430380nKG BA_PRODUCT_ANCHOR;
+    public static final EnumC1430380nKG CAMERA_LAYOUT_ANCHOR_TYPE;
+    public static final EnumC1430380nKG CAPCUT;
+    public static final EnumC1430380nKG COMMON_TYPE;
+    public static final EnumC1430380nKG CT_AI_MAGIC_ANCHOR;
+    public static final EnumC1430380nKG CT_DUET_ANCHOR;
+    public static final EnumC1430380nKG CT_FILTER_ANCHOR;
+    public static final EnumC1430380nKG DM_AI_GROUP_SHOT_ANCHOR;
+    public static final EnumC1430380nKG DM_ANCHOR;
+    public static final EnumC1430380nKG DONATION_STICKER;
+    public static final EnumC1430380nKG DUET;
+    public static final EnumC1430380nKG EDITOR_PRO_CAPTIONS_ANCHOR;
+    public static final EnumC1430380nKG FRIENDS_V3_MUSIC_TITLE_ANCHOR;
+    public static final EnumC1430380nKG GAME_LIVE_PARTNER_ANCHOR;
+    public static final EnumC1430380nKG GAME_LIVE_PARTNER_ANCHOR_2;
+    public static final EnumC1430380nKG GAME_LIVE_PARTNER_ANCHOR_3;
+    public static final EnumC1430380nKG GET_LEADS;
+    public static final EnumC1430380nKG GO_LIVE_INCENTIVE_ANCHOR;
+    public static final EnumC1430380nKG GO_LIVE_STUDIO_ANCHOR;
+    public static final EnumC1430380nKG GREEN_SCREEN;
+    public static final EnumC1430380nKG GREEN_SCREEN_ANCHOR_TYPE;
+    public static final EnumC1430380nKG HYPIC_ANCHOR;
+    public static final EnumC1430380nKG INDIA_MOVIE;
+    public static final EnumC1430380nKG LEMON8_ANCHOR;
+    public static final EnumC1430380nKG LEMON8_GENERAL_ANCHOR;
+    public static final EnumC1430380nKG LEMON8_GENERAL_DUAL_ANCHOR;
+    public static final EnumC1430380nKG LEMON8_GENERAL_PICK_ANCHOR;
+    public static final EnumC1430380nKG LIVE_EVENT;
+    public static final /* synthetic */ EnumC1430380nKG[] LLILLL;
+    public static final /* synthetic */ C2254308sP LLILZ;
+    public static final EnumC1430380nKG LYRIC_EFFECT_ANCHOR;
+    public static final EnumC1430380nKG MINIS_ANCHOR;
+    public static final EnumC1430380nKG MIXED_VIDEO;
+    public static final EnumC1430380nKG MUSIC_DSP;
+    public static final EnumC1430380nKG MUSIC_DSP_PLAY_FULL_SONG;
+    public static final EnumC1430380nKG MV_TEMPLATE;
+    public static final EnumC1430380nKG NEWS;
+    public static final EnumC1430380nKG NO_TYPE;
+    public static final EnumC1430380nKG OPEN_PLATFORM_ANCHOR;
+    public static final EnumC1430380nKG PAID_COLLECTION;
+    public static final EnumC1430380nKG PHOTO_EVERGREEN_ANCHOR;
+    public static final EnumC1430380nKG PHOTO_MV_ANCHOR;
+    public static final EnumC1430380nKG PHOTO_SPARK_ANCHOR;
+    public static final EnumC1430380nKG PINE_DRAMA_ANCHOR;
+    public static final EnumC1430380nKG POI;
+    public static final EnumC1430380nKG PROP;
+    public static final EnumC1430380nKG PROP_COMMERCIAL_EFFECT;
+    public static final EnumC1430380nKG QUIZLET;
+    public static final EnumC1430380nKG SERVICE_PLUGIN;
+    public static final EnumC1430380nKG SHOP;
+    public static final EnumC1430380nKG SHORT_DRAMA_RESERVE;
+    public static final EnumC1430380nKG SOCIAL_AVATAR_ANCHOR;
+    public static final EnumC1430380nKG SUBSCRIPTION_ANCHOR;
+    public static final EnumC1430380nKG TABELOG;
+    public static final EnumC1430380nKG TEXT_TO_IMAGE_ANCHOR;
+    public static final EnumC1430380nKG THIRD_PART_GENERAL;
+    public static final EnumC1430380nKG TIKTOK_GAME;
+    public static final EnumC1430380nKG TIKTOK_STUDIO_FEED_ANCHOR;
+    public static final EnumC1430380nKG TIME_PORTAL_ANCHOR;
+    public static final EnumC1430380nKG TRIP_ADVISOR;
+    public static final EnumC1430380nKG TTCM;
+    public static final EnumC1430380nKG TTS_VOICE;
+    public static final EnumC1430380nKG UG;
+    public static final EnumC1430380nKG VERTICAL_SOLUTION_GAME;
+    public static final EnumC1430380nKG VIA_MAKER;
+    public static final EnumC1430380nKG WHISK;
+    public static final EnumC1430380nKG WIKIHOW;
+    public static final EnumC1430380nKG WIKIPEDIA;
+    public static final EnumC1430380nKG WIKI_ON_EDIT;
+    public static final EnumC1430380nKG YELP;
+    public int LL;
+    public String LLILLJJLI;
+
+    public static InterfaceC2044707zh<EnumC1430380nKG> getEntries() {
+        return LLILZ;
+    }
+
+    static {
+        EnumC1430380nKG enumC1430380nKG = new EnumC1430380nKG("NO_TYPE", 0, -1, "no type");
+        NO_TYPE = enumC1430380nKG;
+        EnumC1430380nKG enumC1430380nKG2 = new EnumC1430380nKG("WIKIPEDIA", 1, 0, "wikipedia");
+        WIKIPEDIA = enumC1430380nKG2;
+        EnumC1430380nKG enumC1430380nKG3 = new EnumC1430380nKG("WIKIHOW", 2, 1, "wikihow");
+        WIKIHOW = enumC1430380nKG3;
+        EnumC1430380nKG enumC1430380nKG4 = new EnumC1430380nKG("SHOP", 3, 3, "shop");
+        SHOP = enumC1430380nKG4;
+        EnumC1430380nKG enumC1430380nKG5 = new EnumC1430380nKG("ARTICLE", 4, 5, "article");
+        ARTICLE = enumC1430380nKG5;
+        EnumC1430380nKG enumC1430380nKG6 = new EnumC1430380nKG("ANCHOR_SHOP_LINK", 5, 6, "product");
+        ANCHOR_SHOP_LINK = enumC1430380nKG6;
+        EnumC1430380nKG enumC1430380nKG7 = new EnumC1430380nKG("YELP", 6, 8, "yelp");
+        YELP = enumC1430380nKG7;
+        EnumC1430380nKG enumC1430380nKG8 = new EnumC1430380nKG("TRIP_ADVISOR", 7, 9, "trip_advisor");
+        TRIP_ADVISOR = enumC1430380nKG8;
+        EnumC1430380nKG enumC1430380nKG9 = new EnumC1430380nKG("UG", 8, 12, "ug");
+        UG = enumC1430380nKG9;
+        EnumC1430380nKG enumC1430380nKG10 = new EnumC1430380nKG("OPEN_PLATFORM_ANCHOR", 9, 15, "openplatform");
+        OPEN_PLATFORM_ANCHOR = enumC1430380nKG10;
+        EnumC1430380nKG enumC1430380nKG11 = new EnumC1430380nKG("MIXED_VIDEO", 10, 16, "mix video");
+        MIXED_VIDEO = enumC1430380nKG11;
+        EnumC1430380nKG enumC1430380nKG12 = new EnumC1430380nKG("INDIA_MOVIE", 11, 18, "india movie");
+        INDIA_MOVIE = enumC1430380nKG12;
+        EnumC1430380nKG enumC1430380nKG13 = new EnumC1430380nKG("DONATION_STICKER", 12, 19, "donation");
+        DONATION_STICKER = enumC1430380nKG13;
+        EnumC1430380nKG enumC1430380nKG14 = new EnumC1430380nKG("TIKTOK_GAME", 13, 24, "Game");
+        TIKTOK_GAME = enumC1430380nKG14;
+        EnumC1430380nKG enumC1430380nKG15 = new EnumC1430380nKG("VIA_MAKER", 14, 26, "VIAMAKER");
+        VIA_MAKER = enumC1430380nKG15;
+        EnumC1430380nKG enumC1430380nKG16 = new EnumC1430380nKG("PROP", 15, 28, "prop");
+        PROP = enumC1430380nKG16;
+        EnumC1430380nKG enumC1430380nKG17 = new EnumC1430380nKG("PROP_COMMERCIAL_EFFECT", 16, -28, "prop");
+        PROP_COMMERCIAL_EFFECT = enumC1430380nKG17;
+        EnumC1430380nKG enumC1430380nKG18 = new EnumC1430380nKG("MV_TEMPLATE", 17, 29, "template");
+        MV_TEMPLATE = enumC1430380nKG18;
+        EnumC1430380nKG enumC1430380nKG19 = new EnumC1430380nKG("GREEN_SCREEN", 18, 30, "green screen");
+        GREEN_SCREEN = enumC1430380nKG19;
+        EnumC1430380nKG enumC1430380nKG20 = new EnumC1430380nKG("PHOTO_MV_ANCHOR", 19, 31, "photo mv");
+        PHOTO_MV_ANCHOR = enumC1430380nKG20;
+        EnumC1430380nKG enumC1430380nKG21 = new EnumC1430380nKG("NEWS", 20, 32, "news");
+        NEWS = enumC1430380nKG21;
+        EnumC1430380nKG enumC1430380nKG22 = new EnumC1430380nKG("ANCHOR_SHOP_WINDOW", 21, 33, "product");
+        ANCHOR_SHOP_WINDOW = enumC1430380nKG22;
+        EnumC1430380nKG enumC1430380nKG23 = new EnumC1430380nKG("WIKI_ON_EDIT", 22, 34, "wiki on edit");
+        WIKI_ON_EDIT = enumC1430380nKG23;
+        EnumC1430380nKG enumC1430380nKG24 = new EnumC1430380nKG("ANCHOR_SHOP_MIX", 23, 35, "product");
+        ANCHOR_SHOP_MIX = enumC1430380nKG24;
+        EnumC1430380nKG enumC1430380nKG25 = new EnumC1430380nKG("QUIZLET", 24, 36, "quizlet");
+        QUIZLET = enumC1430380nKG25;
+        EnumC1430380nKG enumC1430380nKG26 = new EnumC1430380nKG("DUET", 25, 37, "duet");
+        DUET = enumC1430380nKG26;
+        EnumC1430380nKG enumC1430380nKG27 = new EnumC1430380nKG("ANCHOR_BREATHWRK", 26, 38, "breathwrk");
+        ANCHOR_BREATHWRK = enumC1430380nKG27;
+        EnumC1430380nKG enumC1430380nKG28 = new EnumC1430380nKG("WHISK", 27, 39, "whisk");
+        WHISK = enumC1430380nKG28;
+        EnumC1430380nKG enumC1430380nKG29 = new EnumC1430380nKG("LIVE_EVENT", 28, 41, "live_event");
+        LIVE_EVENT = enumC1430380nKG29;
+        EnumC1430380nKG enumC1430380nKG30 = new EnumC1430380nKG("TABELOG", 29, 43, "tabelog");
+        TABELOG = enumC1430380nKG30;
+        EnumC1430380nKG enumC1430380nKG31 = new EnumC1430380nKG("THIRD_PART_GENERAL", 30, 44, "third part general");
+        THIRD_PART_GENERAL = enumC1430380nKG31;
+        EnumC1430380nKG enumC1430380nKG32 = new EnumC1430380nKG("POI", 31, 45, "poi");
+        POI = enumC1430380nKG32;
+        EnumC1430380nKG enumC1430380nKG33 = new EnumC1430380nKG("TTCM", 32, 46, "ttcm");
+        TTCM = enumC1430380nKG33;
+        EnumC1430380nKG enumC1430380nKG34 = new EnumC1430380nKG("VERTICAL_SOLUTION_GAME", 33, 51, "ext_game");
+        VERTICAL_SOLUTION_GAME = enumC1430380nKG34;
+        EnumC1430380nKG enumC1430380nKG35 = new EnumC1430380nKG("MUSIC_DSP", 34, 52, "music dsp");
+        MUSIC_DSP = enumC1430380nKG35;
+        EnumC1430380nKG enumC1430380nKG36 = new EnumC1430380nKG("CAPCUT", 35, 54, "capcut");
+        CAPCUT = enumC1430380nKG36;
+        EnumC1430380nKG enumC1430380nKG37 = new EnumC1430380nKG("TTS_VOICE", 36, 50, "tts voice");
+        TTS_VOICE = enumC1430380nKG37;
+        EnumC1430380nKG enumC1430380nKG38 = new EnumC1430380nKG("MUSIC_DSP_PLAY_FULL_SONG", 37, 52, "music dsp");
+        MUSIC_DSP_PLAY_FULL_SONG = enumC1430380nKG38;
+        EnumC1430380nKG enumC1430380nKG39 = new EnumC1430380nKG("PAID_COLLECTION", 38, 55, "paid collection");
+        PAID_COLLECTION = enumC1430380nKG39;
+        EnumC1430380nKG enumC1430380nKG40 = new EnumC1430380nKG("GET_LEADS", 39, 56, "ba_leadgen_anchor");
+        GET_LEADS = enumC1430380nKG40;
+        EnumC1430380nKG enumC1430380nKG41 = new EnumC1430380nKG("ANCHOR_BOOKTOK", 40, 57, "book");
+        ANCHOR_BOOKTOK = enumC1430380nKG41;
+        EnumC1430380nKG enumC1430380nKG42 = new EnumC1430380nKG("ADS_ANCHOR", 41, 58, "ads");
+        ADS_ANCHOR = enumC1430380nKG42;
+        EnumC1430380nKG enumC1430380nKG43 = new EnumC1430380nKG("ANCHOR_TCM_COMMENT", 42, 59, "tcm_comment");
+        ANCHOR_TCM_COMMENT = enumC1430380nKG43;
+        EnumC1430380nKG enumC1430380nKG44 = new EnumC1430380nKG("ANCHOR_SOUND_SYNC", 43, 60, "use_sound_sync");
+        ANCHOR_SOUND_SYNC = enumC1430380nKG44;
+        EnumC1430380nKG enumC1430380nKG45 = new EnumC1430380nKG("ANCHOR_MOVIETOK", 44, 61, "movie");
+        ANCHOR_MOVIETOK = enumC1430380nKG45;
+        EnumC1430380nKG enumC1430380nKG46 = new EnumC1430380nKG("COMMON_TYPE", 45, -100, "common");
+        COMMON_TYPE = enumC1430380nKG46;
+        EnumC1430380nKG enumC1430380nKG47 = new EnumC1430380nKG("AD_PHOTO_CAROUSEL_ANCHOR", 46, 62, "ad photo carousel");
+        AD_PHOTO_CAROUSEL_ANCHOR = enumC1430380nKG47;
+        EnumC1430380nKG enumC1430380nKG48 = new EnumC1430380nKG("ANCHOR_EDIT_EFFECT", 47, 64, "edit_effect");
+        ANCHOR_EDIT_EFFECT = enumC1430380nKG48;
+        EnumC1430380nKG enumC1430380nKG49 = new EnumC1430380nKG("ANCHOR_UGC_TEMPLATE", 48, 65, "ugc_template");
+        ANCHOR_UGC_TEMPLATE = enumC1430380nKG49;
+        EnumC1430380nKG enumC1430380nKG50 = new EnumC1430380nKG("ANCHOR_AUTO_CUT", 49, 66, "auto_cut");
+        ANCHOR_AUTO_CUT = enumC1430380nKG50;
+        EnumC1430380nKG enumC1430380nKG51 = new EnumC1430380nKG("ANCHOR_EDITOR_PRO", 50, 67, "editor_pro");
+        ANCHOR_EDITOR_PRO = enumC1430380nKG51;
+        EnumC1430380nKG enumC1430380nKG52 = new EnumC1430380nKG("ANCHOR_TICKETMASTER", 51, 69, "ticket_master");
+        ANCHOR_TICKETMASTER = enumC1430380nKG52;
+        EnumC1430380nKG enumC1430380nKG53 = new EnumC1430380nKG("ANCHOR_AIGC_AVATAR", 52, 70, "Create AI vatars");
+        ANCHOR_AIGC_AVATAR = enumC1430380nKG53;
+        EnumC1430380nKG enumC1430380nKG54 = new EnumC1430380nKG("ANCHOR_VOICECONVERSION", 53, 72, "voice_conversion");
+        ANCHOR_VOICECONVERSION = enumC1430380nKG54;
+        EnumC1430380nKG enumC1430380nKG55 = new EnumC1430380nKG("ARTICLE_PHOTO_MODE", 54, 73, "TT_ARTICLE");
+        ARTICLE_PHOTO_MODE = enumC1430380nKG55;
+        EnumC1430380nKG enumC1430380nKG56 = new EnumC1430380nKG("ANCHOR_PUGC_TEMPLATE", 55, 78, "pugc_template");
+        ANCHOR_PUGC_TEMPLATE = enumC1430380nKG56;
+        EnumC1430380nKG enumC1430380nKG57 = new EnumC1430380nKG("HYPIC_ANCHOR", 56, 74, "Hypic");
+        HYPIC_ANCHOR = enumC1430380nKG57;
+        EnumC1430380nKG enumC1430380nKG58 = new EnumC1430380nKG("LEMON8_ANCHOR", 57, 77, "Lemon8");
+        LEMON8_ANCHOR = enumC1430380nKG58;
+        EnumC1430380nKG enumC1430380nKG59 = new EnumC1430380nKG("LEMON8_GENERAL_ANCHOR", 58, 75, "Lemon8");
+        LEMON8_GENERAL_ANCHOR = enumC1430380nKG59;
+        EnumC1430380nKG enumC1430380nKG60 = new EnumC1430380nKG("LEMON8_GENERAL_PICK_ANCHOR", 59, 123, "Lemon8");
+        LEMON8_GENERAL_PICK_ANCHOR = enumC1430380nKG60;
+        EnumC1430380nKG enumC1430380nKG61 = new EnumC1430380nKG("LEMON8_GENERAL_DUAL_ANCHOR", 60, 124, "Lemon8");
+        LEMON8_GENERAL_DUAL_ANCHOR = enumC1430380nKG61;
+        EnumC1430380nKG enumC1430380nKG62 = new EnumC1430380nKG("PHOTO_SPARK_ANCHOR", 61, 86, "anchor_photo_app_upsell");
+        PHOTO_SPARK_ANCHOR = enumC1430380nKG62;
+        EnumC1430380nKG enumC1430380nKG63 = new EnumC1430380nKG("BA_PRODUCT_ANCHOR", 62, 76, "ba_product_anchor");
+        BA_PRODUCT_ANCHOR = enumC1430380nKG63;
+        EnumC1430380nKG enumC1430380nKG64 = new EnumC1430380nKG("BA_DOWNLOAD_ANCHOR", 63, 85, "ba_download_anchor");
+        BA_DOWNLOAD_ANCHOR = enumC1430380nKG64;
+        EnumC1430380nKG enumC1430380nKG65 = new EnumC1430380nKG("DM_ANCHOR", 64, 88, "dm_anchor");
+        DM_ANCHOR = enumC1430380nKG65;
+        EnumC1430380nKG enumC1430380nKG66 = new EnumC1430380nKG("GAME_LIVE_PARTNER_ANCHOR", 65, 79, "games");
+        GAME_LIVE_PARTNER_ANCHOR = enumC1430380nKG66;
+        EnumC1430380nKG enumC1430380nKG67 = new EnumC1430380nKG("GAME_LIVE_PARTNER_ANCHOR_2", 66, 119, "games");
+        GAME_LIVE_PARTNER_ANCHOR_2 = enumC1430380nKG67;
+        EnumC1430380nKG enumC1430380nKG68 = new EnumC1430380nKG("GAME_LIVE_PARTNER_ANCHOR_3", 67, 48, "games");
+        GAME_LIVE_PARTNER_ANCHOR_3 = enumC1430380nKG68;
+        EnumC1430380nKG enumC1430380nKG69 = new EnumC1430380nKG("SERVICE_PLUGIN", 68, 81, "op_service_plugin");
+        SERVICE_PLUGIN = enumC1430380nKG69;
+        EnumC1430380nKG enumC1430380nKG70 = new EnumC1430380nKG("AI_SELF_ANCHOR", 69, 82, "ai_self_anchor");
+        AI_SELF_ANCHOR = enumC1430380nKG70;
+        EnumC1430380nKG enumC1430380nKG71 = new EnumC1430380nKG("PHOTO_EVERGREEN_ANCHOR", 70, 83, "evergreen");
+        PHOTO_EVERGREEN_ANCHOR = enumC1430380nKG71;
+        EnumC1430380nKG enumC1430380nKG72 = new EnumC1430380nKG("SUBSCRIPTION_ANCHOR", 71, 84, "subscription_anchor");
+        SUBSCRIPTION_ANCHOR = enumC1430380nKG72;
+        EnumC1430380nKG enumC1430380nKG73 = new EnumC1430380nKG("ANCHOR_PHOTO_MODE_TEMPLATE", 72, 87, "photo_trend_template");
+        ANCHOR_PHOTO_MODE_TEMPLATE = enumC1430380nKG73;
+        EnumC1430380nKG enumC1430380nKG74 = new EnumC1430380nKG("ANCHOR_SHOWCASE", 73, 89, "shop_showwindow");
+        ANCHOR_SHOWCASE = enumC1430380nKG74;
+        EnumC1430380nKG enumC1430380nKG75 = new EnumC1430380nKG("TIME_PORTAL_ANCHOR", 74, 91, "time_portal");
+        TIME_PORTAL_ANCHOR = enumC1430380nKG75;
+        EnumC1430380nKG enumC1430380nKG76 = new EnumC1430380nKG("TIKTOK_STUDIO_FEED_ANCHOR", 75, 93, "tiktok_studio_feed_anchor");
+        TIKTOK_STUDIO_FEED_ANCHOR = enumC1430380nKG76;
+        EnumC1430380nKG enumC1430380nKG77 = new EnumC1430380nKG("DM_AI_GROUP_SHOT_ANCHOR", 76, 94, "ai_group_shot");
+        DM_AI_GROUP_SHOT_ANCHOR = enumC1430380nKG77;
+        EnumC1430380nKG enumC1430380nKG78 = new EnumC1430380nKG("MINIS_ANCHOR", 77, 96, "tt_minis");
+        MINIS_ANCHOR = enumC1430380nKG78;
+        EnumC1430380nKG enumC1430380nKG79 = new EnumC1430380nKG("GO_LIVE_INCENTIVE_ANCHOR", 78, 95, "anchor_go_live");
+        GO_LIVE_INCENTIVE_ANCHOR = enumC1430380nKG79;
+        EnumC1430380nKG enumC1430380nKG80 = new EnumC1430380nKG("AI_LIVE_PHOTO_ANCHOR_TYPE", 79, 97, "ai_live_photo");
+        AI_LIVE_PHOTO_ANCHOR_TYPE = enumC1430380nKG80;
+        EnumC1430380nKG enumC1430380nKG81 = new EnumC1430380nKG("GREEN_SCREEN_ANCHOR_TYPE", 80, 99, "green_screen_anchor");
+        GREEN_SCREEN_ANCHOR_TYPE = enumC1430380nKG81;
+        EnumC1430380nKG enumC1430380nKG82 = new EnumC1430380nKG("AI_IMAGINE_ANCHOR_TYPE", 81, 109, "ai_imagine");
+        AI_IMAGINE_ANCHOR_TYPE = enumC1430380nKG82;
+        EnumC1430380nKG enumC1430380nKG83 = new EnumC1430380nKG("CAMERA_LAYOUT_ANCHOR_TYPE", 82, 103, "reuse_layout");
+        CAMERA_LAYOUT_ANCHOR_TYPE = enumC1430380nKG83;
+        EnumC1430380nKG enumC1430380nKG84 = new EnumC1430380nKG("EDITOR_PRO_CAPTIONS_ANCHOR", 83, 100, "captions");
+        EDITOR_PRO_CAPTIONS_ANCHOR = enumC1430380nKG84;
+        EnumC1430380nKG enumC1430380nKG85 = new EnumC1430380nKG("ANCHOR_SPORT", 84, 101, "sports");
+        ANCHOR_SPORT = enumC1430380nKG85;
+        EnumC1430380nKG enumC1430380nKG86 = new EnumC1430380nKG("TEXT_TO_IMAGE_ANCHOR", 85, 102, "anchor_text_to_image");
+        TEXT_TO_IMAGE_ANCHOR = enumC1430380nKG86;
+        EnumC1430380nKG enumC1430380nKG87 = new EnumC1430380nKG("CT_DUET_ANCHOR", 86, 104, "ct_duet");
+        CT_DUET_ANCHOR = enumC1430380nKG87;
+        EnumC1430380nKG enumC1430380nKG88 = new EnumC1430380nKG("CT_AI_MAGIC_ANCHOR", 87, 105, "ct_ai_magic");
+        CT_AI_MAGIC_ANCHOR = enumC1430380nKG88;
+        EnumC1430380nKG enumC1430380nKG89 = new EnumC1430380nKG("CT_FILTER_ANCHOR", 88, 106, "ct_filter");
+        CT_FILTER_ANCHOR = enumC1430380nKG89;
+        EnumC1430380nKG enumC1430380nKG90 = new EnumC1430380nKG("SOCIAL_AVATAR_ANCHOR", 89, 107, "anchor_social_avatar");
+        SOCIAL_AVATAR_ANCHOR = enumC1430380nKG90;
+        EnumC1430380nKG enumC1430380nKG91 = new EnumC1430380nKG("GO_LIVE_STUDIO_ANCHOR", 90, 108, "anchor_ls_glip_page");
+        GO_LIVE_STUDIO_ANCHOR = enumC1430380nKG91;
+        EnumC1430380nKG enumC1430380nKG92 = new EnumC1430380nKG("ANCHOR_TT_CC_TEMPLATE", 91, 110, "tt_capcut_template");
+        ANCHOR_TT_CC_TEMPLATE = enumC1430380nKG92;
+        EnumC1430380nKG enumC1430380nKG93 = new EnumC1430380nKG("ANCHOR_AIGT_TEMPLATE", 92, 111, "aigt_template");
+        ANCHOR_AIGT_TEMPLATE = enumC1430380nKG93;
+        EnumC1430380nKG enumC1430380nKG94 = new EnumC1430380nKG("ANCHOR_SGT_TEMPLATE", 93, 127, "sgt_template");
+        ANCHOR_SGT_TEMPLATE = enumC1430380nKG94;
+        EnumC1430380nKG enumC1430380nKG95 = new EnumC1430380nKG("AI_PLAYGROUND_ANCHOR", 94, 114, "AI_VIDEO_TOOL");
+        AI_PLAYGROUND_ANCHOR = enumC1430380nKG95;
+        EnumC1430380nKG enumC1430380nKG96 = new EnumC1430380nKG("ANCHOR_LIVE_VIDEO_CLIP_CAMPAIGN", 95, 116, "jp_clip_campaign");
+        ANCHOR_LIVE_VIDEO_CLIP_CAMPAIGN = enumC1430380nKG96;
+        EnumC1430380nKG enumC1430380nKG97 = new EnumC1430380nKG("PINE_DRAMA_ANCHOR", 96, 117, "pinedrama");
+        PINE_DRAMA_ANCHOR = enumC1430380nKG97;
+        EnumC1430380nKG enumC1430380nKG98 = new EnumC1430380nKG("LYRIC_EFFECT_ANCHOR", 97, 120, "lyric_effect");
+        LYRIC_EFFECT_ANCHOR = enumC1430380nKG98;
+        EnumC1430380nKG enumC1430380nKG99 = new EnumC1430380nKG("AI_REMIX_ANCHOR", 98, 118, "anchor_ai_remix");
+        AI_REMIX_ANCHOR = enumC1430380nKG99;
+        EnumC1430380nKG enumC1430380nKG100 = new EnumC1430380nKG("FRIENDS_V3_MUSIC_TITLE_ANCHOR", 99, 130, "anchor_friends_waterfall_music");
+        FRIENDS_V3_MUSIC_TITLE_ANCHOR = enumC1430380nKG100;
+        EnumC1430380nKG enumC1430380nKG101 = new EnumC1430380nKG("AI_PORTRAIT_ANCHOR_TYPE", 100, 125, "anchor_ai_portrait");
+        AI_PORTRAIT_ANCHOR_TYPE = enumC1430380nKG101;
+        EnumC1430380nKG enumC1430380nKG102 = new EnumC1430380nKG("SHORT_DRAMA_RESERVE", 101, 126, "drama_reserve_event");
+        SHORT_DRAMA_RESERVE = enumC1430380nKG102;
+        EnumC1430380nKG[] enumC1430380nKGArr = {enumC1430380nKG, enumC1430380nKG2, enumC1430380nKG3, enumC1430380nKG4, enumC1430380nKG5, enumC1430380nKG6, enumC1430380nKG7, enumC1430380nKG8, enumC1430380nKG9, enumC1430380nKG10, enumC1430380nKG11, enumC1430380nKG12, enumC1430380nKG13, enumC1430380nKG14, enumC1430380nKG15, enumC1430380nKG16, enumC1430380nKG17, enumC1430380nKG18, enumC1430380nKG19, enumC1430380nKG20, enumC1430380nKG21, enumC1430380nKG22, enumC1430380nKG23, enumC1430380nKG24, enumC1430380nKG25, enumC1430380nKG26, enumC1430380nKG27, enumC1430380nKG28, enumC1430380nKG29, enumC1430380nKG30, enumC1430380nKG31, enumC1430380nKG32, enumC1430380nKG33, enumC1430380nKG34, enumC1430380nKG35, enumC1430380nKG36, enumC1430380nKG37, enumC1430380nKG38, enumC1430380nKG39, enumC1430380nKG40, enumC1430380nKG41, enumC1430380nKG42, enumC1430380nKG43, enumC1430380nKG44, enumC1430380nKG45, enumC1430380nKG46, enumC1430380nKG47, enumC1430380nKG48, enumC1430380nKG49, enumC1430380nKG50, enumC1430380nKG51, enumC1430380nKG52, enumC1430380nKG53, enumC1430380nKG54, enumC1430380nKG55, enumC1430380nKG56, enumC1430380nKG57, enumC1430380nKG58, enumC1430380nKG59, enumC1430380nKG60, enumC1430380nKG61, enumC1430380nKG62, enumC1430380nKG63, enumC1430380nKG64, enumC1430380nKG65, enumC1430380nKG66, enumC1430380nKG67, enumC1430380nKG68, enumC1430380nKG69, enumC1430380nKG70, enumC1430380nKG71, enumC1430380nKG72, enumC1430380nKG73, enumC1430380nKG74, enumC1430380nKG75, enumC1430380nKG76, enumC1430380nKG77, enumC1430380nKG78, enumC1430380nKG79, enumC1430380nKG80, enumC1430380nKG81, enumC1430380nKG82, enumC1430380nKG83, enumC1430380nKG84, enumC1430380nKG85, enumC1430380nKG86, enumC1430380nKG87, enumC1430380nKG88, enumC1430380nKG89, enumC1430380nKG90, enumC1430380nKG91, enumC1430380nKG92, enumC1430380nKG93, enumC1430380nKG94, enumC1430380nKG95, enumC1430380nKG96, enumC1430380nKG97, enumC1430380nKG98, enumC1430380nKG99, enumC1430380nKG100, enumC1430380nKG101, enumC1430380nKG102};
+        LLILLL = enumC1430380nKGArr;
+        LLILZ = new C2254308sP(enumC1430380nKGArr);
+    }
+
+    public static EnumC1430380nKG[] values() {
+        return (EnumC1430380nKG[]) LLILLL.clone();
+    }
+
+    public final int getTYPE() {
+        return this.LL;
+    }
+
+    public final String getTYPENAME() {
+        return this.LLILLJJLI;
+    }
+
+    public static EnumC1430380nKG valueOf(String str) {
+        return (EnumC1430380nKG) C08FF.LIZ(EnumC1430380nKG.class, str);
+    }
+
+    public final void setTYPE(int i) {
+        this.LL = i;
+    }
+
+    public final void setTYPENAME(String str) {
+        this.LLILLJJLI = str;
+    }
+
+    public EnumC1430380nKG(String str, int i, int i2, String str2) {
+        this.LL = i2;
+        this.LLILLJJLI = str2;
+    }
+}

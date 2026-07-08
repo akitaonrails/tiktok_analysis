@@ -1,0 +1,5 @@
+package com.ss.android.ugc.aweme.im.messagelist.api.ability;
+
+/* JADX INFO: loaded from: classes7.dex */
+public interface MessageListAllTouchAbility extends MessageListAwemeCardClickAbility, MessageListStickerClickAbility, MessageListGifClickAbility, MessageListPhotoClickAbility, MessageListVideoClickAbility, MessageListCommentClickAbility, MessageListShareLiveEventClickAbility, MessageListAvatarClickAbility, MessageListGroupInviteCardClickAbility, MessageListShareProductClickAbility, MessageListPortraitCardClickAbility, MessageListContentFollowClickAbility, MessageListShareUserClickAbility, MessageListMultiShareClickAbility, MessageListQuotedMessageClickAbility, MessageListShareWebClickAbility, MessageListResendMessageAbility, MessageListForwardShareMessageAbility, MessageListRecentActivityAbility, MessageListRepostClickAbility, MessageListTextBigEmojiClickAbility, MessageListTextClickAbility {
+}

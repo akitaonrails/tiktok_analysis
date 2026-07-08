@@ -1,0 +1,17 @@
+package X;
+
+import com.bytedance.sdk.xbridge.registry.core.model.idl.XBaseParamModel;
+
+/* JADX INFO: renamed from: X.0vNM, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes27.dex */
+@C040D
+public interface InterfaceC1739820vNM extends XBaseParamModel {
+    @InterfaceC1549470qQL(isGetter = true, keyPath = "apiPath", required = true)
+    String getApiPath();
+
+    @InterfaceC1549470qQL(isGetter = true, keyPath = "prefetchKey", required = true)
+    String getPrefetchKey();
+
+    @InterfaceC1549470qQL(isGetter = true, keyPath = "timeout", required = false)
+    Number getTimeout();
+}

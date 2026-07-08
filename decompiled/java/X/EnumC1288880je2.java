@@ -1,0 +1,60 @@
+package X;
+
+/* JADX INFO: renamed from: X.0je2, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes21.dex */
+public enum EnumC1288880je2 {
+    VISIBILITY(1),
+    TRANSFORM_OPACITY(2),
+    TRANSFORM_ANCHOR(3),
+    TRANSFORM_POSITION(4),
+    TRANSFORM_SCALE(5),
+    TRANSFORM_ROTATION(6),
+    TRANSFORM_SKEW(7),
+    TRANSFORM_SKEW_ANGLE(8),
+    TRANSFORM_START_OPACITY(9),
+    TRANSFORM_END_OPACITY(10),
+    TRANSFORM_ROTATION_X(11),
+    TRANSFORM_ROTATION_Y(12),
+    TRANSFORM_ROTATION_Z(13),
+    TEXT_VALUE(101),
+    TEXT_SIZE(102),
+    TEXT_COLOR(103),
+    TEXT_TRACKING(104),
+    COLOR(201),
+    COLOR_FILTER(202),
+    STROKE_COLOR(203),
+    STROKE_WIDTH(204),
+    OPACITY(205),
+    BLUR_RADIUS(206),
+    ELLIPSE_SIZE(207),
+    RECTANGLE_SIZE(208),
+    CORNER_RADIUS(209),
+    POSITION(210),
+    REPEATER_COPIES(211),
+    REPEATER_OFFSET(212),
+    POLYSTAR_POINTS(213),
+    POLYSTAR_ROTATION(214),
+    POLYSTAR_INNER_RADIUS(215),
+    POLYSTAR_OUTER_RADIUS(216),
+    POLYSTAR_INNER_ROUNDED(217),
+    POLYSTAR_OUTER_ROUNDED(218),
+    DROP_SHADOW_COLOR(219),
+    DROP_SHADOW_OPACITY(220),
+    DROP_SHADOW_DIRECTION(221),
+    DROP_SHADOW_DISTANCE(222),
+    DROP_SHADOW_RADIUS(223);
+
+    public final int LL;
+
+    public int getValue() {
+        return this.LL;
+    }
+
+    public static EnumC1288880je2 valueOf(String str) {
+        return (EnumC1288880je2) C08FF.LIZ(EnumC1288880je2.class, str);
+    }
+
+    EnumC1288880je2(int i) {
+        this.LL = i;
+    }
+}

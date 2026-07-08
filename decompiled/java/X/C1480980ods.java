@@ -1,0 +1,136 @@
+package X;
+
+import android.content.Context;
+import android.util.SparseArray;
+import android.util.SparseIntArray;
+import com.ss.android.ugc.playerkit.model.AutoDubbingConfig;
+import java.util.List;
+
+/* JADX INFO: renamed from: X.0ods, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes24.dex */
+public final class C1480980ods {
+    public Context LIZ;
+    public EnumC1479760obu LIZIZ;
+    public final boolean LIZJ;
+    public final boolean LIZLLL;
+    public final boolean LJ;
+    public SparseIntArray LJFF;
+    public SparseArray LJI;
+    public C1481010odv LJII;
+    public AutoDubbingConfig LJIIIIZZ;
+    public int LJIIIZ;
+    public boolean LJIIJ;
+    public final int LJIIJJI;
+    public InterfaceC1473550oRt LJIIL;
+    public C1473540oRs LJIILIIL;
+    public boolean LJIILJJIL;
+    public int LJIILL;
+    public int LJIILLIIL;
+    public boolean LJIIZILJ;
+    public int LJIJ;
+    public int LJIJI;
+    public int LJIJJ;
+    public InterfaceC1469840oLu LJIJJLI;
+    public final InterfaceC1472690oQV LJIL;
+    public boolean LJJ;
+    public int LJJI;
+    public int LJJIFFI;
+    public int LJJII;
+    public boolean LJJIII;
+    public int LJJIIJ;
+    public int LJJIIJZLJL;
+    public boolean LJJIIZ;
+    public final int LJJIIZI;
+    public final int LJJIJ;
+    public int LJJIJIIJI;
+    public int LJJIJIIJIL;
+    public boolean LJJIJIL;
+    public boolean LJJIJL;
+    public final boolean LJJIJLIJ;
+    public boolean LJJIL;
+    public int LJJIZ;
+    public int LJJJ;
+    public int LJJJI;
+    public final boolean LJJJIL;
+    public final int LJJJJ;
+    public final int LJJJJI;
+    public C1473340oRY LJJJJIZL;
+    public boolean LJJJJJ;
+    public final boolean LJJJJJL;
+    public final int LJJJJL;
+    public final int LJJJJLI;
+    public List<C308310C6r> LJJJJLL;
+
+    public C1480980ods() {
+        this.LJIILJJIL = true;
+        this.LJIILL = 1;
+        this.LJIIZILJ = true;
+        this.LJJIJ = 30;
+        this.LJJIJIIJI = 576;
+        this.LJJIJIIJIL = 1024;
+        this.LJJIJL = true;
+        this.LJJJJ = 2;
+    }
+
+    public C1480980ods(C1480990odt c1480990odt) {
+        this.LJIILJJIL = true;
+        this.LJIILL = 1;
+        this.LJIIZILJ = true;
+        this.LJJIJ = 30;
+        this.LJJIJIIJI = 576;
+        this.LJJIJIIJIL = 1024;
+        this.LJJIJL = true;
+        this.LJJJJ = 2;
+        this.LIZ = c1480990odt.LIZ;
+        this.LIZIZ = c1480990odt.LIZIZ;
+        this.LIZJ = c1480990odt.LJIIIZ;
+        this.LIZLLL = c1480990odt.LJIIJ;
+        this.LJ = c1480990odt.LJIIJJI;
+        this.LJFF = c1480990odt.LIZLLL;
+        this.LJI = c1480990odt.LJ;
+        this.LJII = c1480990odt.LJI;
+        this.LJIIIIZZ = c1480990odt.LJFF;
+        this.LJIIIZ = c1480990odt.LJIIL;
+        this.LJIIJ = c1480990odt.LJIILIIL;
+        this.LJIIJJI = c1480990odt.LJIILJJIL;
+        this.LJIIL = null;
+        this.LJIILIIL = null;
+        this.LJIILJJIL = c1480990odt.LJIILL;
+        this.LJIILL = c1480990odt.LJIILLIIL;
+        this.LJIILLIIL = c1480990odt.LJIIZILJ;
+        this.LJIIZILJ = c1480990odt.LJIJ;
+        this.LJIJ = c1480990odt.LJIJI;
+        this.LJIJI = c1480990odt.LJIJJ;
+        this.LJIJJ = c1480990odt.LJIJJLI;
+        this.LJIJJLI = c1480990odt.LIZJ;
+        this.LJIL = null;
+        this.LJJ = c1480990odt.LJIL;
+        this.LJJI = c1480990odt.LJJ;
+        this.LJJIFFI = c1480990odt.LJJI;
+        this.LJJII = c1480990odt.LJJIFFI;
+        this.LJJIII = c1480990odt.LJJII;
+        this.LJJIIJ = c1480990odt.LJJIII;
+        this.LJJIIJZLJL = c1480990odt.LJJIIJ;
+        this.LJJIIZ = c1480990odt.LJJIIJZLJL;
+        this.LJJIIZI = c1480990odt.LJJIIZ;
+        this.LJJIJ = c1480990odt.LJJIIZI;
+        this.LJJIJIIJI = c1480990odt.LJJIJ;
+        this.LJJIJIIJIL = c1480990odt.LJJIJIIJI;
+        this.LJJIJIL = c1480990odt.LJJIJIIJIL;
+        this.LJJIJL = c1480990odt.LJJIJIL;
+        this.LJJIJLIJ = c1480990odt.LJJIJL;
+        this.LJJIL = c1480990odt.LJJIJLIJ;
+        this.LJJIZ = c1480990odt.LJJIL;
+        this.LJJJ = c1480990odt.LJJIZ;
+        this.LJJJI = c1480990odt.LJJJ;
+        this.LJJJIL = c1480990odt.LJJJI;
+        this.LJJJJ = c1480990odt.LJJJIL;
+        this.LJJJJI = c1480990odt.LJJJJ;
+        this.LJJJJIZL = c1480990odt.LJII;
+        this.LJJJJJ = c1480990odt.LJJJJI;
+        this.LJJJJJL = c1480990odt.LJJJJIZL;
+        this.LJJJJL = c1480990odt.LJJJJJ;
+        this.LJJJJLI = c1480990odt.LJJJJJL;
+        this.LJJJJLL = c1480990odt.LJIIIIZZ;
+    }
+}

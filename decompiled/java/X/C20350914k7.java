@@ -1,0 +1,108 @@
+package X;
+
+import java.util.HashMap;
+
+/* JADX INFO: renamed from: X.14k7, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes32.dex */
+public final class C20350914k7 {
+    public static final HashMap<String, Integer> LIZ;
+
+    static {
+        HashMap<String, Integer> map = new HashMap<>();
+        map.put("check_mic_camera", 2131855217);
+        map.put("guest_new_joined", 2131855219);
+        map.put("guest_kick_out", 2131854648);
+        map.put("guest_count", 2131855220);
+        map.put("max_guest_count_reached", 2131855218);
+        map.put("layout_finish_setting", 2131855206);
+        map.put("layout_ongoing", 2131855205);
+        map.put("expand_ongoing", 2131855197);
+        map.put("expand_finished", 2131855198);
+        map.put("countdown_ongoing_one", 2131855185);
+        map.put("countdown_finished_one", 2131855183);
+        map.put("countdown_finished_all", 2131855182);
+        map.put("countdown_for_all_ongoing", 2131855180);
+        map.put("countdown_for_all_reach_goal_one", 2131855178);
+        map.put("countdown_for_all_finished", 2131855179);
+        map.put("guest_showdown_ongoing", 2131855202);
+        map.put("guest_showdown_publishing", 2131855204);
+        map.put("guest_showdown_finished", 2131855201);
+        map.put("liveshow_ongoing", 2131855214);
+        map.put("liveshow_change_user", 2131855216);
+        map.put("liveshow_finished", 2131855213);
+        map.put("noticeboard_ongoing", 2131855234);
+        map.put("noticeboard_finish_setting", 2131855236);
+        map.put("noticeboard_finished", 2131855235);
+        map.put("noticeboard_start_setting", 2131855235);
+        map.put("wallpaper_ongoing", 2131855269);
+        map.put("wallpaper_finish_setting", 2131855271);
+        map.put("wallpaper_finished", 2131855270);
+        map.put("priority_gift_ongoing", 2131855254);
+        map.put("priority_gift_finished", 2131855253);
+        map.put("cohost_ongoing", 2131855171);
+        map.put("cohost_finished", 2131855170);
+        map.put("cohost_count", 2131855172);
+        map.put("catch_beans_finished", 2131855223);
+        map.put("catch_beans_ongoing", 2131855224);
+        map.put("match_finished", 2131855292);
+        map.put("match_ongoing", 2131855225);
+        map.put("take_the_stage_finished", 2131855226);
+        map.put("take_the_stage_ongoing", 2131855227);
+        map.put("enhance_ongoing", 2131855195);
+        map.put("enhance_finish_setting", 2131855196);
+        map.put("enhance_finished", 2131855194);
+        map.put("effects_ongoing", 2131855191);
+        map.put("effects_finish_setting", 2131855192);
+        map.put("effects_finished", 2131855193);
+        map.put("sticker_ongoing", 2131855261);
+        map.put("sticker_finish_setting", 2131855260);
+        map.put("sticker_finished", 2131855262);
+        map.put("music_ongoing", 2131855230);
+        map.put("music_finish_setting", 2131855228);
+        map.put("music_finished", 2131855229);
+        map.put("voice_effect_ongoing", 2131855266);
+        map.put("voice_effect_finish_setting", 2131855268);
+        map.put("voice_effect_finished", 2131855267);
+        map.put("sound_effect_ongoing", 2131855259);
+        map.put("background_ongoing", 2131855168);
+        map.put("background_finish_setting", 2131855167);
+        map.put("background_finished", 2131855169);
+        map.put("live_goal_ongoing", 2131855211);
+        map.put("live_goal_achieved_one", 2131855210);
+        map.put("live_goal_achieved_all", 2131855209);
+        map.put("live_goal_deleted", 2131855212);
+        map.put("goody_bag_ongoing", 2131855200);
+        map.put("goody_bag_finished", 2131855199);
+        map.put("treasure_box_ongoing", 2131855265);
+        map.put("treasure_box_finished_one", 2131855264);
+        map.put("treasure_box_finished_all", 2131855263);
+        map.put("quick_poll_ongoing", 2131855250);
+        map.put("quick_poll_finished", 2131855249);
+        map.put("text_poll_ongoing", 2131855252);
+        map.put("text_poll_finished", 2131855251);
+        map.put("gift_poll_ongoing", 2131855248);
+        map.put("gift_poll_finished", 2131855247);
+        map.put("lightning_qa_ongoing", 2131855208);
+        map.put("lightning_qa_finished", 2131855207);
+        map.put("draw_guess_ongoing", 2131855190);
+        map.put("draw_guess_finished", 2131855189);
+        map.put("ai_wallpaper_ongoing", 2131855163);
+        map.put("ai_wallpaper_finished", 2131855162);
+        map.put("boards_ongoing", 2131855234);
+        map.put("boards_finished", 2131855235);
+        map.put("queue_ongoing", 2131855256);
+        map.put("queue_finished", 2131855255);
+        map.put("header_ongoing", 2131854684);
+        map.put("header_finish_setting", 2131854683);
+        map.put("header_finished", 2131854686);
+        map.put("share_panel_open", 2131854687);
+        map.put("live_shared", 2131854685);
+        map.put("cover_ongoing", 2131854682);
+        map.put("title_ongoing", 2131854689);
+        map.put("never", 2131855177);
+        map.put("countdown_check", 2131855161);
+        map.put("all_decoration_succeeded", 2131854663);
+        map.put("partial_decoration_succeeded", 2131854664);
+        LIZ = map;
+    }
+}

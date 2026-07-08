@@ -1,0 +1,6 @@
+package X;
+
+/* JADX INFO: renamed from: X.0J7U, reason: invalid class name */
+/* JADX INFO: loaded from: classes8.dex */
+public final class C0J7U {
+}

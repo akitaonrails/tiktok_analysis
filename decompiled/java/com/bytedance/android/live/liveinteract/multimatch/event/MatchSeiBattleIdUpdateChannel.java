@@ -1,0 +1,9 @@
+package com.bytedance.android.live.liveinteract.multimatch.event;
+
+import com.bytedance.android.livesdk.sei.SeiAppData;
+import com.bytedance.ies.sdk.datachannel.Channel;
+
+/* JADX INFO: loaded from: classes16.dex */
+public final class MatchSeiBattleIdUpdateChannel extends Channel<SeiAppData> {
+    public static final int $stable = 8;
+}

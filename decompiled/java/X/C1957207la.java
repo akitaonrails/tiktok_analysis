@@ -1,0 +1,53 @@
+package X;
+
+import kotlin.jvm.internal.AFwS189S0000000_3;
+import kotlin.text.a0;
+
+/* JADX INFO: renamed from: X.07la, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes4.dex */
+public final class C1957207la {
+    public static final C01GW LIZ = C452501pT.LIZIZ(AFwS189S0000000_3.get$arr$(1490));
+    public static final C01GW LIZIZ = C452501pT.LIZIZ(AFwS189S0000000_3.get$arr$(1489));
+
+    public static C1533510q0b LIZ(String str) {
+        boolean z;
+        if (str.length() > 0) {
+            z = true;
+        } else {
+            z = false;
+        }
+        if (z) {
+            String strLIZIZ = "tiktok/fe/live";
+            if ("tiktok/fe/live".length() > 0) {
+                Integer numValueOf = Integer.valueOf(a0.LJJIZ(str, '?', 0, false, 6));
+                if (numValueOf.intValue() != -1) {
+                    str = str.substring(0, numValueOf.intValue());
+                }
+                Integer numValueOf2 = Integer.valueOf(a0.LJJIZ(str, '#', 0, false, 6));
+                if (numValueOf2.intValue() != -1) {
+                    str = str.substring(0, numValueOf2.intValue());
+                }
+                if (!a0.LJJIJIIJIL("tiktok/fe/live", '/')) {
+                    StringBuilder sbLIZ = C2188811AlT.LIZ();
+                    sbLIZ.append("tiktok/fe/live");
+                    sbLIZ.append('/');
+                    strLIZIZ = C2188811AlT.LIZIZ(sbLIZ);
+                }
+                Integer numValueOf3 = Integer.valueOf(a0.LJJJ(str, strLIZIZ, 0, false, 6));
+                if (numValueOf3.intValue() != -1) {
+                    String strSubstring = str.substring(numValueOf3.intValue() + strLIZIZ.length());
+                    Integer numValueOf4 = Integer.valueOf(a0.LJJIZ(strSubstring, '/', 0, false, 6));
+                    if (numValueOf4.intValue() != -1) {
+                        int iIntValue = numValueOf4.intValue();
+                        String strSubstring2 = strSubstring.substring(0, iIntValue);
+                        String strSubstring3 = strSubstring.substring(iIntValue + 1);
+                        if ((!a0.LJJJIL(strSubstring2)) && (!a0.LJJJIL(strSubstring3))) {
+                            return new C1533510q0b("", strSubstring2, strSubstring3);
+                        }
+                    }
+                }
+            }
+        }
+        return null;
+    }
+}

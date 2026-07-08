@@ -1,0 +1,27 @@
+package com.ss.android.ugc.tiktok.tns.mixed.business.aigc.likeness;
+
+import X.C0RJN;
+import X.C723850SaN;
+import com.ss.android.ugc.aweme.detail.component.DetailPanelConfiguration;
+import com.ss.android.ugc.feed.platform.panel.BasePanelUIComponent;
+import kotlin.jvm.internal.AwS600S0100000_21;
+import kotlin.jvm.internal.Intrinsics;
+
+/* JADX INFO: loaded from: classes22.dex */
+public final class LikenessDetectionDetailPanelConfiguration extends DetailPanelConfiguration {
+    @Override // com.ss.android.ugc.aweme.detail.component.DetailPanelConfiguration
+    public final void LIZJ(BasePanelUIComponent basePanelUIComponent) {
+        C723850SaN.LIZLLL(basePanelUIComponent, new AwS600S0100000_21(basePanelUIComponent, 202));
+    }
+
+    @Override // com.ss.android.ugc.aweme.detail.component.DetailPanelConfiguration
+    /* JADX INFO: renamed from: LJ */
+    public final boolean Tl2(C0RJN c0rjn) {
+        return Intrinsics.LJFF(c0rjn.LIZ, "DETAIL_LIKENESS_DETECTION");
+    }
+
+    @Override // com.ss.android.ugc.aweme.detail.component.DetailPanelConfiguration, com.ss.android.ugc.feed.platform.panel.ConfigurationProtocol
+    public final /* bridge */ /* synthetic */ boolean Tl2(C0RJN c0rjn) {
+        return Tl2(c0rjn);
+    }
+}

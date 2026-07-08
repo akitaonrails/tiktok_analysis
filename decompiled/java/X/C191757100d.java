@@ -1,0 +1,25 @@
+package X;
+
+import java.util.concurrent.TimeUnit;
+
+/* JADX INFO: renamed from: X.100d, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes29.dex */
+public final class C191757100d extends AbstractC191754100a {
+    public static final C191757100d LIZIZ = new C191757100d();
+    public static final String LIZJ = "comment_delete_top_guide_popup";
+
+    @Override // X.AbstractC191754100a
+    public final long LIZIZ() {
+        return C100Z.LIZ(LIZJ) < LIZJ() ? TimeUnit.SECONDS.toMillis(C0C64.LJIILLIIL().LJIJ(31744, 604800, "tns_comment_delete_frequency_control", true)) : TimeUnit.SECONDS.toMillis(C0C64.LJIILLIIL().LJIJ(31744, 2592000, "tns_comment_delete_frequency_control_limit", true));
+    }
+
+    @Override // X.AbstractC191754100a
+    public final int LIZJ() {
+        return C0C64.LJIILLIIL().LJIJ(31744, 3, "tns_comment_delete_frequency_control_count", true);
+    }
+
+    @Override // X.AbstractC191755100b
+    public final String LIZ() {
+        return LIZJ;
+    }
+}

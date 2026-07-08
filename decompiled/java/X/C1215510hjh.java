@@ -1,0 +1,26 @@
+package X;
+
+import kotlin.jvm.functions.Function1;
+
+/* JADX INFO: renamed from: X.0hjh, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: loaded from: classes20.dex */
+public final class C1215510hjh extends C09AY implements Function1<C1215500hjg, C1215500hjg> {
+    public final /* synthetic */ String LL;
+    public final /* synthetic */ int LLILLJJLI;
+    public final /* synthetic */ boolean LLILLL;
+    public final /* synthetic */ boolean LLILZ;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public C1215510hjh(String str, int i, boolean z, boolean z2) {
+        super(1);
+        this.LL = str;
+        this.LLILLJJLI = i;
+        this.LLILLL = z;
+        this.LLILZ = z2;
+    }
+
+    @Override // kotlin.jvm.functions.Function1
+    public final C1215500hjg invoke(C1215500hjg c1215500hjg) {
+        return C1215500hjg.LIZ(c1215500hjg, null, this.LL, null, this.LLILLJJLI, null, false, this.LLILLL, this.LLILZ, null, null, null, null, 3893);
+    }
+}
