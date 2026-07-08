@@ -74,6 +74,10 @@ binary). Reproduce them locally from the `.xapk`.
 | [05-data-collection.md](05-data-collection.md) | Identifiers, device fingerprint, clipboard, contacts upload, location, sensors, in-app browser |
 | [06-third-party-sdks.md](06-third-party-sdks.md) | Adjust, AppsFlyer, Facebook, ThreatMetrix, Google, and others |
 | [07-assessment.md](07-assessment.md) | Bottom line: is it "spying"? Evidence-weighted verdict, and what only dynamic analysis can settle |
+| [08-mitigation-options.md](08-mitigation-options.md) | Can the leaks be blocked? What works, what backfires, and why |
+| [09-deep-scan-coverage.md](09-deep-scan-coverage.md) | Full-corpus rescan (all 303k files + native libs), decoded hidden config, honest completeness statement |
+| [10-os-and-clipboard-access.md](10-os-and-clipboard-access.md) | Full-tree check: cross-app/OS out-of-bounds access and clipboard — what's real, what it's for |
+| [11-diy-reproduce-guide.md](11-diy-reproduce-guide.md) | Reproduce from scratch: fetch the APK, decompile, and LLM-analysis prompts for any app |
 
 Evidence dumps live in [`_evidence/`](_evidence/).
 

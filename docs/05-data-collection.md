@@ -58,11 +58,13 @@ BT signals** — and `ACCESS_MEDIA_LOCATION` exposes **GPS EXIF in uploaded phot
 ## Clipboard (moderate — limited footprint)
 
 `ClipboardManager.getPrimaryClip()` read paths exist but at only **3 call sites**
-(`X/C21410318qb`, `X/C2204961BRm`, `X/C20145713s7`). This is consistent with
-targeted use (reading share/deep-link/invite codes pasted by the user) rather than
-continuous clipboard surveillance. Modern Android also shows a paste indicator.
-Historically TikTok was caught reading the clipboard aggressively (2020, iOS); this
-build's Java surface for it is small, but native paths were not audited.
+(`X/C21410318qb`, `X/C2204961BRm`, `X/C20145713s7`). **Full analysis in
+[report 10](10-os-and-clipboard-access.md).** In short: one site is a custom
+`EditText` (user paste), one is the Helios monitored-proxy, and one is a wrapper
+gated by a **BPEA capability certificate**. Critically, no read is wired to any
+`onResume`/`onStart`/foreground lifecycle hook — so **there is no automatic
+"read the clipboard on app launch"** (the 2020 iOS-era pattern is not present in
+this Android build's Java). Native paths were not audited.
 
 ## Installed-app inventory (high confidence)
 

@@ -63,6 +63,7 @@ the hardened, unverifiable native telemetry.
 | 🛡️ [08 · Mitigation Options](docs/08-mitigation-options.md) | Can you block the leaks? What works, what backfires, and why |
 | 🔬 [09 · Deep Scan & Coverage](docs/09-deep-scan-coverage.md) | Full-corpus rescan (all 303k files + native libs), decoded hidden config, honest completeness statement |
 | 🧷 [10 · OS & Clipboard Access](docs/10-os-and-clipboard-access.md) | Full-tree check: does it read other apps / SMS / the clipboard? What the OS probing is actually for |
+| 🛠️ [11 · Do It Yourself](docs/11-diy-reproduce-guide.md) | How to fetch the APK, decompile it, and prompt an LLM to run this analysis on any app |
 
 Raw evidence (host lists, extracted URLs) is in [`docs/_evidence/`](docs/_evidence/).
 The full decompiled Java source is under [`decompiled/`](decompiled/).

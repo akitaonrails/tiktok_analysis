@@ -7,6 +7,13 @@ not "hidden spyware" but **an aggressive, industrial-scale data-collection platf
 that stays (mostly) within the boundaries of what it declares — and deliberately
 makes its outbound data hard to independently audit.**
 
+> **Verification note:** the claims below were first made on a sampled pass, then
+> re-checked against a **full scan of all 303,877 decompiled files** — see
+> [report 09](09-deep-scan-coverage.md) (coverage/completeness, expanded 991-host
+> endpoint map, decoded hidden config) and [report 10](10-os-and-clipboard-access.md)
+> (out-of-bounds OS/cross-app access and clipboard). They held up; specific
+> refinements are noted inline.
+
 Three things are true at once, and any fair summary has to hold all three:
 
 ### 1. It does NOT show the hallmarks of covert malware
@@ -17,7 +24,16 @@ Three things are true at once, and any fair summary has to hold all three:
   `<queries>` list instead.
 - **No hardware-serial harvesting** on modern Android: no `READ_PHONE_STATE`, and no
   `"imei"`/`"mac_address"` telemetry keys. It uses ad IDs / app UUIDs like everyone else.
-- **No SMS, call-log, or calendar permissions.**
+- **No SMS, call-log, or calendar permissions.** (The `content://sms`/`call_log`/
+  `calendar` strings that exist are inside the **Helios privacy-*monitor*** classifier,
+  not read paths — full-tree verified in [report 10](10-os-and-clipboard-access.md).)
+- **No out-of-bounds OS/cross-app access** (full-tree verified, report 10): no reading
+  of other apps' data, no `su` execution/privilege escalation, no bulk app
+  enumeration (`getInstalledPackages` full-list = 0). OS probing is device
+  fingerprinting via world-readable `/proc`//`/sys`//`getprop` plus root/emulator
+  detection.
+- **Clipboard is not auto-scraped on foreground** and is BPEA-certificate-gated
+  (report 10) — the 2020 iOS-era pattern is absent in this build's Java.
 - The exported account providers that *look* wide open are actually **signature-
   allowlist gated** in code (see 03).
 - Region-routing to **US (`tiktokv.us` / Oracle Ashburn) and EU (`tiktokv.eu`)
