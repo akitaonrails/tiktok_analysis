@@ -1,5 +1,10 @@
 # 05 — What Data Is Collected
 
+> **Update:** the keyword counts below were the first-pass signal. A full-tree
+> call-site census (all 303k files) is in [report 09](09-deep-scan-coverage.md) and
+> refines these — notably confirming clipboard **reads** are only 3 files, and that
+> TikTok declares **no AccessibilityService** (cannot screen-scrape other apps).
+
 Each item below lists the capability, the evidence found, and an honest confidence
 level. Remember the core caveat (README): payload assembly happens in native code,
 so "collected" = *the read path exists and is wired toward telemetry/API*, verified

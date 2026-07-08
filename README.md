@@ -61,6 +61,7 @@ the hardened, unverifiable native telemetry.
 | 🏢 [06 · Third-Party SDKs](docs/06-third-party-sdks.md) | Adjust, AppsFlyer, Facebook, Google, ThreatMetrix… |
 | ⚖️ [07 · Assessment](docs/07-assessment.md) | The full verdict + what only live testing can settle |
 | 🛡️ [08 · Mitigation Options](docs/08-mitigation-options.md) | Can you block the leaks? What works, what backfires, and why |
+| 🔬 [09 · Deep Scan & Coverage](docs/09-deep-scan-coverage.md) | Full-corpus rescan (all 303k files + native libs), decoded hidden config, honest completeness statement |
 
 Raw evidence (host lists, extracted URLs) is in [`docs/_evidence/`](docs/_evidence/).
 The full decompiled Java source is under [`decompiled/`](decompiled/).

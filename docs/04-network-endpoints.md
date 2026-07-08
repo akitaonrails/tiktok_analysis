@@ -1,6 +1,14 @@
 # 04 — Network Endpoints: The "Dial-Home" Map
 
-Extracted from 1,038 hard-coded URLs across the dex files. Full lists in
+> **Update:** a full-corpus deep scan (see [report 09](09-deep-scan-coverage.md))
+> expanded this from 230 to **991 unique hosts / 445 registrable domains** and
+> decoded the previously-obfuscated `builtin_network_config`. The operator tiers and
+> conclusions below are unchanged; the complete host list now lives in
+> [`_evidence/master_hosts_all_sources.txt`](_evidence/master_hosts_all_sources.txt)
+> and the telemetry tier in
+> [`_evidence/telemetry_tier_hosts.txt`](_evidence/telemetry_tier_hosts.txt).
+
+Originally extracted from 1,038 hard-coded URLs across the dex files. Full lists in
 [`_evidence/hardcoded_urls.txt`](_evidence/hardcoded_urls.txt) and
 [`_evidence/url_hosts.txt`](_evidence/url_hosts.txt). Domain naming follows
 ByteDance conventions: region suffixes `-va` (US-East / Virginia), `-sg` /
