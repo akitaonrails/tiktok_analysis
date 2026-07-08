@@ -60,6 +60,7 @@ the hardened, unverifiable native telemetry.
 | 📊 [05 · Data Collection](docs/05-data-collection.md) | Identifiers, contacts, location, clipboard, sensors, in-app browser |
 | 🏢 [06 · Third-Party SDKs](docs/06-third-party-sdks.md) | Adjust, AppsFlyer, Facebook, Google, ThreatMetrix… |
 | ⚖️ [07 · Assessment](docs/07-assessment.md) | The full verdict + what only live testing can settle |
+| 🛡️ [08 · Mitigation Options](docs/08-mitigation-options.md) | Can you block the leaks? What works, what backfires, and why |
 
 Raw evidence (host lists, extracted URLs) is in [`docs/_evidence/`](docs/_evidence/).
 The full decompiled Java source is under [`decompiled/`](decompiled/).
