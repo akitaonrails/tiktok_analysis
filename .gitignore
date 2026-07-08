@@ -1,0 +1,8 @@
+# Large binaries / reverse-engineering artifacts
+*.xapk
+*.apk
+*.apks
+*.dex
+unpacked/
+decompiled/
+_work/
