@@ -48,6 +48,50 @@ the hardened, unverifiable native telemetry.
 
 👉 Full reasoning: **[docs/07-assessment.md](docs/07-assessment.md)**.
 
+## What TikTok actually gathers about you
+
+Plain-language summary of what the app is built to collect and send to TikTok/ByteDance
+servers (and, for some of it, to ad partners). "Collected" means the code path exists
+and is wired to the network; exact payloads are encrypted in native code, so treat
+this as *what it's built to do*, not a wiretap transcript.
+
+**Sent to TikTok/ByteDance servers:**
+- **A permanent device fingerprint** — a persistent ID (`openudid`/`cdid` + a native
+  hardware/software signature) that survives clearing app data and re-identifies your
+  device across sessions. This is the big one, and it's encrypted so you can't inspect it.
+- **Everything about your viewing** — which videos, how long you watch, replays,
+  pauses, likes, comments, searches. This *is* the recommendation engine, and it rides
+  the same request that fetches the feed, so it's unavoidable while using the app.
+- **Device & network profile** — phone model, OS, screen, CPU/RAM, carrier, SIM/network
+  country, timezone, language, battery, IP-derived region, and Wi-Fi/Bluetooth signals.
+- **Coarse and (if you allow it) precise location** — from GPS, plus Wi-Fi/Bluetooth
+  and IP even without the GPS permission. Photos you upload can carry their GPS EXIF.
+- **Your contacts** — *if* you enable "Find Friends" (consent-gated); then uploaded and
+  periodically re-synced.
+- **Which apps you have installed** — checked against a fixed list of ~91 named apps
+  (competitors, messengers, PayPal/Venmo, Spotify, sister ByteDance apps).
+- **Your advertising ID** — also shared with ~6 ad/analytics firms (Adjust, AppsFlyer,
+  Facebook, Google, ThreatMetrix, Amazon).
+
+**What it does *not* do (verified across the full code):**
+- No reading of your SMS, call logs, calendar, browser history, or other apps' private
+  data (it lacks the permissions and only *monitors* those APIs for compliance).
+- No **automatic clipboard scraping** on app open — clipboard is read only when you
+  paste, behind a permission-token gate.
+- No bulk "list every app on the phone," no root/privilege escalation, no dialing
+  unknown/mystery servers.
+
+**The honest asterisks:**
+- Region routing to US (`tiktokv.us` / Oracle) and EU (`tiktokv.eu`) enclaves is real,
+  but ByteDance-global telemetry/fingerprint hosts sit *outside* those enclaves.
+- The most sensitive data (the device fingerprint) is **encrypted in native code**, so
+  no outside party — including this analysis — can fully verify its exact contents
+  without live traffic capture.
+
+See [05 · Data Collection](docs/05-data-collection.md),
+[04 · Network Map](docs/04-network-endpoints.md), and
+[10 · OS & Clipboard](docs/10-os-and-clipboard-access.md) for the evidence.
+
 ## Read the detailed analysis
 
 | Report | What's inside |
