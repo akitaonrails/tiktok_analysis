@@ -109,6 +109,7 @@ See [05 · Data Collection](docs/05-data-collection.md),
 | 🧷 [10 · OS & Clipboard Access](docs/10-os-and-clipboard-access.md) | Full-tree check: does it read other apps / SMS / the clipboard? What the OS probing is actually for |
 | 🛠️ [11 · Do It Yourself](docs/11-diy-reproduce-guide.md) | How to fetch the APK, decompile it, and prompt an LLM to run this analysis on any app |
 | 🎭 [12 · Malicious & Dark Patterns](docs/12-malicious-and-dark-patterns.md) | Any malware patterns? Any manipulative UX? (Spoiler: no malware; yes dark patterns) |
+| 🧬 [13 · Native Library Analysis](docs/13-native-library-analysis.md) | `strings` sweep of all 204 `.so` files — metasec fingerprint engine confirmed in cleartext; no keylogger/screen-capture |
 
 Raw evidence (host lists, extracted URLs) is in [`docs/_evidence/`](docs/_evidence/).
 The full decompiled Java source is under [`decompiled/`](decompiled/).

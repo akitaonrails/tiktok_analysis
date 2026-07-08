@@ -79,6 +79,7 @@ binary). Reproduce them locally from the `.xapk`.
 | [10-os-and-clipboard-access.md](10-os-and-clipboard-access.md) | Full-tree check: cross-app/OS out-of-bounds access and clipboard — what's real, what it's for |
 | [11-diy-reproduce-guide.md](11-diy-reproduce-guide.md) | Reproduce from scratch: fetch the APK, decompile, and LLM-analysis prompts for any app |
 | [12-malicious-and-dark-patterns.md](12-malicious-and-dark-patterns.md) | Malware-pattern check (none found) + dark-pattern inventory + well-being counter-signal |
+| [13-native-library-analysis.md](13-native-library-analysis.md) | `strings` sweep of all 204 native `.so` files: metasec fingerprint engine confirmed in cleartext, reassuring negatives, build-path disclosure |
 
 Evidence dumps live in [`_evidence/`](_evidence/).
 

@@ -79,7 +79,10 @@ code and the telemetry payloads are encrypted before they hit the network.**
 `libropaencrypt.so`, `libpsiencrypt.so` and multiple request-signing layers mean that
 even with full Java decompilation you **cannot read what device fingerprint is
 actually sent** without disassembling native code and/or capturing and decrypting
-live traffic. Whether that opacity is "protecting the anti-fraud system from
+live traffic. (A `strings` sweep of the native libs — [report 13](13-native-library-analysis.md)
+— does confirm in cleartext that `libmetasec_ov.so` collects `secdeviceid`, device
+model/type/screen/**battery** and reports on a schedule to `i/mon.isnssdk.com/monitor/collect/`
+with request signing; but the exact signed payload structure is still compiled/opaque.) Whether that opacity is "protecting the anti-fraud system from
 attackers" (ByteDance's framing) or "avoiding scrutiny" (critics' framing), the
 *effect* is the same: outbound data is not independently verifiable by inspection.
 
