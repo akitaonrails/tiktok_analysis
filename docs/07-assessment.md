@@ -34,6 +34,13 @@ Three things are true at once, and any fair summary has to hold all three:
   detection.
 - **Clipboard is not auto-scraped on foreground** and is BPEA-certificate-gated
   (report 10) — the 2020 iOS-era pattern is absent in this build's Java.
+- **No accessibility screen-scraping.** The full-tree scan (report 09) confirmed
+  TikTok declares no `AccessibilityService` and implements no `onAccessibilityEvent`
+  — it cannot read other apps' screen content via accessibility.
+- **It ships a privacy-governance layer.** Sensitive-API access is routed through
+  ByteDance's **Helios** monitor (239 files) and **BPEA** capability-token system —
+  i.e., the app instruments and gates its own access to location, clipboard,
+  contacts, etc. (This cuts both ways — see the caveat in §3.)
 - The exported account providers that *look* wide open are actually **signature-
   allowlist gated** in code (see 03).
 - Region-routing to **US (`tiktokv.us` / Oracle Ashburn) and EU (`tiktokv.eu`)
@@ -52,7 +59,15 @@ Three things are true at once, and any fair summary has to hold all three:
 - **In-app browser JS injection** — the keystroke-capable surface documented by
   researchers in 2022 is present.
 - **A large, dedicated telemetry tier** (fingerprint + behavior-log + config + APM
-  endpoints) sitting alongside the app API — heavier than a typical social app.
+  endpoints) sitting alongside the app API — heavier than a typical social app. The
+  full-corpus scan (report 09) mapped **991 hosts across 445 registrable domains**
+  (up from 230 on the first pass), including a `*-boot.tiktokv.com` bootstrap endpoint
+  for every telemetry service (`mssdk-boot`, `log-boot`, `libra-boot`, `pitaya-boot`…).
+- **Hidden domain registry.** An obfuscated asset (`builtin_network_config`, XOR key
+  `0x55`) decoded to a 511-host TTNet registry exposing ByteDance domains not present
+  as plaintext (`bytedapm.com`, `byteplusapi.com`, `bytetos.com`, `boe.tiktok.com`
+  staging, the CapCut family). Honest caveat: this is a shared routing registry, not
+  proof TikTok contacts all of them at runtime.
 - **Identity shared across the ByteDance app family** (TikTok ↔ CapCut/Lemon8/…) via
   the OIDC one-tap providers, with the allowlist controlled server-side by ByteDance.
 - **Advertising ID fans out to ~6 third-party ad/analytics companies.**
@@ -67,6 +82,13 @@ actually sent** without disassembling native code and/or capturing and decryptin
 live traffic. Whether that opacity is "protecting the anti-fraud system from
 attackers" (ByteDance's framing) or "avoiding scrutiny" (critics' framing), the
 *effect* is the same: outbound data is not independently verifiable by inspection.
+
+The Helios/BPEA governance layer (§1) is the same story from a different angle: it is
+genuinely reassuring that the app monitors and gates its own sensitive-API access —
+but its policy (what's allowed, sampled, or modified) is **server-pushed by ByteDance**
+(`AllowNetworkApiConfig`, `DataOperationStrategy`, `ModifyConfig`), not user-controlled.
+It governs access centrally; it does not mean *no* access, and the rules can change
+remotely without an app update.
 
 ## So — is it spying?
 
