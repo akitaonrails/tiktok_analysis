@@ -15,10 +15,30 @@ you can check the work yourself.
 |---|---|
 | **App** | TikTok - Videos, Shop & LIVE |
 | **Package** | `com.zhiliaoapp.musically` (the international build) |
-| **Version** | **46.0.1** (versionCode `2024600010`) |
+| **Latest version analyzed** | **47.7.1** — see [report 14](docs/14-v47-data-inventory-and-dns-blocking.md) & [15](docs/15-repackaging-feasibility-and-patch-plan.md) (472 MB APK, 58 dex, 302 arm64 libs) |
+| **Baseline in this repo** | **46.0.1** (versionCode `2024600010`) — reports 00–13 and the committed `decompiled/` tree |
 | **Source of the APK** | APKPure — <https://apkpure.com/tiktok-app/com.zhiliaoapp.musically> |
-| **File analyzed** | `TikTok+-+Videos,+Shop+&+LIVE_46.0.1_APKPure.xapk` (195 MB) |
-| **Method** | Static only — unpack `.xapk`, decode manifest/resources, decompile all 37 dex with **jadx 1.5.5**, mine strings/URLs. No app was run; no live traffic captured. |
+| **Method** | Static only. jadx (1.5.5 baseline; 1.5.6 for v47) for all dex, plus **REA + Ghidra** on the native network stack for v47. No app was run; no live traffic captured. |
+
+> **🆕 Latest pass (v47.7.1, Nov 2026).** A fresh teardown aimed at one practical
+> question: *can I block TikTok's data collection at my home DNS and otherwise use it
+> safely?* Key findings, with evidence in [report 14](docs/14-v47-data-inventory-and-dns-blocking.md)
+> and [15](docs/15-repackaging-feasibility-and-patch-plan.md):
+> - **DNS blocking (NextDNS, Pi-hole…) is not a full fence.** TikTok ships its *own*
+>   DNS-over-HTTP resolver, on by default, reached by **raw IP** (`34.102.215.99` outside
+>   the US), and pins core API hosts to Bytedance IPs — so those lookups never reach your
+>   DNS. It still works for third-party trackers and most first-party telemetry *today*,
+>   with a router IP rule as backup. The server can also re-route hosts at runtime.
+> - **New passive collection:** an **hourly encrypted re-report of all device IDs** (incl.
+>   ANDROID_ID) to `cp-rp.tiktokv.com`; **hardware key attestation** (a Google-signed proof
+>   of your exact device); and touch-dynamics + motion-sensor sampling.
+> - **Still no out-of-bounds access** — no accessibility/notification/SMS/call-log/usage-stats,
+>   no all-apps listing. The one new permission only detects recording of TikTok's *own* screen.
+> - **Mitigation that actually works:** *isolate, don't spoof* — a SIM-less, not-logged-in
+>   TikTok in a separate profile/device, plus the tiered DNS blocklist + router rules.
+>   Spoofing hardware/region backfires (it's detected and contradicts the attestation).
+> - **Repackaging** can strip the removable telemetry at the source but **not** the native
+>   fingerprint or your in-app behavior, and a re-signed build is visible to TikTok's servers.
 
 ## TL;DR — the honest answer
 
@@ -26,10 +46,10 @@ you can check the work yourself.
 built to be hard to audit.** All three of these are true at the same time:
 
 - ✅ **No smoking gun.** Every server it talks to is TikTok/ByteDance or a *named*
-  ad/analytics vendor (Adjust, AppsFlyer, Facebook, Google, ThreatMetrix, Amazon).
-  No hidden hosts. No IMEI/MAC harvesting. No `QUERY_ALL_PACKAGES`, SMS, or call-log
-  access. US and EU user data are routed to dedicated **`.tiktokv.us` / `.tiktokv.eu`
-  / Oracle-Ashburn** enclaves (Project Texas / Clover).
+  ad/analytics vendor (AppsFlyer, Facebook, Google, ThreatMetrix, Amazon; Adjust was
+  present in v46 but is **gone in v47.7.1**). No hidden hosts. No IMEI/MAC harvesting.
+  No `QUERY_ALL_PACKAGES`, SMS, or call-log access. US and EU user data are routed to
+  dedicated **`.tiktokv.us` / `.tiktokv.eu` / Oracle-Ashburn** enclaves (Project Texas / Clover).
 - ⚠️ **But it collects a LOT.** Persistent device fingerprint, precise location,
   Wi-Fi + Bluetooth scanning, contacts upload, motion sensors, screen capture,
   installed-app detection (91 named apps incl. competitors, PayPal, Venmo, Spotify),
@@ -70,8 +90,8 @@ this as *what it's built to do*, not a wiretap transcript.
   periodically re-synced.
 - **Which apps you have installed** — checked against a fixed list of ~91 named apps
   (competitors, messengers, PayPal/Venmo, Spotify, sister ByteDance apps).
-- **Your advertising ID** — also shared with ~6 ad/analytics firms (Adjust, AppsFlyer,
-  Facebook, Google, ThreatMetrix, Amazon).
+- **Your advertising ID** — also shared with several ad/analytics firms (AppsFlyer,
+  Facebook, Google, ThreatMetrix, Amazon; Adjust in v46, dropped in v47.7.1).
 
 **What it does *not* do (verified across the full code):**
 - No reading of your SMS, call logs, calendar, browser history, or other apps' private
@@ -110,8 +130,8 @@ See [05 · Data Collection](docs/05-data-collection.md),
 | 🛠️ [11 · Do It Yourself](docs/11-diy-reproduce-guide.md) | How to fetch the APK, decompile it, and prompt an LLM to run this analysis on any app |
 | 🎭 [12 · Malicious & Dark Patterns](docs/12-malicious-and-dark-patterns.md) | Any malware patterns? Any manipulative UX? (Spoiler: no malware; yes dark patterns) |
 | 🧬 [13 · Native Library Analysis](docs/13-native-library-analysis.md) | `strings` sweep of all 204 `.so` files — metasec fingerprint engine confirmed in cleartext; no keylogger/screen-capture |
-| 🧩 [15 · Repackaging Feasibility & Patch Plan](docs/15-repackaging-feasibility-and-patch-plan.md) | Can a patched, re-signed build stop the leaks? What dex patching can remove (third-party + best-effort first-party telemetry) vs. can't (native fingerprint, signed behavior), with an honest ban-risk/upkeep verdict |
 | 🛡️ [14 · v47 Data Inventory & DNS Blocking](docs/14-v47-data-inventory-and-dns-blocking.md) | v47.7.1: everything it collects from your phone, its own DNS resolver reached by raw IP (NextDNS can't see it), a NextDNS blocklist + router rules, and how to substitute an isolated identity instead of spoofing |
+| 🧩 [15 · Repackaging Feasibility & Patch Plan](docs/15-repackaging-feasibility-and-patch-plan.md) | Can a patched, re-signed build stop the leaks? What dex patching can remove (third-party + best-effort first-party telemetry) vs. can't (native fingerprint, signed behavior), with an honest ban-risk/upkeep verdict |
 
 Raw evidence (host lists, extracted URLs) is in [`docs/_evidence/`](docs/_evidence/).
 The full decompiled Java source is under [`decompiled/`](decompiled/).
@@ -129,11 +149,16 @@ The full decompiled Java source is under [`decompiled/`](decompiled/).
 
 ## Reproduce it yourself
 
+Baseline (v46.0.1 `.xapk`, the committed `decompiled/` tree):
+
 ```sh
 unzip -o "TikTok+-+Videos,+Shop+&+LIVE_46.0.1_APKPure.xapk" -d unpacked/
 jadx --no-res -j 8 -d decompiled unpacked/com.zhiliaoapp.musically.apk   # source
 jadx --no-src  -d _res           unpacked/com.zhiliaoapp.musically.apk   # manifest+resources
 ```
 
-The original `.xapk` is **not** committed (it's a redistributable binary; get it from
-the APKPure link above). Binary artifacts, if any, are tracked with **Git LFS**.
+The v47.7.1 pass uses a single universal `.apk`; its exact rebuild steps (jadx 1.5.6,
+native string sweep, REA/Ghidra on `libsscronet.so`, XOR-0x55 config decode) are in
+**[AGENTS.md](AGENTS.md)**. The APK/`.xapk` and the `_work/` workspace are **not**
+committed (redistributable binaries; get the APK from the APKPure link above). Binary
+artifacts, if any, are tracked with **Git LFS**.
