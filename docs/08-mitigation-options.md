@@ -50,6 +50,15 @@ The recommendation engine is the product, not an add-on.
 
 ## Option A — Network-level blocking (DNS / per-app firewall)
 
+> **v47.7.1 update ([report 14](14-v47-data-inventory-and-dns-blocking.md)).**
+> - TikTok ships its **own HTTP-DNS resolver, on by default, reached by raw IP**
+>   (`34.102.215.99` / `35.213.190.132` outside the US). It also pins core API hosts to
+>   `199.103.24.x`, so DNS-only blocking can be bypassed. Add router IP rules for the
+>   resolvers, and use the updated blocklist (including the `*-boot` host names).
+> - Device registration lives on `log-va.tiktokv.com` (or `api.tiktokv.com`), so block
+>   `log*` only after you've installed and logged in.
+> - Report 14 §5 replaces Option C with an "isolate, don't spoof" plan.
+
 **Tools:** NextDNS, Rethink DNS, TrackerControl, AdGuard, Pi-hole, NetGuard
 (no-root VPN), AFWall+ (root).
 

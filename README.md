@@ -110,6 +110,8 @@ See [05 · Data Collection](docs/05-data-collection.md),
 | 🛠️ [11 · Do It Yourself](docs/11-diy-reproduce-guide.md) | How to fetch the APK, decompile it, and prompt an LLM to run this analysis on any app |
 | 🎭 [12 · Malicious & Dark Patterns](docs/12-malicious-and-dark-patterns.md) | Any malware patterns? Any manipulative UX? (Spoiler: no malware; yes dark patterns) |
 | 🧬 [13 · Native Library Analysis](docs/13-native-library-analysis.md) | `strings` sweep of all 204 `.so` files — metasec fingerprint engine confirmed in cleartext; no keylogger/screen-capture |
+| 🧩 [15 · Repackaging Feasibility & Patch Plan](docs/15-repackaging-feasibility-and-patch-plan.md) | Can a patched, re-signed build stop the leaks? What dex patching can remove (third-party + best-effort first-party telemetry) vs. can't (native fingerprint, signed behavior), with an honest ban-risk/upkeep verdict |
+| 🛡️ [14 · v47 Data Inventory & DNS Blocking](docs/14-v47-data-inventory-and-dns-blocking.md) | v47.7.1: everything it collects from your phone, its own DNS resolver reached by raw IP (NextDNS can't see it), a NextDNS blocklist + router rules, and how to substitute an isolated identity instead of spoofing |
 
 Raw evidence (host lists, extracted URLs) is in [`docs/_evidence/`](docs/_evidence/).
 The full decompiled Java source is under [`decompiled/`](decompiled/).

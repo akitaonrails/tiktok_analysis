@@ -6,7 +6,7 @@ volume).
 
 | SDK | Refs | Category | Data typically shared | Endpoint seen |
 |---|---|---|---|---|
-| **Adjust** | 1544 | Attribution/analytics | Ad ID, device signals, install/events | `view.adjust.com` |
+| **Adjust** *(v47.7.1: SDK no longer present — `view.adjust.com` is only a LIVE game-promo ping; see [report 14](14-v47-data-inventory-and-dns-blocking.md))* | 1544 | Attribution/analytics | Ad ID, device signals, install/events | `view.adjust.com` |
 | **Facebook SDK** | 763 | Login / share / attribution | App events, ad ID (if FB app present) | `graph.facebook.com` |
 | **AppsFlyer** | 692 | Attribution | Ad ID, device, install referrer | `*.onelink.me`, `aps-webhandler.appsflyer.com` |
 | **Singular** | 12 | Attribution | Install/attribution | — |

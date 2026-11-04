@@ -80,6 +80,8 @@ binary). Reproduce them locally from the `.xapk`.
 | [11-diy-reproduce-guide.md](11-diy-reproduce-guide.md) | Reproduce from scratch: fetch the APK, decompile, and LLM-analysis prompts for any app |
 | [12-malicious-and-dark-patterns.md](12-malicious-and-dark-patterns.md) | Malware-pattern check (none found) + dark-pattern inventory + well-being counter-signal |
 | [13-native-library-analysis.md](13-native-library-analysis.md) | `strings` sweep of all 204 native `.so` files: metasec fingerprint engine confirmed in cleartext, reassuring negatives, build-path disclosure |
+| [15-repackaging-feasibility-and-patch-plan.md](15-repackaging-feasibility-and-patch-plan.md) | **Can we patch/re-sign TikTok to stop the leaks?** Feasibility verdict: native-fused signer + server-validated signature + config treadmill cap it; the removable Java telemetry tier, a tiered patch plan, and why isolation beats repackaging for most users |
+| [14-v47-data-inventory-and-dns-blocking.md](14-v47-data-inventory-and-dns-blocking.md) | **v47.7.1 re-analysis (jadx + REA/Ghidra):** full inventory of what is collected from the phone, built-in HTTP-DNS that bypasses NextDNS by raw IP, per-host NextDNS blocklist + router IP rules, fake-substitute plan, Morphe patch review |
 
 Evidence dumps live in [`_evidence/`](_evidence/).
 

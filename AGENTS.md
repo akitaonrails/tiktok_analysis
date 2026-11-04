@@ -12,8 +12,10 @@ how to mitigate, and whether it shows malicious/dark patterns. Findings live in
 `docs/` (reports 00–12); the full jadx decompilation is in `decompiled/`.
 
 **Status: the analysis is complete and pushed** to
-`git@github.com:akitaonrails/tiktok_analysis.git` (branch `main`). Reports 00–12 are
-written, cross-linked, and consistent. Extend or deepen; don't redo from scratch.
+`git@github.com:akitaonrails/tiktok_analysis.git` (branch `main`). Reports 00–14 are
+written and cross-linked. Report 14 re-analyses **v47.7.1**: its workspace is
+`_work/v47/` (gitignored: `apk/`, `jadx-src/`, `strings/`, `c03ho/`), and its evidence is in
+`docs/_evidence/v47/`. `decompiled/` is still the v46 tree. Extend or deepen; don't redo from scratch.
 
 ## Repo layout
 
@@ -41,6 +43,9 @@ written, cross-linked, and consistent. Extend or deepen; don't redo from scratch
 | 10 | OS & clipboard | No out-of-bounds; clipboard not auto-scraped; Helios/BPEA governance |
 | 11 | DIY guide | Fetch/decompile/LLM-prompt playbook for any app |
 | 12 | Malicious & dark patterns | No malware; dark patterns present; well-being counter-signal |
+| 13 | Native libraries | `.so` string sweep; metasec engine; reassuring negatives |
+| 14 | v47.7.1 inventory & DNS | Built-in HTTP-DNS by raw IP bypasses NextDNS; full collection inventory; blocklist + router IP rules; isolate-don't-spoof plan; Morphe patch review |
+| 15 | Repackaging feasibility & patch plan | Dex patching removes third-party + best-effort telemetry; native signer/fingerprint + signed behavior can't be stripped; re-sign is server-visible; isolation beats repackaging |
 
 ## Analysis principles (non-negotiable)
 

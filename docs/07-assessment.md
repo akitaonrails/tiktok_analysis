@@ -2,6 +2,18 @@
 
 ## The honest verdict
 
+> **v47.7.1 re-check ([report 14](14-v47-data-inventory-and-dns-blocking.md)).**
+> - The verdict below still holds: **no new out-of-bounds access**. There is still no
+>   accessibility service, notification access, all-apps listing, usage stats, SMS,
+>   call log or phone state. The only new permission is `DETECT_SCREEN_RECORDING`.
+> - The *passive* collection has grown:
+>   - a new TikTok Shop security SDK does **hardware key attestation**;
+>   - a new first-party risk probe has up to ~90 root/hook/emulator/hardware fields;
+>   - touch-dynamics and motion-sensor sampling;
+>   - an **hourly encrypted re-report of all device IDs incl. ANDROID_ID** to `cp-rp.tiktokv.com`.
+> - TTNet's **built-in HTTP-DNS resolver, reached by raw IP**, means network-level
+>   blocking is weaker than this report and report 08 assumed.
+
 Based on this static analysis of **TikTok 46.0.1**, the accurate characterization is
 not "hidden spyware" but **an aggressive, industrial-scale data-collection platform
 that stays (mostly) within the boundaries of what it declares — and deliberately
