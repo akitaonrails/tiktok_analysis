@@ -151,7 +151,7 @@ The full decompiled Java source is under [`decompiled/`](decompiled/).
 
 ## Reproduce it yourself
 
-Baseline (v46.0.1 `.xapk`, the committed `decompiled/` tree):
+**Baseline, manual (v46.0.1 — the committed `decompiled/` tree):**
 
 ```sh
 unzip -o "TikTok+-+Videos,+Shop+&+LIVE_46.0.1_APKPure.xapk" -d unpacked/
@@ -159,8 +159,14 @@ jadx --no-res -j 8 -d decompiled unpacked/com.zhiliaoapp.musically.apk   # sourc
 jadx --no-src  -d _res           unpacked/com.zhiliaoapp.musically.apk   # manifest+resources
 ```
 
-The v47.7.1 pass uses a single universal `.apk`; its exact rebuild steps (jadx 1.5.6,
-native string sweep, REA/Ghidra on `libsscronet.so`, XOR-0x55 config decode) are in
-**[AGENTS.md](AGENTS.md)**. The APK/`.xapk` and the `_work/` workspace are **not**
-committed (redistributable binaries; get the APK from the APKPure link above). Binary
-artifacts, if any, are tracked with **Git LFS**.
+**Current, agent + REA (what reports 14–17 used):** an agent runs the decompile itself,
+then drives the **[REA](https://github.com/morluto/rea) MCP server** (Ghidra) to decompile
+*named native functions* — e.g. the HTTP-DNS resolver in `libsscronet.so` — and fans out
+subagents for the parallel sweeps. The full playbook, with ready-to-paste orchestrator and
+subagent prompts and the exact REA tool sequence, is in
+**[report 11 · Step 8](docs/11-diy-reproduce-guide.md#step-8--the-agent--rea-workflow-2026-update-what-reports-1417-used)**.
+jadx CLI still does the Java tree (REA's in-process JADX bridge times out on 58 dex); REA
+adds the native-code half the old guide said you couldn't read.
+
+The APK/`.xapk` and the `_work/` workspace are **not** committed (redistributable binaries;
+get the APK from the APKPure link above). Binary artifacts, if any, are tracked with **Git LFS**.
