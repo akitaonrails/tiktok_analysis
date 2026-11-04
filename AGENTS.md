@@ -46,6 +46,8 @@ written and cross-linked. Report 14 re-analyses **v47.7.1**: its workspace is
 | 13 | Native libraries | `.so` string sweep; metasec engine; reassuring negatives |
 | 14 | v47.7.1 inventory & DNS | Built-in HTTP-DNS by raw IP bypasses NextDNS; full collection inventory; blocklist + router IP rules; isolate-don't-spoof plan; Morphe patch review |
 | 15 | Repackaging feasibility & patch plan | Dex patching removes third-party + best-effort telemetry; native signer/fingerprint + signed behavior can't be stripped; re-sign is server-visible; isolation beats repackaging |
+| 16 | Regional data treatment | US/EU/KR/ROW compliance buckets; US+EU enclaves + minimization branches; Brazil=ROW default, no enclave, mode 603 |
+| 17 | Brazilian law compliance | LGPD + Lei Felca/ECA Digital technical mapping; ANPD case + fine over children's data; legal verdict needs server-side facts |
 
 ## Analysis principles (non-negotiable)
 

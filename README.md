@@ -132,6 +132,8 @@ See [05 · Data Collection](docs/05-data-collection.md),
 | 🧬 [13 · Native Library Analysis](docs/13-native-library-analysis.md) | `strings` sweep of all 204 `.so` files — metasec fingerprint engine confirmed in cleartext; no keylogger/screen-capture |
 | 🛡️ [14 · v47 Data Inventory & DNS Blocking](docs/14-v47-data-inventory-and-dns-blocking.md) | v47.7.1: everything it collects from your phone, its own DNS resolver reached by raw IP (NextDNS can't see it), a NextDNS blocklist + router rules, and how to substitute an isolated identity instead of spoofing |
 | 🧩 [15 · Repackaging Feasibility & Patch Plan](docs/15-repackaging-feasibility-and-patch-plan.md) | Can a patched, re-signed build stop the leaks? What dex patching can remove (third-party + best-effort first-party telemetry) vs. can't (native fingerprint, signed behavior), with an honest ban-risk/upkeep verdict |
+| 🌎 [16 · Regional Data Treatment](docs/16-regional-data-treatment.md) | Brazil vs US vs EU: five compliance buckets (US/EU/KR/ROW); US & EU get data-residency enclaves + minimization code paths, Brazil (ROW) gets neither — the least-protected tier |
+| 🇧🇷 [17 · Brazilian Law Compliance](docs/17-brazilian-law-compliance.md) | LGPD & "Lei Felca"/ECA Digital: where the app strains each law, the real ANPD proceeding + fine over children's data, and the limits of what an APK teardown can prove |
 
 Raw evidence (host lists, extracted URLs) is in [`docs/_evidence/`](docs/_evidence/).
 The full decompiled Java source is under [`decompiled/`](decompiled/).
